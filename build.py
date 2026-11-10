@@ -541,6 +541,17 @@ def render_project_body(project: dict, prefix: str) -> str:
     return body
 
 
+def bridge_choice(projects: list[dict]) -> str:
+    slugs = {project["slug"] for project in projects}
+    if "leonardo-bridge" not in slugs or "leonardo-bridge-2x4" not in slugs:
+        return ""
+    return (
+        '<p class="bridge-choice">Leonardo’s bridge comes two ways: '
+        'a <a href="projects/leonardo-bridge/">dowel model for the table</a>, '
+        'and a <a href="projects/leonardo-bridge-2x4/">2x4 arch for the yard</a>.</p>'
+    )
+
+
 def home_body(projects: list[dict]) -> str:
     cards = []
     for project in projects:
@@ -570,6 +581,7 @@ def home_body(projects: list[dict]) -> str:
         '<p class="lede">Wood projects for kids and families, inspired by Leonardo da Vinci, with a drawing for every step.</p>'
         '<p class="mission">The aim is to get kids outdoors, teach real building skills, and spend time building together.</p>'
         "<h2>Projects</h2>"
+        f"{bridge_choice(projects)}"
         f'<ul class="project-list">{"".join(cards)}</ul>'
         "</article>"
     )
