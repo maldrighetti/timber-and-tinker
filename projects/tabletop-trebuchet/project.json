@@ -1,0 +1,81 @@
+{
+  "order": 2,
+  "video": "",
+  "parts": [
+    {
+      "name": "1x2 pine (actual 3/4 × 1-1/2 in)",
+      "url": "",
+      "note": "2 boards, 8 ft (one is mostly spare)"
+    },
+    {
+      "name": "3/8 in hardwood dowel",
+      "url": "",
+      "note": "1, 36 in (you use 5 in)"
+    },
+    {
+      "name": "1/4 in hardwood dowel",
+      "url": "",
+      "note": "1, 36 in (you use 4 in)"
+    },
+    {
+      "name": "#8 × 2-1/2 in wood screws",
+      "url": "",
+      "note": "2, uprights to rails"
+    },
+    {
+      "name": "#8 × 2 in wood screws",
+      "url": "",
+      "note": "4, rails to feet"
+    },
+    {
+      "name": "#8 × 1-1/4 in wood screws",
+      "url": "",
+      "note": "10, braces (8), trigger bar (2)"
+    },
+    {
+      "name": "Small screw eyes with at least a 3/8 in opening",
+      "url": "",
+      "note": "4, for the counterweight, sling, and trigger"
+    },
+    {
+      "name": "Flat washers for a 3/8 in bolt",
+      "url": "",
+      "note": "2, axle stack"
+    },
+    {
+      "name": "1-1/2 in S-hook",
+      "url": "",
+      "note": "1, counterweight hanger"
+    },
+    {
+      "name": "1-1/2 in finishing nail",
+      "url": "",
+      "note": "1, sling release"
+    },
+    {
+      "name": "Pill bottle about 1-3/4 in across and 2-1/2 in tall",
+      "url": "",
+      "note": "Or a similar small jar, for the counterweight"
+    },
+    {
+      "name": "Pennies or steel washers",
+      "url": "",
+      "note": "A full bottle is roughly 3/4 to 1 lb"
+    },
+    {
+      "name": "Felt or sturdy cloth, 3 × 1-1/2 in",
+      "url": "",
+      "note": "Sling pouch"
+    },
+    {
+      "name": "Strong string (mason line or kite string)",
+      "url": "",
+      "note": "About 6 ft"
+    },
+    {
+      "name": "Wood glue",
+      "url": "",
+      "note": "Optional, for stiffer joints"
+    }
+  ]
+}
