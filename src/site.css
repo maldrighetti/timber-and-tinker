@@ -312,6 +312,30 @@ a:hover {
   max-width: var(--measure);
 }
 
+.project h1 + h2 {
+  border-top: 0;
+  margin: 0.15rem 0 0.7rem;
+  padding-top: 0;
+  font-size: 1.15rem;
+  line-height: 1.35;
+  font-weight: 700;
+  color: var(--wood);
+}
+
+.badge {
+  display: inline-block;
+  margin: 0.45rem 1.05rem 0;
+  padding: 0.12rem 0.45rem;
+  border: 1px solid var(--line-strong);
+  background: var(--look);
+  color: var(--wood-deep);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
 .project h3 {
   font-family: var(--serif);
   font-size: 1.28rem;

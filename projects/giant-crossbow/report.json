@@ -1,0 +1,2103 @@
+{
+  "images": {
+    "07-hinge.png": {
+      "step": 7,
+      "desc": "Step 7: stock laid on the carriage, 7 in hanging off the back; two butt hinges join the deck underside to the back face of the rear crossmember.",
+      "parts_in_model": 35,
+      "new_parts": [
+        "hinge_leaf_c1",
+        "hinge_leaf_c2",
+        "hinge_leaf_s1",
+        "hinge_leaf_s2"
+      ],
+      "visible": 21,
+      "hidden": [
+        "beam_L",
+        "front_bolt_L",
+        "front_nut_L",
+        "front_washer_L1",
+        "front_washer_L2",
+        "front_washer_R1",
+        "hinge_leaf_c1",
+        "hinge_leaf_s1",
+        "hinge_leaf_s2",
+        "rear_bolt_L",
+        "rear_nut_L",
+        "rear_washer_L1",
+        "rear_washer_L2",
+        "rear_washer_R1"
+      ],
+      "wood_pieces": 15,
+      "hardware_pieces": 20
+    },
+    "07-hinge-detail.png": {
+      "step": 7,
+      "desc": "Step 7 detail from behind and below: each hinge's pin sits on the top back corner of the rear crossmember; one leaf on the crossmember's back face, the other under the deck.",
+      "parts_in_model": 10,
+      "new_parts": [
+        "hinge_leaf_c1",
+        "hinge_leaf_c2",
+        "hinge_leaf_s1",
+        "hinge_leaf_s2"
+      ],
+      "visible": 10,
+      "hidden": [],
+      "wood_pieces": 6,
+      "hardware_pieces": 4
+    },
+    "08-winch.png": {
+      "step": 8,
+      "desc": "Step 8: winch fitted: drum dowel through both wall holes, crank on the right, pin wheel and pawl on the left.",
+      "parts_in_model": 49,
+      "new_parts": [
+        "crank_arm",
+        "crank_grip",
+        "crank_handle",
+        "drum",
+        "pawl",
+        "pawl_post",
+        "pawl_screw",
+        "pin_wheel",
+        "ratchet_peg1",
+        "ratchet_peg2",
+        "ratchet_peg3",
+        "ratchet_peg4",
+        "ratchet_peg5",
+        "ratchet_peg6"
+      ],
+      "visible": 30,
+      "hidden": [
+        "beam_L",
+        "front_bolt_L",
+        "front_nut_L",
+        "front_washer_L1",
+        "front_washer_L2",
+        "front_washer_R1",
+        "hinge_leaf_c1",
+        "hinge_leaf_s1",
+        "hinge_leaf_s2",
+        "pawl_screw",
+        "ratchet_peg1",
+        "ratchet_peg4",
+        "ratchet_peg5",
+        "ratchet_peg6",
+        "rear_bolt_L",
+        "rear_nut_L",
+        "rear_washer_L1",
+        "rear_washer_L2",
+        "rear_washer_R1"
+      ],
+      "wood_pieces": 27,
+      "hardware_pieces": 22
+    },
+    "08-ratchet.png": {
+      "step": 8,
+      "desc": "Step 8 close-up of the left side: pin wheel glued on the drum end, six 3/8 in dowel pegs, and the pawl hanging from a screw in the pawl post so its tip rests between the pegs.",
+      "parts_in_model": 49,
+      "new_parts": [
+        "crank_arm",
+        "crank_grip",
+        "crank_handle",
+        "drum",
+        "pawl",
+        "pawl_post",
+        "pawl_screw",
+        "pin_wheel",
+        "ratchet_peg1",
+        "ratchet_peg2",
+        "ratchet_peg3",
+        "ratchet_peg4",
+        "ratchet_peg5",
+        "ratchet_peg6"
+      ],
+      "visible": 25,
+      "hidden": [
+        "beam_R",
+        "bow_block_L",
+        "bow_block_R",
+        "crank_grip",
+        "crank_handle",
+        "front_bolt_L",
+        "front_bolt_R",
+        "front_nut_L",
+        "front_nut_R",
+        "front_washer_L1",
+        "front_washer_L2",
+        "front_washer_R1",
+        "front_washer_R2",
+        "front_wheel_L",
+        "front_wheel_R",
+        "hinge_leaf_c2",
+        "hinge_leaf_s1",
+        "hinge_leaf_s2",
+        "rear_bolt_R",
+        "rear_nut_R",
+        "rear_washer_L1",
+        "rear_washer_R1",
+        "rear_washer_R2",
+        "xmember_front"
+      ],
+      "wood_pieces": 27,
+      "hardware_pieces": 22
+    },
+    "08-winch-stack.png": {
+      "step": 8,
+      "desc": "Exploded winch, right to left: crank handle with grip, 4-3/4 in crank arm, right wall, 3/4 in drum dowel, left wall, pin wheel, six pegs. Arm, wheel and pegs are glued; the drum turns in 13/16 in holes in the walls.",
+      "parts_in_model": 13,
+      "new_parts": [],
+      "visible": 13,
+      "hidden": [],
+      "wood_pieces": 12,
+      "hardware_pieces": 1
+    },
+    "10-bow-arms.png": {
+      "step": 10,
+      "desc": "Step 10: four fibreglass rods in vinyl tubing stacked in the keeper channel on each bow block, a 1x4 cap screwed down on the stack; inner ends against a dowel stop peg; tape bands bind each stack; hose clamp with a tape stop near the tip and tape over the end.",
+      "parts_in_model": 71,
+      "new_parts": [
+        "arm_L",
+        "arm_R",
+        "cap_L",
+        "cap_R",
+        "cap_screws_L",
+        "cap_screws_R",
+        "hose_clamp_L",
+        "hose_clamp_R",
+        "keeper_L1",
+        "keeper_L2",
+        "keeper_R1",
+        "keeper_R2",
+        "stop_screw_L",
+        "stop_screw_R",
+        "strip_screws_L",
+        "strip_screws_R",
+        "tape_bands_L",
+        "tape_bands_R",
+        "tape_stop_L",
+        "tape_stop_R",
+        "tip_tape_L",
+        "tip_tape_R"
+      ],
+      "visible": 50,
+      "hidden": [
+        "beam_L",
+        "front_bolt_L",
+        "front_nut_L",
+        "front_washer_L1",
+        "front_washer_L2",
+        "front_washer_R1",
+        "hinge_leaf_c1",
+        "hinge_leaf_s1",
+        "hinge_leaf_s2",
+        "pawl_screw",
+        "ratchet_peg1",
+        "ratchet_peg4",
+        "ratchet_peg5",
+        "ratchet_peg6",
+        "rear_bolt_L",
+        "rear_nut_L",
+        "rear_washer_L1",
+        "rear_washer_L2",
+        "rear_washer_R1",
+        "stop_screw_R",
+        "strip_screws_R"
+      ],
+      "wood_pieces": 35,
+      "hardware_pieces": 36
+    },
+    "10-arm-detail.png": {
+      "step": 10,
+      "desc": "Exploded right arm mount: bow block with its stop peg and two 1x2 keeper strips on edge (screwed down into the block); four sleeved rods stacked; the 1x4 cap and its four screws; tape bands, hose clamp, tape stop and tip tape.",
+      "parts_in_model": 14,
+      "new_parts": [],
+      "visible": 14,
+      "hidden": [],
+      "wood_pieces": 7,
+      "hardware_pieces": 7
+    },
+    "10-channel-end-view.png": {
+      "step": 10,
+      "desc": "End view through the right keeper channel: two 1x2 strips on edge 7/16 in apart on the bow block, four sleeved rods stacked between them, the 1x4 cap screwed down on the stack.",
+      "parts_in_model": 7,
+      "new_parts": [],
+      "visible": 7,
+      "hidden": [],
+      "wood_pieces": 4,
+      "hardware_pieces": 3
+    },
+    "11-string.png": {
+      "step": 11,
+      "desc": "Step 11: bow strung with 2 mm UHMWPE cord (arms bend back so the string sits 2 in behind them); slider set in the groove with its latch over the string; winch cord tied from the drum to the slider's tow pin.",
+      "parts_in_model": 81,
+      "new_parts": [
+        "bowstring",
+        "cheek_L",
+        "cheek_R",
+        "latch",
+        "latch_peg",
+        "pivot_pin",
+        "slider_spacer",
+        "tow_pin",
+        "trigger_pin",
+        "winch_cord"
+      ],
+      "visible": 60,
+      "hidden": [
+        "beam_L",
+        "front_bolt_L",
+        "front_nut_L",
+        "front_washer_L1",
+        "front_washer_L2",
+        "front_washer_R1",
+        "hinge_leaf_c1",
+        "hinge_leaf_s1",
+        "hinge_leaf_s2",
+        "pawl_screw",
+        "ratchet_peg1",
+        "ratchet_peg4",
+        "ratchet_peg5",
+        "ratchet_peg6",
+        "rear_bolt_L",
+        "rear_nut_L",
+        "rear_washer_L1",
+        "rear_washer_L2",
+        "rear_washer_R1",
+        "stop_screw_R",
+        "strip_screws_R"
+      ],
+      "wood_pieces": 43,
+      "hardware_pieces": 38
+    },
+    "12-elevation-side.png": {
+      "step": 12,
+      "desc": "Step 12: side view; the stock rests on the elevation pin pushed through the second pair of holes (about 20 deg). Holes 1, 3 and 4 give about 10, 30 and 40 deg.",
+      "parts_in_model": 82,
+      "new_parts": [
+        "elev_pin"
+      ],
+      "visible": 39,
+      "hidden": [
+        "arm_L",
+        "beam_L",
+        "bow_block_L",
+        "bowstring",
+        "cap_L",
+        "cap_screws_L",
+        "cheek_L",
+        "front_bolt_L",
+        "front_nut_L",
+        "front_washer_L1",
+        "front_washer_L2",
+        "front_washer_R1",
+        "front_wheel_L",
+        "hinge_leaf_c1",
+        "hinge_leaf_s1",
+        "hose_clamp_L",
+        "keeper_L1",
+        "keeper_L2",
+        "keeper_R1",
+        "latch_peg",
+        "pawl_screw",
+        "post_L",
+        "ratchet_peg1",
+        "ratchet_peg2",
+        "ratchet_peg3",
+        "ratchet_peg4",
+        "ratchet_peg5",
+        "ratchet_peg6",
+        "rear_bolt_L",
+        "rear_nut_L",
+        "rear_washer_L1",
+        "rear_washer_L2",
+        "rear_washer_R1",
+        "rear_wheel_L",
+        "slider_spacer",
+        "stop_screw_L",
+        "strip_screws_L",
+        "tape_bands_L",
+        "tape_stop_L",
+        "tip_tape_L",
+        "wall_L",
+        "xmember_front",
+        "xmember_rear"
+      ],
+      "wood_pieces": 44,
+      "hardware_pieces": 38
+    },
+    "13-cock.png": {
+      "step": 13,
+      "desc": "Step 13: cocked: the winch has pulled the slider and string back 14-1/2 in; the trigger pin's pull cord is tied on and led out to the right.",
+      "parts_in_model": 83,
+      "new_parts": [
+        "trigger_cord"
+      ],
+      "visible": 64,
+      "hidden": [
+        "front_nut_L",
+        "front_washer_L1",
+        "front_washer_L2",
+        "front_washer_R1",
+        "hinge_leaf_c1",
+        "hinge_leaf_s1",
+        "hinge_leaf_s2",
+        "pawl_screw",
+        "ratchet_peg1",
+        "ratchet_peg5",
+        "ratchet_peg6",
+        "rear_bolt_L",
+        "rear_nut_L",
+        "rear_washer_L1",
+        "rear_washer_L2",
+        "rear_washer_R1",
+        "stop_screw_R",
+        "strip_screws_L",
+        "strip_screws_R"
+      ],
+      "wood_pieces": 44,
+      "hardware_pieces": 39
+    },
+    "13-mechanism-side.png": {
+      "step": 13,
+      "desc": "Step 13 close-up from the right (right wall, cheek, crank and arm hidden): drum and pawl at the back; cord to the slider; the latch peg holds the string; the trigger pin under the latch tail holds the latch level.",
+      "parts_in_model": 29,
+      "new_parts": [],
+      "visible": 22,
+      "hidden": [
+        "pawl_screw",
+        "ratchet_peg1",
+        "ratchet_peg2",
+        "ratchet_peg3",
+        "ratchet_peg4",
+        "ratchet_peg5",
+        "ratchet_peg6"
+      ],
+      "wood_pieces": 21,
+      "hardware_pieces": 8
+    },
+    "14-release.png": {
+      "step": 14,
+      "desc": "Release, two close-ups: left, the trigger pin holds the latch tail so the peg holds the string; right, the pin is pulled, the string's pull tips the latch front up and the string flies forward, pushing the ball.",
+      "parts_in_model": 21,
+      "new_parts": [],
+      "visible": 11,
+      "hidden": [],
+      "wood_pieces": 17,
+      "hardware_pieces": 2
+    },
+    "14-firing-zone.png": {
+      "step": 14,
+      "desc": "Plan view: crossbow at left, firing line behind it, pull cord led out to the right, empty lane ahead (lane length schematic, not to scale).",
+      "parts_in_model": 84,
+      "new_parts": [],
+      "visible": 72,
+      "hidden": [
+        "hinge_leaf_c1",
+        "hinge_leaf_c2",
+        "hinge_leaf_s1",
+        "hinge_leaf_s2",
+        "keeper_L1",
+        "keeper_L2",
+        "keeper_R1",
+        "keeper_R2",
+        "stop_screw_L",
+        "stop_screw_R",
+        "strip_screws_L",
+        "strip_screws_R"
+      ],
+      "wood_pieces": 44,
+      "hardware_pieces": 39
+    },
+    "00-overview.png": {
+      "step": null,
+      "desc": "Finished crossbow, strung and resting at the middle (about 20 deg) elevation, 3/4 view from the rear right.",
+      "parts_in_model": 82,
+      "new_parts": [],
+      "visible": 63,
+      "hidden": [
+        "front_nut_L",
+        "front_washer_L1",
+        "front_washer_L2",
+        "front_washer_R1",
+        "hinge_leaf_c1",
+        "hinge_leaf_s1",
+        "hinge_leaf_s2",
+        "pawl_screw",
+        "ratchet_peg1",
+        "ratchet_peg5",
+        "ratchet_peg6",
+        "rear_bolt_L",
+        "rear_nut_L",
+        "rear_washer_L1",
+        "rear_washer_L2",
+        "rear_washer_R1",
+        "stop_screw_R",
+        "strip_screws_L",
+        "strip_screws_R"
+      ],
+      "wood_pieces": 44,
+      "hardware_pieces": 38
+    },
+    "14-finished-3q.png": {
+      "step": 14,
+      "desc": "Step 14: finished crossbow, cocked and loaded with one tennis ball, key parts labelled.",
+      "parts_in_model": 84,
+      "new_parts": [],
+      "visible": 65,
+      "hidden": [
+        "front_nut_L",
+        "front_washer_L1",
+        "front_washer_L2",
+        "front_washer_R1",
+        "hinge_leaf_c1",
+        "hinge_leaf_s1",
+        "hinge_leaf_s2",
+        "pawl_screw",
+        "ratchet_peg1",
+        "ratchet_peg5",
+        "ratchet_peg6",
+        "rear_bolt_L",
+        "rear_nut_L",
+        "rear_washer_L1",
+        "rear_washer_L2",
+        "rear_washer_R1",
+        "stop_screw_R",
+        "strip_screws_L",
+        "strip_screws_R"
+      ],
+      "wood_pieces": 44,
+      "hardware_pieces": 39
+    },
+    "14-side.png": {
+      "step": 14,
+      "desc": "Step 14: side view from the right, cocked and loaded at hole 2 (about 20 deg).",
+      "parts_in_model": 84,
+      "new_parts": [],
+      "visible": 42,
+      "hidden": [
+        "arm_L",
+        "beam_L",
+        "bow_block_L",
+        "cap_L",
+        "cap_screws_L",
+        "cheek_L",
+        "front_bolt_L",
+        "front_nut_L",
+        "front_washer_L1",
+        "front_washer_L2",
+        "front_washer_R1",
+        "front_wheel_L",
+        "hinge_leaf_c1",
+        "hinge_leaf_s1",
+        "hose_clamp_L",
+        "keeper_L1",
+        "keeper_L2",
+        "keeper_R1",
+        "pawl_screw",
+        "pivot_pin",
+        "post_L",
+        "ratchet_peg1",
+        "ratchet_peg2",
+        "ratchet_peg3",
+        "ratchet_peg4",
+        "ratchet_peg5",
+        "ratchet_peg6",
+        "rear_bolt_L",
+        "rear_nut_L",
+        "rear_washer_L1",
+        "rear_washer_L2",
+        "rear_washer_R1",
+        "rear_wheel_L",
+        "slider_spacer",
+        "stop_screw_L",
+        "strip_screws_L",
+        "tape_bands_L",
+        "tape_stop_L",
+        "tip_tape_L",
+        "wall_L",
+        "xmember_front",
+        "xmember_rear"
+      ],
+      "wood_pieces": 44,
+      "hardware_pieces": 39
+    },
+    "04-carriage.png": {
+      "step": 4,
+      "desc": "Step 4: two 22 in 2x4 beams on edge with a 12 in crossmember between them at each end; axle holes drilled 4 in from each end at mid-height.",
+      "parts_in_model": 4,
+      "new_parts": [
+        "beam_L",
+        "beam_R",
+        "xmember_front",
+        "xmember_rear"
+      ],
+      "visible": 4,
+      "hidden": [],
+      "wood_pieces": 4,
+      "hardware_pieces": 0
+    },
+    "05-wheels.png": {
+      "step": 5,
+      "desc": "Step 5: a carriage bolt through each axle hole from inside; washer, wheel, washer and nylon lock nut on the outside.",
+      "parts_in_model": 24,
+      "new_parts": [
+        "front_bolt_L",
+        "front_bolt_R",
+        "front_nut_L",
+        "front_nut_R",
+        "front_washer_L1",
+        "front_washer_L2",
+        "front_washer_R1",
+        "front_washer_R2",
+        "front_wheel_L",
+        "front_wheel_R",
+        "rear_bolt_L",
+        "rear_bolt_R",
+        "rear_nut_L",
+        "rear_nut_R",
+        "rear_washer_L1",
+        "rear_washer_L2",
+        "rear_washer_R1",
+        "rear_washer_R2",
+        "rear_wheel_L",
+        "rear_wheel_R"
+      ],
+      "visible": 16,
+      "hidden": [
+        "front_nut_L",
+        "front_washer_L1",
+        "front_washer_L2",
+        "front_washer_R1",
+        "rear_nut_L",
+        "rear_washer_L1",
+        "rear_washer_L2",
+        "rear_washer_R1"
+      ],
+      "wood_pieces": 8,
+      "hardware_pieces": 16
+    },
+    "05-wheel-stack.png": {
+      "step": 5,
+      "desc": "Exploded wheel mount, inside to outside: carriage bolt, beam, washer, wheel, washer, nylon lock nut. All four are the same.",
+      "parts_in_model": 6,
+      "new_parts": [],
+      "visible": 5,
+      "hidden": [
+        "rear_washer_R1"
+      ],
+      "wood_pieces": 2,
+      "hardware_pieces": 4
+    },
+    "06-posts.png": {
+      "step": 6,
+      "desc": "Step 6: a 10 in 1x3 elevation post glued and screwed to the inside face of each beam, its centre 6-1/2 in from the back of the carriage, bottoms flush with the beams; four holes for about 10, 20, 30 and 40 deg.",
+      "parts_in_model": 26,
+      "new_parts": [
+        "post_L",
+        "post_R"
+      ],
+      "visible": 18,
+      "hidden": [
+        "front_nut_L",
+        "front_washer_L1",
+        "front_washer_L2",
+        "front_washer_R1",
+        "rear_nut_L",
+        "rear_washer_L1",
+        "rear_washer_L2",
+        "rear_washer_R1"
+      ],
+      "wood_pieces": 10,
+      "hardware_pieces": 16
+    },
+    "02-drill-walls.png": {
+      "step": 2,
+      "desc": "Step 2: a wall clamped on edge; a 13/16 in hole is drilled down through its 3-1/2 in width, 3 in from one end. Both walls the same.",
+      "parts_in_model": 1,
+      "new_parts": [
+        "wall_L"
+      ],
+      "visible": 1,
+      "hidden": [],
+      "wood_pieces": 1,
+      "hardware_pieces": 0
+    },
+    "02-stock.png": {
+      "step": 2,
+      "desc": "Step 2: both walls glued and screwed to the deck, flush with its back end and outside edges, leaving a 3 in groove down the middle.",
+      "parts_in_model": 3,
+      "new_parts": [
+        "wall_L",
+        "wall_R"
+      ],
+      "visible": 3,
+      "hidden": [],
+      "wood_pieces": 3,
+      "hardware_pieces": 0
+    },
+    "03-bow-blocks.png": {
+      "step": 3,
+      "desc": "Step 3: a 4-1/2 in 2x4 bow block on each side at the front, butted against the wall end, flush with the deck front, overhanging the deck edge by 1 in.",
+      "parts_in_model": 5,
+      "new_parts": [
+        "bow_block_L",
+        "bow_block_R"
+      ],
+      "visible": 5,
+      "hidden": [],
+      "wood_pieces": 5,
+      "hardware_pieces": 0
+    },
+    "09-slider.png": {
+      "step": 9,
+      "desc": "Step 9: slider: two 5 in 1x4 cheeks on a 1-1/2 in 1x2 spacer; the plywood latch swings on a pivot pin between them; peg glued down through the latch front; trigger pin under the latch tail; tow pin across the back for the winch cord.",
+      "parts_in_model": 8,
+      "new_parts": [
+        "cheek_L",
+        "cheek_R",
+        "latch",
+        "latch_peg",
+        "pivot_pin",
+        "slider_spacer",
+        "tow_pin",
+        "trigger_pin"
+      ],
+      "visible": 8,
+      "hidden": [],
+      "wood_pieces": 8,
+      "hardware_pieces": 0
+    },
+    "09-slider-stack.png": {
+      "step": 9,
+      "desc": "Exploded slider: right cheek, 1x2 spacer, latch with its peg, left cheek, pivot pin, tow pin, trigger pin.",
+      "parts_in_model": 8,
+      "new_parts": [],
+      "visible": 8,
+      "hidden": [],
+      "wood_pieces": 8,
+      "hardware_pieces": 0
+    },
+    "01-parts.png": {
+      "step": 1,
+      "desc": "All parts: plywood deck, wheels and small parts; 2x4 walls, beams, crossmembers and bow blocks; 1x2/1x3/1x4 parts including the keeper strips and caps; 3/8 in dowels and the 3/4 in drum; eight fibreglass bow rods in tubing; hardware.",
+      "parts_in_model": 73,
+      "new_parts": [],
+      "visible": 73,
+      "hidden": [],
+      "wood_pieces": 44,
+      "hardware_pieces": 28
+    }
+  },
+  "model_check": {
+    "design_limits": {
+      "rod_strain_safety_factor_min": 1.8,
+      "string_margin_min": 10.0,
+      "drum_latch_margin_min": 2.0,
+      "draw_weight_max_lb": 40.0,
+      "crank_effort_max_lb": 10.0,
+      "trigger_pull_max_lb": 10.0,
+      "lane_factor": 1.5
+    },
+    "overall": {
+      "stock_length_in": 36.0,
+      "stock_width_in": 10.0,
+      "carriage_length_in": 22.0,
+      "wheelbase_in": 14.0,
+      "wheel_diameter_in": 8.0,
+      "bow_span_unstrung_in": 51.75,
+      "travel": {
+        "min_in": [
+          0.0,
+          -25.796,
+          0.0
+        ],
+        "max_in": [
+          36.0,
+          25.796,
+          12.25
+        ],
+        "size_in": [
+          36.0,
+          51.592,
+          12.25
+        ]
+      },
+      "loaded_20deg": {
+        "min_in": [
+          -0.336,
+          -24.05,
+          0.0
+        ],
+        "max_in": [
+          34.222,
+          24.05,
+          20.177
+        ],
+        "size_in": [
+          34.558,
+          48.099,
+          20.177
+        ]
+      },
+      "loaded_40deg": {
+        "min_in": [
+          0.206,
+          -24.065,
+          0.0
+        ],
+        "max_in": [
+          29.253,
+          24.065,
+          27.967
+        ],
+        "size_in": [
+          29.047,
+          48.13,
+          27.967
+        ]
+      },
+      "length_is_3_to_4_ft": true,
+      "width_is_about_4_ft": true,
+      "note": "Width is set by the bow (about 52 in unstrung). Length is the 36 in stock on its 22 in carriage."
+    },
+    "bow_and_loads": {
+      "rods_per_arm": 4,
+      "bow": {
+        "rods_per_arm": 4,
+        "free_length_in": 19.125,
+        "rod_diameter_in": 0.3125,
+        "rod_length_each_in": 23.875,
+        "nock_y_in": 25.125,
+        "clamp_from_to_y_in": [
+          2.0,
+          6.0
+        ],
+        "brace_behind_rod_line_in": 2.0,
+        "draw_in": 14.5,
+        "half_string_in": 24.995,
+        "string_length_nock_to_nock_in": 49.99,
+        "brace_tension_lb": {
+          "low": 57.0,
+          "nominal": 66.5,
+          "high": 76.0
+        },
+        "draw_weight_lb": {
+          "low": 27.1,
+          "nominal": 31.6,
+          "high": 36.1
+        },
+        "scale_test_draw_in": 8.0,
+        "draw_weight_at_test_draw_lb": {
+          "low": 14.9,
+          "nominal": 17.4,
+          "high": 19.9
+        },
+        "draw_weight_ok": true,
+        "stored_energy_J": {
+          "low": 22.7,
+          "nominal": 26.5,
+          "high": 30.3
+        },
+        "stored_energy_ft_lb_nominal": 19.6,
+        "rod_strain_percent": 0.908,
+        "rod_break_strain_percent_range": [
+          1.67,
+          2.67
+        ],
+        "strain_safety_factor_range": [
+          1.84,
+          2.94
+        ],
+        "strain_ok": true,
+        "root_moment_per_arm_in_lb_high": 652.7,
+        "clamp_length_in": 4.0,
+        "channel_side_force_lb_high": 163.2,
+        "channel_bearing_psi_high": 108.8,
+        "channel_bearing_margin": 3.68,
+        "strip_glue_shear_psi_high": 48.4,
+        "strip_glue_margin": 6.2,
+        "curve_solver_max_abs_err": 8.118875490726782e-12,
+        "note": "Strain comes from the bend the geometry forces on each rod, so it does not change with rod stiffness or with the number of stacked rods. The draw length was chosen so the strain stays under the worst-case break strain (100 ksi / 6.0 Msi = 1.67%) / 1.8. Break strain is from pultruded-rod datasheets; driveway markers are not rated. Channel bearing assumes the side force spreads over 1 in of the strip face, a cautious value."
+      },
+      "latch_and_trigger": {
+        "lever_string_below_pivot_in": 0.8981,
+        "trigger_pin_behind_pivot_in": 1.9,
+        "cases": {
+          "low": {
+            "draw_lb": 27.1,
+            "latch_torque_in_lb": 24.31,
+            "trigger_pin_load_lb": 12.79,
+            "trigger_pull_lb": [
+              3.8,
+              6.4
+            ],
+            "margins": {
+              "latch_peg_bending": 4.8,
+              "latch_plywood_at_pivot": 6.2,
+              "pivot_pin_double_shear": 7.4,
+              "trigger_pin_bending": 21.6,
+              "tow_pin_bending": 10.2
+            }
+          },
+          "nominal": {
+            "draw_lb": 31.6,
+            "latch_torque_in_lb": 28.36,
+            "trigger_pin_load_lb": 14.92,
+            "trigger_pull_lb": [
+              4.5,
+              7.5
+            ],
+            "margins": {
+              "latch_peg_bending": 4.1,
+              "latch_plywood_at_pivot": 5.3,
+              "pivot_pin_double_shear": 6.3,
+              "trigger_pin_bending": 18.5,
+              "tow_pin_bending": 8.7
+            }
+          },
+          "high": {
+            "draw_lb": 36.1,
+            "latch_torque_in_lb": 32.41,
+            "trigger_pin_load_lb": 17.06,
+            "trigger_pull_lb": [
+              5.1,
+              8.5
+            ],
+            "margins": {
+              "latch_peg_bending": 3.6,
+              "latch_plywood_at_pivot": 4.7,
+              "pivot_pin_double_shear": 5.5,
+              "trigger_pin_bending": 16.2,
+              "tow_pin_bending": 7.7
+            }
+          }
+        },
+        "min_margin_high": 3.6,
+        "margins_ok": true,
+        "trigger_pull_ok": true,
+        "note": "Pull is the pin load times wood-on-wood friction (0.3 to 0.5). Pin and peg loads use simple beam formulas with low-end wood strengths."
+      },
+      "drum": {
+        "span_in": 6.5,
+        "drum_diameter_in": 0.75,
+        "crank_radius_in": 3.0,
+        "dowel_bending_strength_used_psi": 10000,
+        "cases": {
+          "low": {
+            "cord_pull_lb": 27.1,
+            "moment_in_lb": 43.98,
+            "stress_psi": 1062,
+            "margin": 9.42,
+            "drum_torque_in_lb": 13.5,
+            "ratchet_peg_load_lb": 15.0,
+            "ratchet_peg_margin": 7.0,
+            "crank_effort_lb": 4.51
+          },
+          "nominal": {
+            "cord_pull_lb": 31.6,
+            "moment_in_lb": 51.31,
+            "stress_psi": 1239,
+            "margin": 8.07,
+            "drum_torque_in_lb": 15.8,
+            "ratchet_peg_load_lb": 17.5,
+            "ratchet_peg_margin": 6.0,
+            "crank_effort_lb": 5.26
+          },
+          "high": {
+            "cord_pull_lb": 36.1,
+            "moment_in_lb": 58.64,
+            "stress_psi": 1416,
+            "margin": 7.06,
+            "drum_torque_in_lb": 18.0,
+            "ratchet_peg_load_lb": 20.0,
+            "ratchet_peg_margin": 5.3,
+            "crank_effort_lb": 6.01
+          }
+        },
+        "ok": true,
+        "crank_effort_ok": true,
+        "note": "Use a birch or oak dowel for the drum. Crank effort is at the handle with the drum at full draw; it is lower earlier in the draw."
+      },
+      "string": {
+        "string": "2 mm UHMWPE (Dyneema-type) braided cord, 1,000 lb rated",
+        "diameter_in": 0.0787,
+        "max_tension_lb_high_stiffness": 76.0,
+        "strength_margin": 13.1,
+        "strength_ok": true,
+        "margin_at_knot_if_knot_keeps_40_to_60_percent": [
+          5.3,
+          7.9
+        ],
+        "clearance_behind_back_strip_min_in": 1.031,
+        "clearance_min_at_draw_in": 0.0,
+        "clearance_ok": true,
+        "nock_height_in": 2.375,
+        "string_on_wall_tops_z_in": 1.5394,
+        "note": "The highest static tension is at rest (strung); it falls as you draw. The closest approach to the back keeper strip is at rest. Knots in UHMWPE slip and weaken the cord: use the knots in PROJECT.md and tape the tails."
+      },
+      "channel": {
+        "strips_fit_on_block": true,
+        "channel_width_in": 0.4375,
+        "channel_depth_in": 1.5,
+        "stack_height_in": 1.75,
+        "cap_clear_of_strips_in": 0.25,
+        "cap_bears_on_stack": true,
+        "cap_screw_bite_in_strip_in": 1.5,
+        "strip_screw_bite_in_block_in": 1.5,
+        "screw_bites_ok": true,
+        "parts_overlap": [],
+        "ok": true
+      },
+      "estimates": {
+        "note": "ESTIMATES, UNTESTED: computed from the model and textbook material values, nothing was measured.",
+        "method": "Stored energy = area under the modelled draw curve from strung to full draw. Launch speed from eta * stored energy = 1/2 (ball + virtual mass) v^2. Virtual mass = kinematic value from the solved arm shapes + a share of arm mass (0.15 / 0.05 / 0 for low / nominal / high). Flight with quadratic drag from the muzzle height.",
+        "rods_per_arm": 4,
+        "arm_bending_mass_g": 605.9,
+        "kinematic_virtual_mass_g": 1.8,
+        "balls": {
+          "tennis": {
+            "label": "tennis ball",
+            "cases": {
+              "low": {
+                "E_psi": 4500000.0,
+                "eta": 0.55,
+                "k_extra": 0.15,
+                "ball_g": 59.4,
+                "cd": 0.6,
+                "virtual_mass_g": 92.7,
+                "draw_weight_lb": 27.1,
+                "stored_J": 22.74,
+                "share_to_ball": 0.21,
+                "launch_speed_m_s": 12.8,
+                "launch_speed_mph": 29,
+                "muzzle_energy_J": 4.88,
+                "ranges": {
+                  "10deg": {
+                    "range_m": 6.6,
+                    "range_ft": 22,
+                    "impact_speed_m_s": 11.5
+                  },
+                  "20deg": {
+                    "range_m": 10.4,
+                    "range_ft": 34,
+                    "impact_speed_m_s": 10.9
+                  },
+                  "30deg": {
+                    "range_m": 12.9,
+                    "range_ft": 42,
+                    "impact_speed_m_s": 10.6
+                  },
+                  "40deg": {
+                    "range_m": 13.9,
+                    "range_ft": 46,
+                    "impact_speed_m_s": 10.7
+                  }
+                }
+              },
+              "nominal": {
+                "E_psi": 5250000.0,
+                "eta": 0.7,
+                "k_extra": 0.05,
+                "ball_g": 57.5,
+                "cd": 0.55,
+                "virtual_mass_g": 32.1,
+                "draw_weight_lb": 31.6,
+                "stored_J": 26.53,
+                "share_to_ball": 0.45,
+                "launch_speed_m_s": 20.4,
+                "launch_speed_mph": 46,
+                "muzzle_energy_J": 11.91,
+                "ranges": {
+                  "10deg": {
+                    "range_m": 13.5,
+                    "range_ft": 44,
+                    "impact_speed_m_s": 15.9
+                  },
+                  "20deg": {
+                    "range_m": 21.3,
+                    "range_ft": 70,
+                    "impact_speed_m_s": 14.1
+                  },
+                  "30deg": {
+                    "range_m": 25.7,
+                    "range_ft": 84,
+                    "impact_speed_m_s": 13.6
+                  },
+                  "40deg": {
+                    "range_m": 27.3,
+                    "range_ft": 89,
+                    "impact_speed_m_s": 13.7
+                  }
+                }
+              },
+              "high": {
+                "E_psi": 6000000.0,
+                "eta": 0.85,
+                "k_extra": 0.0,
+                "ball_g": 56.0,
+                "cd": 0.5,
+                "virtual_mass_g": 1.8,
+                "draw_weight_lb": 36.1,
+                "stored_J": 30.32,
+                "share_to_ball": 0.82,
+                "launch_speed_m_s": 29.9,
+                "launch_speed_mph": 67,
+                "muzzle_energy_J": 24.95,
+                "ranges": {
+                  "10deg": {
+                    "range_m": 24.0,
+                    "range_ft": 79,
+                    "impact_speed_m_s": 19.5
+                  },
+                  "20deg": {
+                    "range_m": 36.4,
+                    "range_ft": 119,
+                    "impact_speed_m_s": 16.4
+                  },
+                  "30deg": {
+                    "range_m": 42.5,
+                    "range_ft": 139,
+                    "impact_speed_m_s": 15.8
+                  },
+                  "40deg": {
+                    "range_m": 44.1,
+                    "range_ft": 145,
+                    "impact_speed_m_s": 16.2
+                  }
+                }
+              }
+            },
+            "range_bands_ft": {
+              "10deg": {
+                "low_ft": 22,
+                "nominal_ft": 44,
+                "high_ft": 79
+              },
+              "20deg": {
+                "low_ft": 34,
+                "nominal_ft": 70,
+                "high_ft": 119
+              },
+              "30deg": {
+                "low_ft": 42,
+                "nominal_ft": 84,
+                "high_ft": 139
+              },
+              "40deg": {
+                "low_ft": 46,
+                "nominal_ft": 89,
+                "high_ft": 145
+              }
+            }
+          }
+        },
+        "max_range_ft": {
+          "nominal": 89,
+          "high": 145,
+          "low": 46
+        },
+        "lane_length_ft": 220,
+        "ball_mass_sweep_nominal_40deg": [
+          {
+            "ball_g": 30,
+            "range_ft": 84,
+            "muzzle_energy_J": 9.0
+          },
+          {
+            "ball_g": 45,
+            "range_ft": 90,
+            "muzzle_energy_J": 10.8
+          },
+          {
+            "ball_g": 57.5,
+            "range_ft": 89,
+            "muzzle_energy_J": 11.9
+          },
+          {
+            "ball_g": 80,
+            "range_ft": 84,
+            "muzzle_energy_J": 13.2
+          },
+          {
+            "ball_g": 100,
+            "range_ft": 77,
+            "muzzle_energy_J": 14.1
+          },
+          {
+            "ball_g": 150,
+            "range_ft": 63,
+            "muzzle_energy_J": 15.3
+          }
+        ]
+      },
+      "all_ok": true
+    },
+    "latch": {
+      "peg_ahead_of_pivot_in": 2.4,
+      "string_below_pivot_in": 0.8981,
+      "string_force_tips_latch_front_up": true,
+      "torque_at_full_draw_in_lb": 28.36,
+      "trigger_pin_behind_pivot_in": 1.9,
+      "pin_top_touches_latch_bottom": true,
+      "peg_bottom_below_string_locked_in": 0.3519,
+      "release_at_22deg_peg_bottom_above_string_in": 0.574,
+      "ball_back_touches_peg_front": true,
+      "note": "With the pin in, the latch cannot tip, so the peg stays in front of the string. Pull the pin and the string's own pull lifts the latch front; the peg rises and the string runs forward into the ball."
+    },
+    "slider_and_groove": {
+      "groove_width_in": 3.0,
+      "slider_width_in": 2.25,
+      "side_play_each_in": 0.375,
+      "ball_diameter_in": 2.6,
+      "ball_side_clearance_total_in": 0.4,
+      "slider_x_strung_in": 26.0769,
+      "slider_x_cocked_in": 11.5769,
+      "draw_in": 14.5,
+      "string_centre_strung_in": 32.25,
+      "string_centre_cocked_in": 17.75,
+      "cheeks_fit_in_groove": true,
+      "ball_fits_in_groove": true
+    },
+    "winch_and_ratchet": {
+      "drum_length_in": 11.625,
+      "drum_diameter_in": 0.75,
+      "drum_y_left": 5.7812,
+      "drum_y_right": -5.8438,
+      "pin_count": 6,
+      "peg_spacing_deg": 60.0,
+      "pawl_angle_at_drawing_phase_deg": 4.5,
+      "pawl_tip_inside_peg_ring_in": 0.165,
+      "lock_penetration_required_in": 0.1,
+      "worst_unwinding_before_catch_deg": 44,
+      "catch_within_one_peg_spacing": true,
+      "peg_pawl_y_overlap_in": 0.719,
+      "pin_wheel_web_between_drum_hole_and_peg_holes_in": 0.338,
+      "note": "The gravity pawl always seats within one peg spacing (60\u00b0). The worst starting phase slips 44\u00b0 first, which is expected with six pegs and a short pawl tip."
+    },
+    "elevation": {
+      "holes": [
+        {
+          "hole": 1,
+          "centre_from_post_bottom_in": 4.4375,
+          "angle_deg": 9.84,
+          "pin_to_deck_bottom_in": -0.1875,
+          "pin_sits_DOWEL_R_below_deck": true,
+          "tail_deck_bottom_z_in": 4.553,
+          "muzzle_deck_top_z_in": 11.416,
+          "crank_handle_lowest_z_in": 3.513
+        },
+        {
+          "hole": 2,
+          "centre_from_post_bottom_in": 5.6875,
+          "angle_deg": 20.17,
+          "pin_to_deck_bottom_in": -0.1875,
+          "pin_sits_DOWEL_R_below_deck": true,
+          "tail_deck_bottom_z_in": 3.337,
+          "muzzle_deck_top_z_in": 16.423,
+          "crank_handle_lowest_z_in": 2.75
+        },
+        {
+          "hole": 3,
+          "centre_from_post_bottom_in": 7.0625,
+          "angle_deg": 30.18,
+          "pin_to_deck_bottom_in": -0.1875,
+          "pin_sits_DOWEL_R_below_deck": true,
+          "tail_deck_bottom_z_in": 2.231,
+          "muzzle_deck_top_z_in": 20.948,
+          "crank_handle_lowest_z_in": 2.009
+        },
+        {
+          "hole": 4,
+          "centre_from_post_bottom_in": 8.6875,
+          "angle_deg": 39.88,
+          "pin_to_deck_bottom_in": -0.1875,
+          "pin_sits_DOWEL_R_below_deck": true,
+          "tail_deck_bottom_z_in": 1.261,
+          "muzzle_deck_top_z_in": 24.898,
+          "crank_handle_lowest_z_in": 1.312
+        }
+      ],
+      "pin_rests_correctly_in_every_hole": true,
+      "tail_and_crank_clear_ground": true,
+      "deck_to_post_y_gap_in": 0.25,
+      "elevation_pin_length_in": 13.5,
+      "pin_stickout_past_beam_inner_each_side_in": 0.75,
+      "travel_stock_rests_on_both_crossmembers": true,
+      "note": "The posts stand just outside the deck edges, 1/4 in clear, and far enough back that the drawn string never crosses them. At the 40\u00b0 hole the back of the deck is 1.3 in off the ground: flat ground only. Set the angle before you cock; never lift a cocked stock."
+    },
+    "wheel_axles": {
+      "bolt": "3/8 \u00d7 3 in carriage bolt",
+      "stack_outside_beam_in": {
+        "washer": 0.08,
+        "wheel": 0.71875,
+        "washer2": 0.08,
+        "lock_nut": 0.4,
+        "total": 1.2788
+      },
+      "grip_through_beam_and_stack_in": 2.7788,
+      "bolt_length_in": 3.0,
+      "thread_past_nut_in": 0.221,
+      "bolt_long_enough": true,
+      "wheel_diameter_in": 8.0,
+      "axle_height_in": 4.0,
+      "beam_ground_clearance_in": 2.25,
+      "track_width_nut_to_nut_in": 17.5575,
+      "spoke_holes": [
+        {
+          "center_radius_in": 2.2,
+          "hole_radius_in": 0.75,
+          "gap_to_hub_hole_in": 1.231,
+          "rim_outside_hole_in": 1.05
+        },
+        {
+          "center_radius_in": 2.2,
+          "hole_radius_in": 0.75,
+          "gap_to_hub_hole_in": 1.231,
+          "rim_outside_hole_in": 1.05
+        },
+        {
+          "center_radius_in": 2.2,
+          "hole_radius_in": 0.75,
+          "gap_to_hub_hole_in": 1.231,
+          "rim_outside_hole_in": 1.05
+        },
+        {
+          "center_radius_in": 2.2,
+          "hole_radius_in": 0.75,
+          "gap_to_hub_hole_in": 1.231,
+          "rim_outside_hole_in": 1.05
+        }
+      ],
+      "spokes_clear_hub_and_rim": true
+    },
+    "dowel_interfaces": {
+      "dowel_sizes_in": [
+        0.375,
+        0.75
+      ],
+      "all_ok": true,
+      "rows": [
+        {
+          "interface": "Drum (3/4 in) in both wall holes",
+          "fit": "turn",
+          "hole_in": 0.8125,
+          "dowel_in": 0.75,
+          "clearance_in": 0.0625,
+          "ok": true
+        },
+        {
+          "interface": "Pin wheel on the drum",
+          "fit": "snug/glue",
+          "hole_in": 0.75,
+          "dowel_in": 0.75,
+          "clearance_in": 0.0,
+          "ok": true
+        },
+        {
+          "interface": "Crank arm on the drum",
+          "fit": "snug/glue",
+          "hole_in": 0.75,
+          "dowel_in": 0.75,
+          "clearance_in": 0.0,
+          "ok": true
+        },
+        {
+          "interface": "Crank handle in the crank arm",
+          "fit": "snug/glue",
+          "hole_in": 0.375,
+          "dowel_in": 0.375,
+          "clearance_in": 0.0,
+          "ok": true
+        },
+        {
+          "interface": "Ratchet pegs in the pin wheel (6)",
+          "fit": "snug/glue",
+          "hole_in": 0.375,
+          "dowel_in": 0.375,
+          "clearance_in": 0.0,
+          "ok": true
+        },
+        {
+          "interface": "Wheel on the carriage-bolt axle (4)",
+          "fit": "turn",
+          "hole_in": 0.4375,
+          "axle_in": 0.375,
+          "clearance_in": 0.0625,
+          "ok": true
+        },
+        {
+          "interface": "Carriage bolt in the beam (4)",
+          "fit": "snug",
+          "hole_in": 0.375,
+          "bolt_in": 0.375,
+          "clearance_in": 0.0,
+          "ok": true
+        },
+        {
+          "interface": "Elevation pin in the posts",
+          "fit": "slide",
+          "hole_in": 0.4375,
+          "dowel_in": 0.375,
+          "clearance_in": 0.0625,
+          "ok": true
+        },
+        {
+          "interface": "Slider pivot pin in the cheeks",
+          "fit": "snug/glue",
+          "hole_in": 0.375,
+          "dowel_in": 0.375,
+          "clearance_in": 0.0,
+          "ok": true
+        },
+        {
+          "interface": "Slider pivot pin in the latch",
+          "fit": "turn",
+          "hole_in": 0.4375,
+          "dowel_in": 0.375,
+          "clearance_in": 0.0625,
+          "ok": true
+        },
+        {
+          "interface": "Tow pin in the cheeks",
+          "fit": "snug/glue",
+          "hole_in": 0.375,
+          "dowel_in": 0.375,
+          "clearance_in": 0.0,
+          "ok": true
+        },
+        {
+          "interface": "Trigger pin in the cheeks",
+          "fit": "slide",
+          "hole_in": 0.4375,
+          "dowel_in": 0.375,
+          "clearance_in": 0.0625,
+          "ok": true
+        },
+        {
+          "interface": "Latch peg in the latch",
+          "fit": "snug/glue",
+          "hole_in": 0.375,
+          "dowel_in": 0.375,
+          "clearance_in": 0.0,
+          "ok": true
+        },
+        {
+          "interface": "Stop peg in the bow block (2)",
+          "fit": "snug/glue, 1 in deep",
+          "hole_in": 0.375,
+          "dowel_in": 0.375,
+          "clearance_in": 0.0,
+          "ok": true
+        }
+      ]
+    },
+    "collisions": {
+      "travel": {
+        "unintended": [],
+        "ok": true
+      },
+      "hole1": {
+        "unintended": [],
+        "ok": true
+      },
+      "hole2": {
+        "unintended": [],
+        "ok": true
+      },
+      "hole3": {
+        "unintended": [],
+        "ok": true
+      },
+      "hole4": {
+        "unintended": [],
+        "ok": true
+      },
+      "slider_in_groove_strung": {
+        "hits": [],
+        "ok": true
+      },
+      "slider_in_groove_cocked": {
+        "hits": [],
+        "ok": true
+      },
+      "latch_in_cheek_gap": {
+        "hits": [],
+        "ok": true
+      },
+      "string_and_arms_sweep_every_hole": {
+        "hits": [],
+        "n_hits": 0,
+        "ok": true
+      },
+      "arms_travel": {
+        "hits": [],
+        "ok": true
+      },
+      "ball_clears_slider_body": {
+        "hits": [],
+        "ok": true
+      },
+      "all_ok": true
+    },
+    "pull_cord": {
+      "ok": true,
+      "hangs_vertically": true,
+      "ends_outside_wheel_track": true,
+      "end_in": [
+        10.5,
+        -10.5,
+        1.8
+      ],
+      "elevations": [
+        {
+          "elevation": "hole1",
+          "z_min_in": 1.8,
+          "hits": [],
+          "ok": true
+        },
+        {
+          "elevation": "hole2",
+          "z_min_in": 1.8,
+          "hits": [],
+          "ok": true
+        },
+        {
+          "elevation": "hole3",
+          "z_min_in": 1.8,
+          "hits": [],
+          "ok": true
+        },
+        {
+          "elevation": "hole4",
+          "z_min_in": 1.8,
+          "hits": [],
+          "ok": true
+        }
+      ],
+      "note": "Machine views draw a short hanging end. The 6 ft firing-line length is shown only in the plan view."
+    },
+    "piece_counts": {
+      "total": 84,
+      "wood": 44,
+      "hardware_and_bow": 39,
+      "ammo": 1,
+      "by_label": {
+        "Beam": 2,
+        "Bow arm": 2,
+        "Bow block": 2,
+        "Bowstring": 1,
+        "Cap": 2,
+        "Cap screws": 2,
+        "Carriage bolt": 4,
+        "Cheek": 2,
+        "Crank arm": 1,
+        "Crank handle": 1,
+        "Crossmember": 2,
+        "Deck": 1,
+        "Drum": 1,
+        "Elevation pin": 1,
+        "Elevation post": 2,
+        "Grip tubing": 1,
+        "Hinge": 4,
+        "Hose clamp": 2,
+        "Keeper strip": 4,
+        "Latch": 1,
+        "Latch peg": 1,
+        "Lock nut": 4,
+        "Pawl": 1,
+        "Pawl post": 1,
+        "Pawl screw": 1,
+        "Pin wheel": 1,
+        "Pivot pin": 1,
+        "Pull cord": 1,
+        "Ratchet peg": 6,
+        "Slider spacer": 1,
+        "Stop peg": 2,
+        "Strip screws": 2,
+        "Tape bands": 2,
+        "Tape stop": 2,
+        "Tape tip": 2,
+        "Tennis ball": 1,
+        "Tow pin": 1,
+        "Trigger pin": 1,
+        "Wall": 2,
+        "Washer 3/8": 8,
+        "Wheel": 4,
+        "Winch cord": 1
+      }
+    },
+    "all_ok": true
+  },
+  "cut_list": [
+    {
+      "part": "Deck",
+      "qty": 1,
+      "material": "3/4 in plywood (actual 23/32 in)",
+      "size": "36 \u00d7 10 in",
+      "length_in": 36.0,
+      "width_in": 10.0,
+      "thickness_in": 0.71875
+    },
+    {
+      "part": "Wheel",
+      "qty": 4,
+      "material": "3/4 in plywood (actual 23/32 in)",
+      "size": "8 in disc",
+      "length_in": 8.0,
+      "width_in": 8.0,
+      "thickness_in": 0.71875
+    },
+    {
+      "part": "Pin wheel",
+      "qty": 1,
+      "material": "3/4 in plywood (actual 23/32 in)",
+      "size": "2-1/2 in disc (a 2-3/4 in hole-saw plug)",
+      "length_in": 2.5,
+      "width_in": 2.5,
+      "thickness_in": 0.71875
+    },
+    {
+      "part": "Pawl",
+      "qty": 1,
+      "material": "3/4 in plywood (actual 23/32 in)",
+      "size": "2-1/2 \u00d7 3/4 in",
+      "length_in": 2.5,
+      "width_in": 0.75,
+      "thickness_in": 0.71875
+    },
+    {
+      "part": "Latch",
+      "qty": 1,
+      "material": "3/4 in plywood (actual 23/32 in)",
+      "size": "5-1/8 \u00d7 1 in",
+      "length_in": 5.125,
+      "width_in": 1.0,
+      "thickness_in": 0.71875
+    },
+    {
+      "part": "Wall",
+      "qty": 2,
+      "material": "2x4",
+      "size": "32-1/2 in",
+      "length_in": 32.5,
+      "width_in": 3.5,
+      "thickness_in": 1.5
+    },
+    {
+      "part": "Beam",
+      "qty": 2,
+      "material": "2x4",
+      "size": "22 in",
+      "length_in": 22.0,
+      "width_in": 3.5,
+      "thickness_in": 1.5
+    },
+    {
+      "part": "Crossmember",
+      "qty": 2,
+      "material": "2x4",
+      "size": "12 in",
+      "length_in": 12.0,
+      "width_in": 3.5,
+      "thickness_in": 1.5
+    },
+    {
+      "part": "Bow block",
+      "qty": 2,
+      "material": "2x4",
+      "size": "4-1/2 in",
+      "length_in": 4.5,
+      "width_in": 3.5,
+      "thickness_in": 1.5
+    },
+    {
+      "part": "Elevation post",
+      "qty": 2,
+      "material": "1x3",
+      "size": "10 in",
+      "length_in": 10.0,
+      "width_in": 2.5,
+      "thickness_in": 0.75
+    },
+    {
+      "part": "Crank arm",
+      "qty": 1,
+      "material": "1x3",
+      "size": "4-3/4 in",
+      "length_in": 4.75,
+      "width_in": 2.5,
+      "thickness_in": 0.75
+    },
+    {
+      "part": "Pawl post",
+      "qty": 1,
+      "material": "1x3",
+      "size": "3-3/4 in",
+      "length_in": 3.75,
+      "width_in": 2.5,
+      "thickness_in": 0.75
+    },
+    {
+      "part": "Cheek",
+      "qty": 2,
+      "material": "1x4",
+      "size": "5 in",
+      "length_in": 5.0,
+      "width_in": 3.5,
+      "thickness_in": 0.75
+    },
+    {
+      "part": "Cap",
+      "qty": 2,
+      "material": "1x4",
+      "size": "4-1/2 in",
+      "length_in": 4.5,
+      "width_in": 3.5,
+      "thickness_in": 0.75
+    },
+    {
+      "part": "Keeper strip",
+      "qty": 4,
+      "material": "1x2",
+      "size": "4-1/2 in",
+      "length_in": 4.5,
+      "width_in": 1.5,
+      "thickness_in": 0.75
+    },
+    {
+      "part": "Slider spacer",
+      "qty": 1,
+      "material": "1x2",
+      "size": "1-1/2 in",
+      "length_in": 1.5,
+      "width_in": 1.5,
+      "thickness_in": 0.75
+    },
+    {
+      "part": "Drum",
+      "qty": 1,
+      "material": "3/4 in hardwood dowel",
+      "size": "11-5/8 in",
+      "length_in": 11.625
+    },
+    {
+      "part": "Elevation pin",
+      "qty": 1,
+      "material": "3/8 in dowel",
+      "size": "13-1/2 in",
+      "length_in": 13.5
+    },
+    {
+      "part": "Trigger pin",
+      "qty": 1,
+      "material": "3/8 in dowel",
+      "size": "4 in",
+      "length_in": 4.0
+    },
+    {
+      "part": "Crank handle",
+      "qty": 1,
+      "material": "3/8 in dowel",
+      "size": "3 in",
+      "length_in": 3.0
+    },
+    {
+      "part": "Pivot pin",
+      "qty": 1,
+      "material": "3/8 in dowel",
+      "size": "2-1/4 in",
+      "length_in": 2.25
+    },
+    {
+      "part": "Tow pin",
+      "qty": 1,
+      "material": "3/8 in dowel",
+      "size": "2-1/4 in",
+      "length_in": 2.25
+    },
+    {
+      "part": "Latch peg",
+      "qty": 1,
+      "material": "3/8 in dowel",
+      "size": "1-3/4 in",
+      "length_in": 1.75
+    },
+    {
+      "part": "Ratchet peg",
+      "qty": 6,
+      "material": "3/8 in dowel",
+      "size": "1-1/2 in",
+      "length_in": 1.5
+    },
+    {
+      "part": "Stop peg",
+      "qty": 2,
+      "material": "3/8 in dowel",
+      "size": "2-1/2 in",
+      "length_in": 2.5
+    },
+    {
+      "part": "Bow rod",
+      "qty": 8,
+      "material": "5/16 in SOLID fibreglass rod in vinyl tubing",
+      "size": "23-7/8 in (4 \u00d7 48 in driveway markers, each cut in half)",
+      "length_in": 23.875
+    }
+  ],
+  "cutting_plan": {
+    "kerf_in": 0.125,
+    "two_by_four": {
+      "buy": "2 \u00d7 2x4, 8 ft",
+      "board_1": {
+        "pieces_in": [
+          32.5,
+          22.0,
+          12.0,
+          4.5
+        ],
+        "used_in": 71.375,
+        "leftover_in": 24.625,
+        "leftover_enough_to_remake": [
+          22.0,
+          12.0,
+          4.5
+        ]
+      },
+      "board_2": {
+        "pieces_in": [
+          32.5,
+          22.0,
+          12.0,
+          4.5
+        ],
+        "used_in": 71.375,
+        "leftover_in": 24.625,
+        "leftover_enough_to_remake": [
+          22.0,
+          12.0,
+          4.5
+        ]
+      },
+      "note": "The two boards are cut the same way: one wall, one beam, one crossmember, one 4-1/2 in bow block.",
+      "total_piece_in": 142.0
+    },
+    "one_by_three": {
+      "buy": "1 \u00d7 1x3, 4 ft",
+      "board": {
+        "pieces_in": [
+          10.0,
+          10.0,
+          4.75,
+          3.75
+        ],
+        "used_in": 28.875,
+        "leftover_in": 19.125,
+        "leftover_enough_to_remake": [
+          10.0,
+          4.75,
+          3.75
+        ]
+      },
+      "total_piece_in": 28.5
+    },
+    "one_by_four": {
+      "buy": "1 \u00d7 1x4, 2 ft",
+      "board": {
+        "pieces_in": [
+          5.0,
+          5.0,
+          4.5,
+          4.5
+        ],
+        "used_in": 19.375,
+        "leftover_in": 4.625,
+        "leftover_enough_to_remake": [
+          4.5
+        ]
+      },
+      "total_piece_in": 19.0
+    },
+    "one_by_two": {
+      "buy": "1 \u00d7 1x2, 2 ft",
+      "board": {
+        "pieces_in": [
+          4.5,
+          4.5,
+          4.5,
+          4.5,
+          1.5
+        ],
+        "used_in": 20.0,
+        "leftover_in": 4.0,
+        "leftover_enough_to_remake": [
+          1.5
+        ]
+      },
+      "total_piece_in": 19.5
+    },
+    "plywood": {
+      "buy": "1 \u00d7 3/4 in plywood project panel, 2 \u00d7 4 ft (actual 23/32 in)",
+      "layout": "Cut the 36 \u00d7 10 in deck from the 48 in side. The leftover 14 \u00d7 48 in (and the 8 \u00d7 10 in offcut) hold four 8 in wheel discs, the 2-1/2 in pin-wheel plug, the 2-1/2 \u00d7 3/4 in pawl, and the 5-1/8 \u00d7 1 in latch.",
+      "deck_in": [
+        36.0,
+        10.0
+      ],
+      "wheel_discs": 4,
+      "wheel_diameter_in": 8.0,
+      "small_parts": [
+        "pin wheel 2-1/2 in disc",
+        "pawl 2-1/2 \u00d7 3/4 in",
+        "latch 5-1/8 \u00d7 1 in"
+      ]
+    },
+    "dowel": {
+      "buy": "2 \u00d7 3/8 in hardwood dowel, 36 in",
+      "total_piece_in": 40.75,
+      "n_pieces": 14,
+      "stick_1": {
+        "pieces_in": [
+          13.5,
+          4.0,
+          3.0,
+          2.5,
+          2.5,
+          2.25,
+          2.25,
+          1.75,
+          1.5,
+          1.5
+        ],
+        "used_in": 35.875,
+        "leftover_in": 0.125,
+        "leftover_enough_to_remake": []
+      },
+      "stick_2": {
+        "pieces_in": [
+          1.5,
+          1.5,
+          1.5,
+          1.5
+        ],
+        "used_in": 6.375,
+        "leftover_in": 29.625,
+        "leftover_enough_to_remake": [
+          1.5
+        ]
+      }
+    },
+    "drum_dowel": {
+      "buy": "1 \u00d7 3/4 in hardwood dowel (birch or oak), 36 in",
+      "board": {
+        "pieces_in": [
+          11.625
+        ],
+        "used_in": 11.625,
+        "leftover_in": 24.375,
+        "leftover_enough_to_remake": [
+          11.625
+        ]
+      }
+    },
+    "bow_rod": {
+      "buy": "4 \u00d7 5/16 in SOLID fibreglass driveway markers, 48 in (from one 12-pack)",
+      "rods_cut": 8,
+      "each_rod_in": 23.875,
+      "kerf_in": 0.125,
+      "per_marker_used_in": 47.875,
+      "note": "One square cut in the middle of each marker leaves two 23-7/8 in rods."
+    },
+    "vinyl_tubing": {
+      "buy": "5/16 in ID \u00d7 7/16 in OD clear vinyl tubing, 20 ft",
+      "pieces_in": [
+        23.875,
+        23.875,
+        23.875,
+        23.875,
+        23.875,
+        23.875,
+        23.875,
+        23.875,
+        2.0
+      ],
+      "total_in": 193.0
+    }
+  },
+  "cost_estimate": {
+    "note": "Verified lines are prices read on the store page on 2026-11-10 (they change). Rough lines are typical US hardware-store prices, not quotes. Tools not included.",
+    "currency": "USD",
+    "verified_lines": [
+      {
+        "item": "FiberMarker 48 in \u00d7 5/16 in SOLID driveway markers, orange, 12-pack (Home Depot)",
+        "usd": 28.99,
+        "url": "https://www.homedepot.com/p/48-in-Driveway-Reflectors-Snow-Stakes-Driveway-Markers-5-16-in-Dia-Orange-12-Pack-SM5164O12/315015721",
+        "checked": "2026-11-10"
+      },
+      {
+        "item": "emma kites 2 mm UHMWPE braided cord, 100 ft, 1,000 lb (Amazon)",
+        "usd": 21.95,
+        "url": "https://www.amazon.com/dp/B09DCNBVQM",
+        "checked": "2026-11-10"
+      }
+    ],
+    "rough_lines": [
+      {
+        "item": "2 \u00d7 2x4, 8 ft",
+        "about_usd": 10
+      },
+      {
+        "item": "1 \u00d7 1x2, 2 ft",
+        "about_usd": 2
+      },
+      {
+        "item": "1 \u00d7 1x3, 4 ft",
+        "about_usd": 6
+      },
+      {
+        "item": "1 \u00d7 1x4, 2 ft",
+        "about_usd": 4
+      },
+      {
+        "item": "1 \u00d7 3/4 in plywood project panel, 2 \u00d7 4 ft",
+        "about_usd": 30
+      },
+      {
+        "item": "2 \u00d7 3/8 in hardwood dowel, 36 in",
+        "about_usd": 6
+      },
+      {
+        "item": "1 \u00d7 3/4 in hardwood dowel, 36 in (birch or oak)",
+        "about_usd": 6
+      },
+      {
+        "item": "Clear vinyl tubing, 5/16 in ID \u00d7 7/16 in OD, 20 ft",
+        "about_usd": 12
+      },
+      {
+        "item": "2 \u00d7 hose clamps big enough for a 1-3/4 \u00d7 7/16 in stack",
+        "about_usd": 5
+      },
+      {
+        "item": "4 \u00d7 3/8 \u00d7 3 in carriage bolts, 8 washers, 4 nylon lock nuts",
+        "about_usd": 8
+      },
+      {
+        "item": "1 pair of 3 in butt hinges",
+        "about_usd": 7
+      },
+      {
+        "item": "#8 wood screws: 1-1/4 in, 2-1/2 in and 3 in",
+        "about_usd": 15
+      },
+      {
+        "item": "1/8 in braided cord, about 20 ft (winch and pull cords)",
+        "about_usd": 5
+      },
+      {
+        "item": "Wood glue, sandpaper, electrical tape, tennis balls",
+        "about_usd": 15
+      },
+      {
+        "item": "Safety glasses for every person at the firing line (if not on hand)",
+        "about_usd": 10
+      }
+    ],
+    "rough_total_usd": 141,
+    "verified_total_usd": 50.94,
+    "about_usd": {
+      "low": 177,
+      "mid": 192,
+      "high": 212
+    },
+    "test_tool": {
+      "item": "Etekcity 110 lb digital hanging (luggage) scale (Amazon)",
+      "usd": 14.12,
+      "url": "https://www.amazon.com/dp/B07K6F9B86",
+      "checked": "2026-11-10"
+    }
+  },
+  "alternatives": {
+    "wider_bow_28in_arms": {
+      "bow_span_in": 60,
+      "draw_in": 22.0,
+      "draw_weight_lb_nominal": 28.3,
+      "stored_energy_J_nominal": 33.8,
+      "tennis_ball_40deg_nominal_ft": 99,
+      "markers_needed": 8,
+      "note": "About 5 ft wide instead of 4-1/3 ft. Each arm uses most of a whole marker, so the 12-pack covers only one set. Not drawn or checked in detail."
+    }
+  },
+  "step_titles": {
+    "1": "Cut and sand the parts",
+    "2": "Build the stock",
+    "3": "Add the bow blocks",
+    "4": "Build the carriage frame",
+    "5": "Put on the wheels",
+    "6": "Add the elevation posts",
+    "7": "Hinge the stock onto the carriage",
+    "8": "Build the winch",
+    "9": "Build the slider",
+    "10": "Mount the bow arms",
+    "11": "String the bow and fit the slider",
+    "12": "Set the elevation",
+    "13": "Cock it",
+    "14": "Load and fire"
+  },
+  "step_images": {
+    "None": [
+      "00-overview.png"
+    ],
+    "1": [
+      "01-parts.png"
+    ],
+    "2": [
+      "02-drill-walls.png",
+      "02-stock.png"
+    ],
+    "3": [
+      "03-bow-blocks.png"
+    ],
+    "4": [
+      "04-carriage.png"
+    ],
+    "5": [
+      "05-wheel-stack.png",
+      "05-wheels.png"
+    ],
+    "6": [
+      "06-posts.png"
+    ],
+    "7": [
+      "07-hinge-detail.png",
+      "07-hinge.png"
+    ],
+    "8": [
+      "08-ratchet.png",
+      "08-winch-stack.png",
+      "08-winch.png"
+    ],
+    "9": [
+      "09-slider-stack.png",
+      "09-slider.png"
+    ],
+    "10": [
+      "10-arm-detail.png",
+      "10-bow-arms.png",
+      "10-channel-end-view.png"
+    ],
+    "11": [
+      "11-string.png"
+    ],
+    "12": [
+      "12-elevation-side.png"
+    ],
+    "13": [
+      "13-cock.png",
+      "13-mechanism-side.png"
+    ],
+    "14": [
+      "14-finished-3q.png",
+      "14-firing-zone.png",
+      "14-release.png",
+      "14-side.png"
+    ]
+  }
+}
