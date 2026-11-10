@@ -1,0 +1,31 @@
+{
+  "order": 1,
+  "section": "home-prep",
+  "video": "",
+  "parts": [
+    {
+      "name": "2x4, 8 ft",
+      "url": "",
+      "note": "5. Construction or #2 spruce/pine/fir, as straight as you can pick. A sixth board is handy if you miscut a leg."
+    },
+    {
+      "name": "#10 × 3 in construction screws",
+      "url": "",
+      "note": "50 (40 used, plus spares)"
+    },
+    {
+      "name": "#10 × 2-1/2 in construction screws",
+      "url": "",
+      "note": "12 (8 used, plus spares)"
+    },
+    {
+      "name": "Sandpaper, 80 and 120 grit",
+      "url": ""
+    },
+    {
+      "name": "Exterior paint or sealer",
+      "url": "",
+      "note": "Optional, if the pair will live outside"
+    }
+  ]
+}

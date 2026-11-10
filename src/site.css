@@ -191,6 +191,7 @@ a:hover {
 .mission,
 .lede,
 .bridge-choice,
+.section-intro,
 .home h2,
 .page-prose h1,
 .page-prose h2,
@@ -208,6 +209,10 @@ a:hover {
   font-size: 1.7rem;
   line-height: 1.25;
   margin-top: 2rem;
+}
+
+.home h2 {
+  scroll-margin-top: 5rem;
 }
 
 .project-list {
