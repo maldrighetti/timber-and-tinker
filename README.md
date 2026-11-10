@@ -41,7 +41,8 @@ Links in the built HTML are relative. They work under `/timber-and-tinker/` on G
 }
 ```
 
-- `order` sets the home-page order. Lower numbers come first. If you omit it, the project is listed after the numbered ones.
+- `order` sets the order inside a section. Lower numbers come first. If you omit it, the project is listed after the numbered ones.
+- `section` is optional. Leave it out, or set `"kids"`, and the project stays in the Projects list. `"home-prep"` puts it under Home & Prep. A new section needs a heading and a one-line intro in the `SECTIONS` dict in `build.py`.
 - `video` is a YouTube link, a youtu.be link, or an 11-character video id. Leave it as `""` and the “Watch the build” slot stays hidden. When it is set, the page embeds the video from the privacy-enhanced YouTube player (`youtube-nocookie.com`), just before the assembly steps.
 - `parts` is a list of things a family might buy. `name` is required. `url` is a normal `https://` link, or `""` if you do not have one yet. `note` is optional.
 - The “Get the parts” box is hidden until at least one part has a `url`. The affiliate-disclosure line is shown only then, under that box.

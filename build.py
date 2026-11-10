@@ -38,6 +38,23 @@ MD = (
     .enable("table")
 )
 
+# A new home-page section needs a heading and a one-line intro here.
+# Projects with no section, or with section "kids", stay in the first list.
+SECTIONS = {
+    "kids": {
+        "heading": "Projects",
+        "id": "projects",
+        "intro": "",
+        "nav": False,
+    },
+    "home-prep": {
+        "heading": "Home & Prep",
+        "id": "home-prep",
+        "intro": "Practical builds for the shop, the yard, and a power outage, all made with a handsaw, a drill, and basic tools.",
+        "nav": True,
+    },
+}
+
 LIGHTBOX = """
 <dialog class="lightbox" id="lightbox" aria-label="Enlarged drawing">
   <div class="lightbox-bar">
@@ -229,7 +246,7 @@ def render_markdown(text: str, sizes: dict[str, tuple[int, int]]) -> str:
 
 def load_project_meta(folder: Path) -> dict:
     path = folder / "project.json"
-    meta = {"order": 1000, "video": "", "parts": []}
+    meta = {"order": 1000, "video": "", "parts": [], "section": "kids"}
     if not path.exists():
         return meta
     try:
@@ -242,6 +259,14 @@ def load_project_meta(folder: Path) -> dict:
         if not isinstance(data["order"], int):
             raise SystemExit(f"{path}: order must be a whole number")
         meta["order"] = data["order"]
+    if "section" in data and data["section"] not in (None, ""):
+        if not isinstance(data["section"], str):
+            raise SystemExit(f"{path}: section must be a string")
+        section = data["section"].strip()
+        if section not in SECTIONS:
+            known = ", ".join(SECTIONS)
+            raise SystemExit(f"{path}: unknown section {section!r}. Known sections: {known}.")
+        meta["section"] = section
     if "video" in data and data["video"] is not None:
         if not isinstance(data["video"], str):
             raise SystemExit(f"{path}: video must be a string")
@@ -404,6 +429,7 @@ def layout(
     current: str,
     repository: str,
     lightbox: bool,
+    section_nav: list[dict] | None = None,
 ) -> str:
     prefix = "../" * depth
     home_href = prefix or "./"
@@ -412,13 +438,13 @@ def layout(
         current_attr = ' aria-current="page"' if key == current else ""
         return f'<li><a href="{href}"{current_attr}>{label}</a></li>'
 
-    nav = "".join(
-        [
-            nav_link("home", home_href, "Projects"),
-            nav_link("before", f"{prefix}before-you-build/", "Before you build"),
-            nav_link("about", f"{prefix}about/", "About"),
-        ]
-    )
+    nav_items = [nav_link("home", home_href, "Projects")]
+    for spec in section_nav or []:
+        anchor = f"{prefix}#{spec['id']}" if prefix else f"#{spec['id']}"
+        nav_items.append(nav_link(spec["id"], anchor, esc(spec["heading"])))
+    nav_items.append(nav_link("before", f"{prefix}before-you-build/", "Before you build"))
+    nav_items.append(nav_link("about", f"{prefix}about/", "About"))
+    nav = "".join(nav_items)
     dialog = LIGHTBOX if lightbox else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -511,12 +537,14 @@ def load_projects() -> list[dict]:
                 "image": image,
                 "image_alt": image_alt or title,
                 "order": meta["order"],
+                "section": meta["section"],
                 "video": meta["video"],
                 "parts": meta["parts"],
                 "sizes": pngs,
             }
         )
-    projects.sort(key=lambda item: (item["order"], item["title"].lower()))
+    section_index = {key: index for index, key in enumerate(SECTIONS)}
+    projects.sort(key=lambda item: (section_index[item["section"]], item["order"], item["title"].lower()))
     return projects
 
 
@@ -541,6 +569,34 @@ def render_project_body(project: dict, prefix: str) -> str:
     return body
 
 
+def sections_for_nav(projects: list[dict]) -> list[dict]:
+    present = {project["section"] for project in projects}
+    return [spec for key, spec in SECTIONS.items() if spec.get("nav") and key in present]
+
+
+def project_card(project: dict) -> str:
+    image = ""
+    if project["image"]:
+        width, height = project["sizes"].get(project["image"], (0, 0))
+        dims = f' width="{width}" height="{height}"' if width else ""
+        image = (
+            f'<img src="projects/{esc(project["slug"])}/{esc(project["image"])}" '
+            f'alt="{esc(project["image_alt"])}"{dims}>'
+        )
+    tagline = f'<p class="tagline">{esc(project["tagline"])}</p>' if project["tagline"] else ""
+    return (
+        '<li class="project-card">'
+        f'<h3><a href="projects/{esc(project["slug"])}/">{esc(project["title"])}</a></h3>'
+        f"{image}"
+        f"{tagline}"
+        '<dl class="meta">'
+        f"<div><dt>Ages</dt><dd>{esc(project['ages'])}</dd></div>"
+        f"<div><dt>Time</dt><dd>{esc(project['time'])}</dd></div>"
+        f"<div><dt>Difficulty</dt><dd>{esc(project['difficulty'])}</dd></div>"
+        "</dl></li>"
+    )
+
+
 def bridge_choice(projects: list[dict]) -> str:
     slugs = {project["slug"] for project in projects}
     if "leonardo-bridge" not in slugs or "leonardo-bridge-2x4" not in slugs:
@@ -553,38 +609,25 @@ def bridge_choice(projects: list[dict]) -> str:
 
 
 def home_body(projects: list[dict]) -> str:
-    cards = []
+    grouped: dict[str, list[dict]] = {key: [] for key in SECTIONS}
     for project in projects:
-        image = ""
-        if project["image"]:
-            width, height = project["sizes"].get(project["image"], (0, 0))
-            dims = f' width="{width}" height="{height}"' if width else ""
-            image = (
-                f'<img src="projects/{esc(project["slug"])}/{esc(project["image"])}" '
-                f'alt="{esc(project["image_alt"])}"{dims}>'
-            )
-        tagline = f'<p class="tagline">{esc(project["tagline"])}</p>' if project["tagline"] else ""
-        cards.append(
-            '<li class="project-card">'
-            f'<h3><a href="projects/{esc(project["slug"])}/">{esc(project["title"])}</a></h3>'
-            f"{image}"
-            f"{tagline}"
-            '<dl class="meta">'
-            f"<div><dt>Ages</dt><dd>{esc(project['ages'])}</dd></div>"
-            f"<div><dt>Time</dt><dd>{esc(project['time'])}</dd></div>"
-            f"<div><dt>Difficulty</dt><dd>{esc(project['difficulty'])}</dd></div>"
-            "</dl></li>"
-        )
-    return (
-        '<article class="home">'
-        "<h1>Timber &amp; Tinker</h1>"
-        '<p class="lede">Wood projects for kids and families, inspired by Leonardo da Vinci, with a drawing for every step.</p>'
-        '<p class="mission">The aim is to get kids outdoors, teach real building skills, and spend time building together.</p>'
-        "<h2>Projects</h2>"
-        f"{bridge_choice(projects)}"
-        f'<ul class="project-list">{"".join(cards)}</ul>'
-        "</article>"
-    )
+        grouped[project["section"]].append(project)
+    blocks = [
+        "<h1>Timber &amp; Tinker</h1>",
+        '<p class="lede">Wood projects for kids and families, inspired by Leonardo da Vinci, with a drawing for every step.</p>',
+        '<p class="mission">The aim is to get kids outdoors, teach real building skills, and spend time building together.</p>',
+    ]
+    for key, spec in SECTIONS.items():
+        items = grouped[key]
+        if not items:
+            continue
+        blocks.append(f'<h2 id="{esc(spec["id"])}">{esc(spec["heading"])}</h2>')
+        if key == "kids":
+            blocks.append(bridge_choice(items))
+        elif spec["intro"]:
+            blocks.append(f'<p class="section-intro">{esc(spec["intro"])}</p>')
+        blocks.append(f'<ul class="project-list">{"".join(project_card(item) for item in items)}</ul>')
+    return '<article class="home">\n' + "\n".join(blocks) + "\n</article>"
 
 
 def check_site(projects: list[dict]) -> None:
@@ -711,6 +754,7 @@ def main() -> None:
         raise SystemExit("No projects found. Add a folder under projects/ with a PROJECT.md.")
 
     repository = site["repository"].rstrip("/")
+    section_nav = sections_for_nav(projects)
     home = layout(
         title="Timber & Tinker",
         description="Wood projects for kids and families, inspired by Leonardo da Vinci, with a drawing for every step.",
@@ -720,6 +764,7 @@ def main() -> None:
         current="home",
         repository=repository,
         lightbox=False,
+        section_nav=section_nav,
     )
     write_page(OUT / "index.html", home)
 
@@ -736,6 +781,7 @@ def main() -> None:
             current="before",
             repository=repository,
             lightbox=False,
+            section_nav=section_nav,
         ),
     )
 
@@ -751,6 +797,7 @@ def main() -> None:
             current="about",
             repository=repository,
             lightbox=False,
+            section_nav=section_nav,
         ),
     )
 
@@ -769,6 +816,7 @@ def main() -> None:
             current="project",
             repository=repository,
             lightbox=True,
+            section_nav=section_nav,
         )
         write_page(OUT / "projects" / project["slug"] / "index.html", page)
 
