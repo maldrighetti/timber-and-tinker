@@ -11,6 +11,8 @@ Leonardo da Vinci sketched this as a portable military bridge: something soldier
 
 This version is a tabletop or picnic-table model. It is not for walking or standing on.
 
+The backyard option, cut from straight 2x4s, is [Leonardo’s Bridge, 2x4 Version](../leonardo-bridge-2x4/).
+
 ![Finished bridge](09-finished-3q.png)
 
 ---
