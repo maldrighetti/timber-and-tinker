@@ -351,8 +351,12 @@ def insert_after_section(page: str, heading_id: str, snippet: str) -> tuple[str,
 
 
 def insert_banner(page: str, banner: str) -> str:
+    # A subtitle (h2) and the blockquote under it stay directly beneath the title.
     match = re.match(
-        r"\s*<h1\b[^>]*>.*?</h1>\s*(?:<p>\s*<em>.*?</em>\s*</p>\s*)?",
+        r"\s*<h1\b[^>]*>.*?</h1>\s*"
+        r"(?:<h2\b[^>]*>.*?</h2>\s*)?"
+        r"(?:<blockquote\b[^>]*>.*?</blockquote>\s*)?"
+        r"(?:<p>\s*<em>.*?</em>\s*</p>\s*)?",
         page,
         re.S,
     )
@@ -399,9 +403,9 @@ def title_and_tagline(text: str) -> tuple[str, str]:
     for index, line in enumerate(lines):
         if line.startswith("# "):
             title = line[2:].strip()
-            for nxt in lines[index + 1 : index + 5]:
+            for nxt in lines[index + 1 : index + 15]:
                 stripped = nxt.strip()
-                if not stripped:
+                if not stripped or stripped.startswith("#") or stripped.startswith(">"):
                     continue
                 if stripped.startswith("*") and stripped.endswith("*") and not stripped.startswith("**"):
                     tagline = stripped.strip("*").strip()
@@ -584,9 +588,13 @@ def project_card(project: dict) -> str:
             f'alt="{esc(project["image_alt"])}"{dims}>'
         )
     tagline = f'<p class="tagline">{esc(project["tagline"])}</p>' if project["tagline"] else ""
+    badge = ""
+    if re.search(r"^## Conceptual Only\b", project["text"], re.M):
+        badge = '<p class="badge">Conceptual Only</p>'
     return (
         '<li class="project-card">'
         f'<h3><a href="projects/{esc(project["slug"])}/">{esc(project["title"])}</a></h3>'
+        f"{badge}"
         f"{image}"
         f"{tagline}"
         '<dl class="meta">'
