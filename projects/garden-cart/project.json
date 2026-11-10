@@ -1,0 +1,102 @@
+{
+  "order": 3,
+  "video": "",
+  "parts": [
+    {
+      "name": "1/2 in plywood, 2 × 2 ft project panel",
+      "url": "",
+      "note": "For the floor"
+    },
+    {
+      "name": "1x4 pine board, 8 ft",
+      "url": "",
+      "note": "6 ft is just enough at 69-1/2 in, but leaves nothing for squaring up a rough end"
+    },
+    {
+      "name": "2x4, 8 ft",
+      "url": "",
+      "note": "The parts use about 68 in, so a 6 ft board is too short"
+    },
+    {
+      "name": "1x3 pine board, 6 ft",
+      "url": ""
+    },
+    {
+      "name": "3/4 in hardwood dowel, 36 in",
+      "url": ""
+    },
+    {
+      "name": "Wheels, 6 in diameter, about 1-1/2 in wide, 1/2 in bore",
+      "url": "",
+      "note": "4. Hub about 1-1/2 in long. Plastic lawn-cart and mower replacement wheels, typically rated 35–50 lb each"
+    },
+    {
+      "name": "1/2 in smooth steel rod, 36 in",
+      "url": "",
+      "note": "Not threaded rod, which chews up wheel bores"
+    },
+    {
+      "name": "Push-on axle caps for 1/2 in rod",
+      "url": "",
+      "note": "4"
+    },
+    {
+      "name": "1/2 in SAE flat washers",
+      "url": "",
+      "note": "12"
+    },
+    {
+      "name": "3/8 × 4-1/2 in carriage bolt",
+      "url": "",
+      "note": "The pivot"
+    },
+    {
+      "name": "3/8 × 6 in hex bolt",
+      "url": "",
+      "note": "The handle hinge"
+    },
+    {
+      "name": "3/8 in flat washers",
+      "url": "",
+      "note": "3"
+    },
+    {
+      "name": "3/8 in nylon-insert lock nuts",
+      "url": "",
+      "note": "2"
+    },
+    {
+      "name": "#8 × 1-1/2 in wood screws",
+      "url": "",
+      "note": "About 34 (29 used, plus spares)"
+    },
+    {
+      "name": "#8 × 2-1/2 in wood screws",
+      "url": "",
+      "note": "16"
+    },
+    {
+      "name": "#8 × 1-1/4 in wood screws",
+      "url": "",
+      "note": "10 (9 used, plus a spare)"
+    },
+    {
+      "name": "Exterior wood glue",
+      "url": ""
+    },
+    {
+      "name": "Sandpaper, 80 and 120 grit",
+      "url": ""
+    },
+    {
+      "name": "Candle stub or bar of soap",
+      "url": "",
+      "note": "To wax the pivot"
+    },
+    {
+      "name": "Exterior paint or sealer",
+      "url": "",
+      "note": "Optional"
+    }
+  ]
+}
