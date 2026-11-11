@@ -1,0 +1,19 @@
+{
+  "order": 6,
+  "section": "home-prep",
+  "video": "",
+  "parts": [
+    {"name": "Plywood project panel, 15/32 in (\"1/2 in\"), 2 x 4 ft", "url": "", "note": "1, sanded on at least one face; exterior glue if you can get it. Used whole for the top."},
+    {"name": "1x4, 8 ft", "url": "", "note": "2, for the long aprons, end aprons and two frame rails. The straightest boards you can find."},
+    {"name": "1x4, 6 ft", "url": "", "note": "1, for the last two frame rails"},
+    {"name": "2x2, 8 ft", "url": "", "note": "2, for the four legs (1-1/2 x 1-1/2 in actual)"},
+    {"name": "Carriage bolt, 1/4-20 x 3 in", "url": "", "note": "8"},
+    {"name": "Flat washer, 1/4 in", "url": "", "note": "8"},
+    {"name": "Wing nut, 1/4-20", "url": "", "note": "8"},
+    {"name": "Wood screw, #8 x 2 in, flat head", "url": "", "note": "24"},
+    {"name": "Wood screw, #8 x 1-1/4 in, flat head", "url": "", "note": "20"},
+    {"name": "Exterior wood glue", "url": "", "note": "1 small bottle"},
+    {"name": "Exterior finish (spar varnish, exterior polyurethane or paint)", "url": "", "note": "About 1 pint"},
+    {"name": "Cam straps", "url": "", "note": "2, for packing"}
+  ]
+}

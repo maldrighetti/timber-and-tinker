@@ -1,0 +1,15 @@
+{
+  "order": 3,
+  "section": "home-prep",
+  "video": "",
+  "parts": [
+    {"name": "1/2 in plywood, 4 × 8 ft sheet", "url": "", "note": "1 sheet makes three crates (actually 15/32 in). Sanded pine or another exterior-glue grade."},
+    {"name": "1x2, 8 ft", "url": "", "note": "4 for three crates"},
+    {"name": "2x2, 8 ft", "url": "", "note": "2 for three crates"},
+    {"name": "#8 × 1 in wood screws", "url": "", "note": "60 (54 used, 18 per crate)"},
+    {"name": "#8 × 1-1/4 in wood screws", "url": "", "note": "90 (84 used, 28 per crate)"},
+    {"name": "Exterior wood glue", "url": "", "note": "Titebond III or similar"},
+    {"name": "Sandpaper, 80 and 120 grit", "url": ""},
+    {"name": "Exterior paint or spar varnish", "url": "", "note": "Optional"}
+  ]
+}

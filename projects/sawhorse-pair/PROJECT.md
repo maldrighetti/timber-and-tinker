@@ -13,7 +13,7 @@
 | **Skills taught** | Measuring and square cuts, one simple 15° cut, pilot holes and screws, building four matching assemblies |
 | **Works without power** | Yes, with a handsaw and a hand screwdriver |
 
-This pair is the first build in the workspace set. Each horse is 31-15/16 in tall (call it 32) and 36 in long, with a flat 3-1/2 in top that the next project, a folding camp table, will rest on. They are made only from 2x4s and construction screws, and every cut can be made with a handsaw.
+This pair is the first build in the workspace set. Each horse is 31-15/16 in tall (call it 32) and 36 in long, with a flat 3-1/2 in top. The camp table's top can also sit on the pair as a standing-height table, about 36 in high. They are made only from 2x4s and construction screws, and every cut can be made with a handsaw.
 
 **What this version is:** two identical A-frame trestles. The legs splay 15° in one plane, so the only angled cuts are simple 15° cuts on the legs. Everything else (the beam, the cleats and the stretchers) has square ends. Every cross piece is screwed to the outside of the legs, so the screws work in shear. The legs carry the beam by bearing straight up against it. These horses are not scaffolding, and they are not meant to be stood on.
 
@@ -114,7 +114,7 @@ Repeat steps 5 and 6 for the second horse.
 ![Side view](07-finished-side.png) `07-finished-side.png`
 ![Stored](07-store.png) `07-store.png`
 
-Stand both horses on firm, level ground. A folding camp table sits on the two flat 36 in beams, each 3-1/2 in wide.
+Stand both horses on firm, level ground. The camp table's top can also sit across the two flat 36 in beams, each 3-1/2 in wide, as a standing-height table about 36 in high.
 
 **Look for:** both tops at 31-15/16 in and feet 19-13/16 in outside to outside. To store them, stand them side by side with the long stretchers facing out. They take about 36 × 44 × 32 in.
 

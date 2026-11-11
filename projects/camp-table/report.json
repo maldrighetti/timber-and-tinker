@@ -1,0 +1,426 @@
+{
+ "images": {
+  "01-parts.png": {
+   "step": 1,
+   "desc": "All wood parts laid out.",
+   "parts": 13,
+   "wood": 13,
+   "hardware": 0,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "01-cut-lumber.png": {
+   "step": 1,
+   "desc": "Cut plan for all wood parts.",
+   "parts": 0,
+   "wood": 0,
+   "hardware": 0,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "02-apron-box.png": {
+   "step": 2,
+   "desc": "Four aprons screwed and glued into a box.",
+   "parts": 12,
+   "wood": 4,
+   "hardware": 8,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "03-top-on.png": {
+   "step": 3,
+   "desc": "Plywood top screwed down onto the apron box.",
+   "parts": 33,
+   "wood": 5,
+   "hardware": 28,
+   "hidden_wood": [
+    "apron_E"
+   ],
+   "label_issues": []
+  },
+  "04-end-frame.png": {
+   "step": 4,
+   "desc": "One end frame: two legs and two rails.",
+   "parts": 12,
+   "wood": 4,
+   "hardware": 8,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "05-fit-drill.png": {
+   "step": 5,
+   "desc": "Top face down on a blanket, end frames in the corners.",
+   "parts": 13,
+   "wood": 13,
+   "hardware": 0,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "06-bolt-detail.png": {
+   "step": 6,
+   "desc": "One corner seen from inside, slightly below.",
+   "parts": 6,
+   "wood": 4,
+   "hardware": 2,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "00-overview.png": {
+   "step": null,
+   "desc": "The finished camp table.",
+   "parts": 65,
+   "wood": 13,
+   "hardware": 52,
+   "hidden_wood": [
+    "apron_E"
+   ],
+   "label_issues": []
+  },
+  "07-finished-3q.png": {
+   "step": 7,
+   "desc": "Three-quarter view of the table set up.",
+   "parts": 65,
+   "wood": 13,
+   "hardware": 52,
+   "hidden_wood": [
+    "apron_E"
+   ],
+   "label_issues": []
+  },
+  "07-finished-end.png": {
+   "step": 7,
+   "desc": "End view with the width and height.",
+   "parts": 65,
+   "wood": 13,
+   "hardware": 52,
+   "hidden_wood": [
+    "apron_W",
+    "leg_WN",
+    "leg_WS",
+    "rail_W_low",
+    "rail_W_top"
+   ],
+   "label_issues": []
+  },
+  "07-finished-side.png": {
+   "step": 7,
+   "desc": "Side view with the length, leg spacing and clearance.",
+   "parts": 65,
+   "wood": 13,
+   "hardware": 52,
+   "hidden_wood": [
+    "apron_E",
+    "apron_N",
+    "apron_W",
+    "leg_EN",
+    "leg_WN"
+   ],
+   "label_issues": []
+  },
+  "08-packed.png": {
+   "step": 8,
+   "desc": "The table knocked down and stacked.",
+   "parts": 13,
+   "wood": 13,
+   "hardware": 0,
+   "hidden_wood": [
+    "leg_ES"
+   ],
+   "label_issues": []
+  }
+ },
+ "self_check": {
+  "interpenetration": {
+   "tol_in": 0.03,
+   "assembled": [],
+   "packed": [],
+   "ok": true
+  },
+  "contacts": {
+   "required": 28,
+   "missing": [],
+   "ok": true,
+   "packed": {
+    "required": 6,
+    "missing": [],
+    "ok": true
+   }
+  },
+  "screws": {
+   "count": 44,
+   "by_length": {
+    "1.25": 20,
+    "2.0": 24
+   },
+   "min_edge_dist_in": 0.375,
+   "into_target_in": [
+    0.79,
+    1.27
+   ],
+   "bad": [],
+   "ok": true,
+   "hardware_vs_hardware": []
+  },
+  "bolts": {
+   "count": 8,
+   "min_edge_in": 0.75,
+   "stick_out_in": 0.75,
+   "needed_for_washer_and_nut_in": 0.485,
+   "bad": [],
+   "ok": true
+  },
+  "feet": {
+   "min_z": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "ok": true
+  },
+  "dimensions": {
+   "top_in": [
+    48.0,
+    24.0
+   ],
+   "height_in": 28.9688,
+   "under_aprons_in": 25.0,
+   "between_legs_in": 43.5,
+   "packed_in": [
+    48.0,
+    24.0,
+    4.969
+   ],
+   "weight_lb": 25.2,
+   "sizes": {
+    "long": 48.0,
+    "end": 22.5,
+    "rail": 22.5,
+    "leg": 28.5
+   },
+   "bolt_z": [
+    25.75,
+    27.75
+   ]
+  },
+  "engineering": {
+   "top": {
+    "load_lb": 150.0,
+    "load_circle_in": 4.0,
+    "span_in": [
+     46.5,
+     22.5
+    ],
+    "stress_psi": 1147,
+    "strength_psi": 2500.0,
+    "margin": 2.18,
+    "deflection_in": 0.167,
+    "note": "Isotropic plate formula with E = 800,000 psi and 2,500 psi short-term strength for 15/32 plywood: rough textbook figures."
+   },
+   "apron": {
+    "load_lb": 200.0,
+    "span_in": 45.0,
+    "stress_psi": 1469,
+    "strength_psi": 2756,
+    "margin": 1.88,
+    "deflection_in": 0.101,
+    "note": "Whole load on one apron, ignoring the plywood and the other apron: conservative."
+   },
+   "bolts": {
+    "Z_allowable_lb": 136,
+    "approx_yield_lb": 298,
+    "push_lb": 20.0,
+    "racking_force_per_bolt_lb": 74.9,
+    "racking_margin": 3.98,
+    "vertical_load_lb": 300.0,
+    "vertical_per_bolt_lb": 37.5,
+    "vertical_margin": 7.95,
+    "bolt_spacing_in": 2.0
+   },
+   "legs": {
+    "load_lb": 300.0,
+    "per_leg_lb": 75.0,
+    "euler_lb": 7177,
+    "margin": 95.7,
+    "stress_psi": 33
+   },
+   "stability": {
+    "weight_lb": 25.2,
+    "push_to_tip_across_lb": 9.8,
+    "push_to_tip_along_lb": 20.2,
+    "overhang_beyond_legs_in": [
+     0.75,
+     0.75
+    ],
+    "lean_on_edge_to_tip_lb": 378
+   }
+  },
+  "lumber": {
+   "boards": {
+    "1x4 \u00d7 8 ft #1 [0]": [
+     [
+      "Long apron",
+      48.0
+     ],
+     [
+      "End apron",
+      22.5
+     ],
+     [
+      "End apron",
+      22.5
+     ]
+    ],
+    "1x4 \u00d7 8 ft #2 [1]": [
+     [
+      "Long apron",
+      48.0
+     ],
+     [
+      "Frame rail",
+      22.5
+     ],
+     [
+      "Frame rail",
+      22.5
+     ]
+    ],
+    "1x4 \u00d7 6 ft #3 [2]": [
+     [
+      "Frame rail",
+      22.5
+     ],
+     [
+      "Frame rail",
+      22.5
+     ]
+    ],
+    "2x2 \u00d7 8 ft #1 [3]": [
+     [
+      "Leg",
+      28.5
+     ],
+     [
+      "Leg",
+      28.5
+     ],
+     [
+      "Leg",
+      28.5
+     ]
+    ],
+    "2x2 \u00d7 8 ft #2 [4]": [
+     [
+      "Leg",
+      28.5
+     ]
+    ]
+   },
+   "leftovers": {
+    "1x4 \u00d7 8 ft #1 [0]": 2.625,
+    "1x4 \u00d7 8 ft #2 [1]": 2.625,
+    "1x4 \u00d7 6 ft #3 [2]": 26.75,
+    "2x2 \u00d7 8 ft #1 [3]": 10.125,
+    "2x2 \u00d7 8 ft #2 [4]": 67.375
+   },
+   "ok": true
+  },
+  "text_vs_model": {
+   "missing_strings": [],
+   "referenced_not_found": [],
+   "found_not_referenced": [],
+   "ok": true
+  },
+  "all_labels_clean": true
+ },
+ "step_titles": {
+  "1": "Cut the parts",
+  "2": "Build the apron box",
+  "3": "Screw on the top",
+  "4": "Build the end frames",
+  "5": "Fit the frames and drill",
+  "6": "Bolt it up",
+  "7": "Set it up",
+  "8": "Pack it flat"
+ },
+ "lumber_plan": [
+  [
+   "1x4 \u00d7 8 ft #1",
+   96.0,
+   [
+    [
+     "Long apron",
+     48.0
+    ],
+    [
+     "End apron",
+     22.5
+    ],
+    [
+     "End apron",
+     22.5
+    ]
+   ]
+  ],
+  [
+   "1x4 \u00d7 8 ft #2",
+   96.0,
+   [
+    [
+     "Long apron",
+     48.0
+    ],
+    [
+     "Frame rail",
+     22.5
+    ],
+    [
+     "Frame rail",
+     22.5
+    ]
+   ]
+  ],
+  [
+   "1x4 \u00d7 6 ft #3",
+   72.0,
+   [
+    [
+     "Frame rail",
+     22.5
+    ],
+    [
+     "Frame rail",
+     22.5
+    ]
+   ]
+  ],
+  [
+   "2x2 \u00d7 8 ft #1",
+   96.0,
+   [
+    [
+     "Leg",
+     28.5
+    ],
+    [
+     "Leg",
+     28.5
+    ],
+    [
+     "Leg",
+     28.5
+    ]
+   ]
+  ],
+  [
+   "2x2 \u00d7 8 ft #2",
+   96.0,
+   [
+    [
+     "Leg",
+     28.5
+    ]
+   ]
+  ]
+ ]
+}

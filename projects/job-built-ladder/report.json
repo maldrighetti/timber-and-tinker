@@ -1,0 +1,738 @@
+{
+ "images": {
+  "01-parts.png": {
+   "step": 1,
+   "desc": "All wood parts laid out.",
+   "parts": 31,
+   "wood": 31,
+   "hardware": 0,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "01-cut-lumber.png": {
+   "step": 1,
+   "desc": "Cut plan for all wood parts.",
+   "parts": 0,
+   "wood": 0,
+   "hardware": 0,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "02-mark-rails.png": {
+   "step": 2,
+   "desc": "Rail layout: level foot cut, cleat lines and filler spaces.",
+   "parts": 0,
+   "wood": 0,
+   "hardware": 0,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "03-first-cleat.png": {
+   "step": 3,
+   "desc": "Bottom fillers nailed to the front edge of each rail, then cleat 1 across them.",
+   "parts": 15,
+   "wood": 5,
+   "hardware": 10,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "04-nail-pattern.png": {
+   "step": 4,
+   "desc": "Close-up of one cleat end and the fillers around it, with nail positions.",
+   "parts": 41,
+   "wood": 11,
+   "hardware": 30,
+   "hidden_wood": [
+    "cleat_1",
+    "cleat_3",
+    "fill_0_L",
+    "fill_0_R",
+    "fill_1_L",
+    "fill_2_L",
+    "rail_L",
+    "rail_R"
+   ],
+   "label_issues": []
+  },
+  "05-work-up.png": {
+   "step": 5,
+   "desc": "Fillers and cleats added in turn from the foot up.",
+   "parts": 67,
+   "wood": 17,
+   "hardware": 50,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "00-overview.png": {
+   "step": null,
+   "desc": "The finished ladder set up against a landing.",
+   "parts": 128,
+   "wood": 31,
+   "hardware": 94,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "06-finished-front.png": {
+   "step": 6,
+   "desc": "Face view with the widths, the cleat spacing and the rail length.",
+   "parts": 125,
+   "wood": 31,
+   "hardware": 94,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "07-setup-side.png": {
+   "step": 7,
+   "desc": "Side view: the 4 to 1 lean, the landing, and the rail extension.",
+   "parts": 128,
+   "wood": 31,
+   "hardware": 94,
+   "hidden_wood": [
+    "fill_0_L",
+    "fill_1_L",
+    "fill_2_L",
+    "fill_3_L",
+    "fill_4_L",
+    "fill_5_L",
+    "fill_6_L",
+    "fill_7_L",
+    "fill_8_L",
+    "fill_9_L",
+    "rail_L"
+   ],
+   "label_issues": []
+  },
+  "07-in-use.png": {
+   "step": 7,
+   "desc": "Three-quarter view in use, with the key points.",
+   "parts": 128,
+   "wood": 31,
+   "hardware": 94,
+   "hidden_wood": [],
+   "label_issues": []
+  }
+ },
+ "self_check": {
+  "interpenetration": {
+   "tol_in": 0.03,
+   "overlapping": [],
+   "into_landing": [],
+   "ok": true
+  },
+  "contacts": {
+   "required": 76,
+   "missing": [],
+   "ok": true
+  },
+  "nails": {
+   "count": 94,
+   "min_edge_dist_in": 0.375,
+   "into_rail_in": [
+    1.73
+   ],
+   "bad": [],
+   "ok": true,
+   "nail_vs_nail": []
+  },
+  "feet": {
+   "rails": [
+    {
+     "rail": "rail_L",
+     "min_z": -0.0,
+     "corners_on_floor": 4
+    },
+    {
+     "rail": "rail_R",
+     "min_z": -0.0,
+     "corners_on_floor": 4
+    }
+   ],
+   "ok": true
+  },
+  "design_spec": {
+   "spacing_along_rail_in": 12.0,
+   "spacing_uniform": true,
+   "spacing_is_12": true,
+   "clear_above_each_cleat_in": 8.5,
+   "clear_above_min_4_5": true,
+   "inside_width_in": 16.5,
+   "inside_16_to_20": true,
+   "rails_parallel": true,
+   "cleats_supported_by_fillers": true,
+   "nails_per_cleat_end": 3,
+   "nail": "12d common, 0.148 x 3-1/4 in",
+   "rail_extension_vertical_in": 36.138,
+   "rail_extension_along_in": 37.25,
+   "extension_36_to_42": true,
+   "lean_run_per_rise": 0.25,
+   "angle_from_ground_deg": 75.96,
+   "rails": "2x6, one piece, no splices",
+   "ok": true
+  },
+  "dimensions": {
+   "rail_front_edge_in": 143.5,
+   "width_outside_in": 19.5,
+   "inside_in": 16.5,
+   "cleats": 9,
+   "cleat_tops": [
+    10.25,
+    22.25,
+    34.25,
+    46.25,
+    58.25,
+    70.25,
+    82.25,
+    94.25,
+    106.25
+   ],
+   "landing_height_in": 103.078,
+   "top_of_rails_in": 139.215,
+   "foot_to_landing_run_in": 25.769,
+   "weight_lb": 57.0,
+   "sizes": {
+    "rail": 143.5,
+    "cleat": 19.5,
+    "fill_bottom": 6.75,
+    "fill": 8.5,
+    "fill_top": 8.5
+   },
+   "foot_offset_in": 1.375
+  },
+  "engineering": {
+   "cleats": {
+    "person_lb": 250.0,
+    "factor": 4.0,
+    "test_load_lb": 1000.0,
+    "span_in": 18.0,
+    "section": "2x4 on the rail edges (1-1/2 x 3-1/2)",
+    "stress_psi": 2257,
+    "strength_psi": 2756,
+    "margin_at_4x": 1.22,
+    "margin_vs_one_person": 4.9,
+    "one_by_four_stress_psi": 6177,
+    "one_by_four_margin_at_4x": 0.45,
+    "strength_basis": "2.1 x NDS reference Fb, No. 2 SPF, size factor 1.5 (2x4)",
+    "ok": true
+   },
+   "cleat_nails": {
+    "per_end_load_lb": 500.0,
+    "nail": "12d common, 0.148 x 3-1/4 in",
+    "nails_per_end": 3,
+    "approx_design_value_each_lb": 100.0,
+    "approx_yield_each_lb": 220.00000000000003,
+    "margin_nails_only": 1.32,
+    "margin_with_filler_below": 2.2,
+    "note": "with fillers the cleat also bears on the filler under it, which has two more nails",
+    "ok": true
+   },
+   "rails": {
+    "board_ft": 12,
+    "rail_l": 143.5,
+    "cleats": 9,
+    "first_cleat_top": 10.25,
+    "landing_height_in": 103.08,
+    "working_length_in": 107.6,
+    "test_load_lb": 1000.0,
+    "stress_psi": 499,
+    "strength_psi": 2389,
+    "margin_at_4x": 4.79,
+    "deflection_one_person_in": 0.027,
+    "ok": true
+   },
+   "foot": {
+    "person_lb": 250.0,
+    "ladder_lb": 57.0,
+    "top_reaction_lb": 72.1,
+    "friction_needed": 0.23,
+    "note": "a wood foot on smooth concrete or a wet deck can have less grip than this; secure the foot and the top"
+   },
+   "scaling": [
+    {
+     "board_ft": 10,
+     "rail_l": 119.5,
+     "cleats": 7,
+     "first_cleat_top": 10.25,
+     "landing_height_in": 79.79,
+     "working_length_in": 83.6,
+     "test_load_lb": 1000.0,
+     "stress_psi": 398,
+     "strength_psi": 2389,
+     "margin_at_4x": 6.0,
+     "deflection_one_person_in": 0.013,
+     "ok": true,
+     "fillers_per_rail": 8,
+     "filler_length_per_rail": 66.25,
+     "nails": 74
+    },
+    {
+     "board_ft": 12,
+     "rail_l": 143.5,
+     "cleats": 9,
+     "first_cleat_top": 10.25,
+     "landing_height_in": 103.08,
+     "working_length_in": 107.6,
+     "test_load_lb": 1000.0,
+     "stress_psi": 499,
+     "strength_psi": 2389,
+     "margin_at_4x": 4.79,
+     "deflection_one_person_in": 0.027,
+     "ok": true,
+     "fillers_per_rail": 10,
+     "filler_length_per_rail": 83.25,
+     "nails": 94
+    },
+    {
+     "board_ft": 14,
+     "rail_l": 167.5,
+     "cleats": 11,
+     "first_cleat_top": 10.25,
+     "landing_height_in": 126.36,
+     "working_length_in": 131.6,
+     "test_load_lb": 1000.0,
+     "stress_psi": 602,
+     "strength_psi": 2389,
+     "margin_at_4x": 3.97,
+     "deflection_one_person_in": 0.049,
+     "ok": true,
+     "fillers_per_rail": 12,
+     "filler_length_per_rail": 100.25,
+     "nails": 114
+    },
+    {
+     "board_ft": 16,
+     "rail_l": 191.5,
+     "cleats": 13,
+     "first_cleat_top": 10.25,
+     "landing_height_in": 149.64,
+     "working_length_in": 155.6,
+     "test_load_lb": 1000.0,
+     "stress_psi": 709,
+     "strength_psi": 2389,
+     "margin_at_4x": 3.37,
+     "deflection_one_person_in": 0.082,
+     "ok": true,
+     "fillers_per_rail": 14,
+     "filler_length_per_rail": 117.25,
+     "nails": 134
+    },
+    {
+     "board_ft": 18,
+     "rail_l": 215.5,
+     "cleats": 15,
+     "first_cleat_top": 10.25,
+     "landing_height_in": 172.93,
+     "working_length_in": 179.6,
+     "test_load_lb": 1000.0,
+     "stress_psi": 820,
+     "strength_psi": 2389,
+     "margin_at_4x": 2.91,
+     "deflection_one_person_in": 0.126,
+     "ok": true,
+     "fillers_per_rail": 16,
+     "filler_length_per_rail": 134.25,
+     "nails": 154
+    },
+    {
+     "board_ft": 20,
+     "rail_l": 239.5,
+     "cleats": 17,
+     "first_cleat_top": 10.25,
+     "landing_height_in": 196.21,
+     "working_length_in": 203.6,
+     "test_load_lb": 1000.0,
+     "stress_psi": 937,
+     "strength_psi": 2389,
+     "margin_at_4x": 2.55,
+     "deflection_one_person_in": 0.183,
+     "ok": true,
+     "fillers_per_rail": 18,
+     "filler_length_per_rail": 151.25,
+     "nails": 174
+    }
+   ]
+  },
+  "lumber": {
+   "boards": {
+    "2x6 \u00d7 12 ft #1 [0]": [
+     [
+      "Rail",
+      143.5
+     ]
+    ],
+    "2x6 \u00d7 12 ft #2 [1]": [
+     [
+      "Rail",
+      143.5
+     ]
+    ],
+    "2x4 \u00d7 10 ft #1 [2]": [
+     [
+      "Cleat",
+      19.5
+     ],
+     [
+      "Cleat",
+      19.5
+     ],
+     [
+      "Cleat",
+      19.5
+     ],
+     [
+      "Cleat",
+      19.5
+     ],
+     [
+      "Cleat",
+      19.5
+     ],
+     [
+      "Cleat",
+      19.5
+     ]
+    ],
+    "2x4 \u00d7 10 ft #2 [3]": [
+     [
+      "Cleat",
+      19.5
+     ],
+     [
+      "Cleat",
+      19.5
+     ],
+     [
+      "Cleat",
+      19.5
+     ]
+    ],
+    "2x2 \u00d7 8 ft #1 [4]": [
+     [
+      "Bottom filler",
+      6.75
+     ],
+     [
+      "Filler",
+      8.5
+     ],
+     [
+      "Filler",
+      8.5
+     ],
+     [
+      "Filler",
+      8.5
+     ],
+     [
+      "Filler",
+      8.5
+     ],
+     [
+      "Filler",
+      8.5
+     ],
+     [
+      "Filler",
+      8.5
+     ],
+     [
+      "Filler",
+      8.5
+     ],
+     [
+      "Filler",
+      8.5
+     ],
+     [
+      "Top filler",
+      8.5
+     ]
+    ],
+    "2x2 \u00d7 8 ft #2 [5]": [
+     [
+      "Bottom filler",
+      6.75
+     ],
+     [
+      "Filler",
+      8.5
+     ],
+     [
+      "Filler",
+      8.5
+     ],
+     [
+      "Filler",
+      8.5
+     ],
+     [
+      "Filler",
+      8.5
+     ],
+     [
+      "Filler",
+      8.5
+     ],
+     [
+      "Filler",
+      8.5
+     ],
+     [
+      "Filler",
+      8.5
+     ],
+     [
+      "Filler",
+      8.5
+     ],
+     [
+      "Top filler",
+      8.5
+     ]
+    ]
+   },
+   "leftovers": {
+    "2x6 \u00d7 12 ft #1 [0]": 0.375,
+    "2x6 \u00d7 12 ft #2 [1]": 0.375,
+    "2x4 \u00d7 10 ft #1 [2]": 2.25,
+    "2x4 \u00d7 10 ft #2 [3]": 61.125,
+    "2x2 \u00d7 8 ft #1 [4]": 11.5,
+    "2x2 \u00d7 8 ft #2 [5]": 11.5
+   },
+   "ok": true
+  },
+  "text_vs_model": {
+   "missing_strings": [],
+   "referenced_not_found": [],
+   "found_not_referenced": [],
+   "ok": true
+  },
+  "all_labels_clean": true
+ },
+ "step_titles": {
+  "1": "Cut the parts",
+  "2": "Mark the rails",
+  "3": "Bottom fillers and the first cleat",
+  "4": "Nail pattern",
+  "5": "Work up the ladder",
+  "6": "Check it",
+  "7": "Set it up and secure it"
+ },
+ "rail_marks": {
+  "foot_offset_in": 1.375,
+  "cleat_tops": [
+   10.25,
+   22.25,
+   34.25,
+   46.25,
+   58.25,
+   70.25,
+   82.25,
+   94.25,
+   106.25
+  ],
+  "fillers": [
+   [
+    0.0,
+    6.75
+   ],
+   [
+    10.25,
+    18.75
+   ],
+   [
+    22.25,
+    30.75
+   ],
+   [
+    34.25,
+    42.75
+   ],
+   [
+    46.25,
+    54.75
+   ],
+   [
+    58.25,
+    66.75
+   ],
+   [
+    70.25,
+    78.75
+   ],
+   [
+    82.25,
+    90.75
+   ],
+   [
+    94.25,
+    102.75
+   ],
+   [
+    106.25,
+    114.75
+   ]
+  ]
+ },
+ "lumber_plan": [
+  [
+   "2x6 \u00d7 12 ft #1",
+   144.0,
+   [
+    [
+     "Rail",
+     143.5
+    ]
+   ]
+  ],
+  [
+   "2x6 \u00d7 12 ft #2",
+   144.0,
+   [
+    [
+     "Rail",
+     143.5
+    ]
+   ]
+  ],
+  [
+   "2x4 \u00d7 10 ft #1",
+   120.0,
+   [
+    [
+     "Cleat",
+     19.5
+    ],
+    [
+     "Cleat",
+     19.5
+    ],
+    [
+     "Cleat",
+     19.5
+    ],
+    [
+     "Cleat",
+     19.5
+    ],
+    [
+     "Cleat",
+     19.5
+    ],
+    [
+     "Cleat",
+     19.5
+    ]
+   ]
+  ],
+  [
+   "2x4 \u00d7 10 ft #2",
+   120.0,
+   [
+    [
+     "Cleat",
+     19.5
+    ],
+    [
+     "Cleat",
+     19.5
+    ],
+    [
+     "Cleat",
+     19.5
+    ]
+   ]
+  ],
+  [
+   "2x2 \u00d7 8 ft #1",
+   96.0,
+   [
+    [
+     "Bottom filler",
+     6.75
+    ],
+    [
+     "Filler",
+     8.5
+    ],
+    [
+     "Filler",
+     8.5
+    ],
+    [
+     "Filler",
+     8.5
+    ],
+    [
+     "Filler",
+     8.5
+    ],
+    [
+     "Filler",
+     8.5
+    ],
+    [
+     "Filler",
+     8.5
+    ],
+    [
+     "Filler",
+     8.5
+    ],
+    [
+     "Filler",
+     8.5
+    ],
+    [
+     "Top filler",
+     8.5
+    ]
+   ]
+  ],
+  [
+   "2x2 \u00d7 8 ft #2",
+   96.0,
+   [
+    [
+     "Bottom filler",
+     6.75
+    ],
+    [
+     "Filler",
+     8.5
+    ],
+    [
+     "Filler",
+     8.5
+    ],
+    [
+     "Filler",
+     8.5
+    ],
+    [
+     "Filler",
+     8.5
+    ],
+    [
+     "Filler",
+     8.5
+    ],
+    [
+     "Filler",
+     8.5
+    ],
+    [
+     "Filler",
+     8.5
+    ],
+    [
+     "Filler",
+     8.5
+    ],
+    [
+     "Top filler",
+     8.5
+    ]
+   ]
+  ]
+ ]
+}

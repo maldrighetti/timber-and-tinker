@@ -1,0 +1,23 @@
+{
+  "order": 4,
+  "section": "home-prep",
+  "video": "",
+  "parts": [
+    {"name": "2x4, 8 ft", "url": "", "note": "4. The straightest, clearest boards you can find: no knots on the edges."},
+    {"name": "2x6, 10 ft", "url": "", "note": "1, for the steps and cap"},
+    {"name": "2x2, 8 ft", "url": "", "note": "1, for the ten cleats"},
+    {"name": "1x4, 8 ft", "url": "", "note": "1, for the rear braces"},
+    {"name": "Flat steel bar, 1/8 × 1 in, 48 in", "url": "", "note": "1, cut into two spreaders"},
+    {"name": "1/4-20 threaded rod, 24 in", "url": "", "note": "5"},
+    {"name": "1/4-20 nylon-insert lock nuts and 1/4 in washers", "url": "", "note": "12 nuts, 14 washers"},
+    {"name": "3/8 × 4-1/2 in hex bolts with lock nuts and washers", "url": "", "note": "2 bolts, 2 nuts, 4 washers, plus two 1/2 in spacers"},
+    {"name": "1/4-20 × 2-1/4 in hex bolts", "url": "", "note": "2"},
+    {"name": "1/4 × 2-1/2 in clevis pins with hitch-pin clips", "url": "", "note": "2, plus two 3/8 in long spacers and some cord"},
+    {"name": "#10 × 2-1/2 in wood screws", "url": "", "note": "50 (44 used)"},
+    {"name": "#10 × 3 in wood screws", "url": "", "note": "4"},
+    {"name": "#8 × 1-1/2 in wood screws", "url": "", "note": "10"},
+    {"name": "Wood glue", "url": ""},
+    {"name": "Boiled linseed oil or clear varnish", "url": "", "note": "Clear only: no paint on a wood ladder"},
+    {"name": "Self-adhesive vinyl labels", "url": "", "note": "2"}
+  ]
+}

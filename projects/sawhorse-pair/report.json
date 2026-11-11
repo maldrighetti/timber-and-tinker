@@ -1,0 +1,295 @@
+{
+ "images": {
+  "01-parts.png": {
+   "step": 1,
+   "desc": "All 20 pieces for the pair. Only the 8 legs have angled (15\u00b0) ends; everything else is square-cut.",
+   "parts": 20,
+   "wood": 20,
+   "screws": 0,
+   "hidden_wood": []
+  },
+  "01-cut-diagram.png": {
+   "step": 1,
+   "desc": "Cut plan for five 8 ft 2x4s with kerf.",
+   "parts": 0,
+   "wood": 0,
+   "screws": 0,
+   "hidden_wood": []
+  },
+  "02-mark-angle.png": {
+   "step": 2,
+   "desc": "How to mark the 15\u00b0 leg cut on the 1-1/2 in edge.",
+   "parts": 0,
+   "wood": 0,
+   "screws": 0,
+   "hidden_wood": []
+  },
+  "03-end-frame.png": {
+   "step": 3,
+   "desc": "One end frame: two legs, a top cleat and an end stretcher screwed to the legs' outside edges.",
+   "parts": 12,
+   "wood": 4,
+   "screws": 8,
+   "hidden_wood": []
+  },
+  "03-end-frame-front.png": {
+   "step": 3,
+   "desc": "End frame, outside view: feet flat, tops level, cleats square-cut.",
+   "parts": 12,
+   "wood": 4,
+   "screws": 8,
+   "hidden_wood": []
+  },
+  "04-end-frames.png": {
+   "step": 4,
+   "desc": "Four identical end frames, checked side by side.",
+   "parts": 48,
+   "wood": 16,
+   "screws": 32,
+   "hidden_wood": []
+  },
+  "05-beam-on.png": {
+   "step": 5,
+   "desc": "The flat 36 in beam on two end frames, screwed down into the top cleats.",
+   "parts": 29,
+   "wood": 9,
+   "screws": 20,
+   "hidden_wood": []
+  },
+  "06-long-stretcher.png": {
+   "step": 6,
+   "desc": "The long stretcher screwed flat to the outside faces of the two legs on one side.",
+   "parts": 34,
+   "wood": 10,
+   "screws": 24,
+   "hidden_wood": []
+  },
+  "00-overview.png": {
+   "step": null,
+   "desc": "Finished pair, 3/4 view.",
+   "parts": 68,
+   "wood": 20,
+   "screws": 48,
+   "hidden_wood": []
+  },
+  "07-finished-3q.png": {
+   "step": 7,
+   "desc": "Finished pair, 3/4 view, labelled.",
+   "parts": 68,
+   "wood": 20,
+   "screws": 48,
+   "hidden_wood": []
+  },
+  "07-finished-end.png": {
+   "step": 7,
+   "desc": "End view with height, foot width and the 3-1/2 in flat top.",
+   "parts": 34,
+   "wood": 10,
+   "screws": 24,
+   "hidden_wood": [
+    "end_B",
+    "gusset_B",
+    "leg_B_L",
+    "leg_B_R"
+   ]
+  },
+  "07-finished-side.png": {
+   "step": 7,
+   "desc": "Side view: 36 in beam, 30 in long stretcher, wide face of the legs.",
+   "parts": 34,
+   "wood": 10,
+   "screws": 24,
+   "hidden_wood": [
+    "leg_A_R",
+    "leg_B_R"
+   ]
+  },
+  "07-store.png": {
+   "step": 7,
+   "desc": "The pair stored side by side.",
+   "parts": 68,
+   "wood": 20,
+   "screws": 48,
+   "hidden_wood": []
+  }
+ },
+ "self_check": {
+  "interpenetration": {
+   "tol_in": 0.03,
+   "overlapping": [],
+   "ok": true
+  },
+  "contacts": {
+   "required": 16,
+   "missing": [],
+   "ok": true
+  },
+  "dimensions": {
+   "height_in": 31.9267,
+   "height_frac": "31-15/16",
+   "foot_w_in": 19.806,
+   "all_feet_on_floor": true,
+   "top_is_beam": "True",
+   "rest_width_in": 3.5,
+   "splay_deg": 15.0,
+   "gusset_L": 5.376,
+   "end_L_model": 15.518,
+   "end_L_cut": 15.5,
+   "long_L": 30.0
+  },
+  "screws": {
+   "per_horse": 24,
+   "min_edge_dist_in": 0.75,
+   "penetration_into_target_in": [
+    [
+     "beam",
+     3.0,
+     1.5
+    ],
+    [
+     "end",
+     3.0,
+     1.5
+    ],
+    [
+     "gusset",
+     3.0,
+     1.5
+    ],
+    [
+     "long",
+     2.5,
+     1.0
+    ]
+   ],
+   "bad": [],
+   "ok": true,
+   "pair_3in": 40,
+   "pair_2half": 8
+  },
+  "pair_no_overlap": true,
+  "stock": {
+   "boards": 5,
+   "leftovers": {
+    "Board 1": 1.125,
+    "Board 2": 1.125,
+    "Board 3": 3.125,
+    "Board 4": 3.125,
+    "Board 5": 1.5
+   },
+   "ok": true,
+   "pieces": 20
+  },
+  "cut_list_vs_model": {
+   "end_stretcher_cut_minus_model": -0.018,
+   "gusset_cut_minus_model": -0.001
+  },
+  "text_vs_model": {
+   "missing_strings": [],
+   "referenced_not_found": [],
+   "found_not_referenced": [],
+   "ok": true
+  }
+ },
+ "cut_plan": {
+  "Board 1": [
+   [
+    "Leg",
+    31.5
+   ],
+   [
+    "Leg",
+    31.5
+   ],
+   [
+    "Leg",
+    31.5
+   ]
+  ],
+  "Board 2": [
+   [
+    "Leg",
+    31.5
+   ],
+   [
+    "Leg",
+    31.5
+   ],
+   [
+    "Leg",
+    31.5
+   ]
+  ],
+  "Board 3": [
+   [
+    "Top beam",
+    36.0
+   ],
+   [
+    "Long stretcher",
+    30.0
+   ],
+   [
+    "End stretcher",
+    15.5
+   ],
+   [
+    "Top cleat",
+    5.375
+   ],
+   [
+    "Top cleat",
+    5.375
+   ]
+  ],
+  "Board 4": [
+   [
+    "Top beam",
+    36.0
+   ],
+   [
+    "Long stretcher",
+    30.0
+   ],
+   [
+    "End stretcher",
+    15.5
+   ],
+   [
+    "Top cleat",
+    5.375
+   ],
+   [
+    "Top cleat",
+    5.375
+   ]
+  ],
+  "Board 5": [
+   [
+    "Leg",
+    31.5
+   ],
+   [
+    "Leg",
+    31.5
+   ],
+   [
+    "End stretcher",
+    15.5
+   ],
+   [
+    "End stretcher",
+    15.5
+   ]
+  ]
+ },
+ "step_titles": {
+  "1": "Cut the parts",
+  "2": "Mark and cut the 15-degree leg ends",
+  "3": "Build an end frame",
+  "4": "Build the other three end frames",
+  "5": "Screw on the flat top beam",
+  "6": "Add the long stretcher, then build the second horse",
+  "7": "Check the pair"
+ }
+}
