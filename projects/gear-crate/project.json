@@ -3,13 +3,85 @@
   "section": "home-prep",
   "video": "",
   "parts": [
-    {"name": "1/2 in plywood, 4 × 8 ft sheet", "url": "", "note": "1 sheet makes three crates (actually 15/32 in). Sanded pine or another exterior-glue grade."},
-    {"name": "1x2, 8 ft", "url": "", "note": "4 for three crates"},
-    {"name": "2x2, 8 ft", "url": "", "note": "2 for three crates"},
-    {"name": "#8 × 1 in wood screws", "url": "", "note": "60 (54 used, 18 per crate)"},
-    {"name": "#8 × 1-1/4 in wood screws", "url": "", "note": "90 (84 used, 28 per crate)"},
-    {"name": "Exterior wood glue", "url": "", "note": "Titebond III or similar"},
-    {"name": "Sandpaper, 80 and 120 grit", "url": ""},
-    {"name": "Exterior paint or spar varnish", "url": "", "note": "Optional"}
+    {
+      "name": "1/2 in plywood, 4 × 8 ft sheet",
+      "url": "https://www.homedepot.com/p/Plytanium-15-32-in-x-4-ft-x-8-ft-BC-Sanded-Pine-Plywood-201429/100012720",
+      "note": "Home Depot: Plytanium 15/32 in. x 4 ft. x 8 ft. BC Sanded Pine Plywood, checked 2026-11-10. 1 sheet makes three crates (actually 15/32 in). Sanded pine or another exterior-glue grade."
+    },
+    {
+      "name": "1x2, 8 ft",
+      "url": "https://www.homedepot.com/p/1-in-x-2-in-x-8-ft-SSE-KD-Furring-Strip-Board-234230/314224173",
+      "note": "Home Depot: 1 in. x 2 in. x 8 ft. SSE KD Furring Strip Board, $1.27, checked 2026-11-10. 4 for three crates"
+    },
+    {
+      "name": "2x2, 8 ft",
+      "url": "https://www.homedepot.com/p/2-in-x-2-in-x-8-ft-Furring-Strip-Board-279214/206510709",
+      "note": "Home Depot: 2 in. x 2 in. x 8 ft. Furring Strip Board, $3.14, checked 2026-11-10. 2 for three crates"
+    },
+    {
+      "name": "#8 × 1 in wood screws",
+      "url": "https://www.homedepot.com/p/Everbilt-8-x-1-in-Zinc-Plated-Phillips-Flat-Head-Wood-Screw-100-Pack-801822/204275495",
+      "note": "Home Depot: Everbilt #8 x 1 in. Zinc Plated Phillips Flat Head Wood Screw (100-Pack), $7.97, checked 2026-11-10. 60 (54 used, 18 per crate)"
+    },
+    {
+      "name": "#8 × 1-1/4 in wood screws",
+      "url": "https://www.homedepot.com/p/Everbilt-8-x-1-1-4-in-Star-Drive-Flat-Head-Interior-Wood-Screws-242-Pack-117325/316219935",
+      "note": "Home Depot: Everbilt #8 x 1-1/4 in. Star Drive Flat Head Interior Wood Screws (242-Pack), $11.98, checked 2026-11-10. 90 (84 used, 28 per crate)"
+    },
+    {
+      "name": "Exterior wood glue",
+      "url": "https://www.homedepot.com/p/Titebond-III-8-oz-Ultimate-Wood-Glue-1413/202960636",
+      "note": "Home Depot: Titebond III 8 oz. Ultimate Wood Glue 1413, $7.49, checked 2026-11-10. Titebond III or similar"
+    },
+    {
+      "name": "Sandpaper, 80 and 120 grit",
+      "url": "https://www.homedepot.com/p/3M-Pro-Grade-Precision-9-in-x-11-in-Medium-120-Grit-Sheet-Sandpaper-15-Sheets-Pack-27120PGP-15/313353719",
+      "note": "Home Depot: 3M Pro Grade Precision 9 in. x 11 in. Medium 120-Grit Sheet Sandpaper (15-Pack), $14.98, checked 2026-11-10. 120 grit linked; buy 80 grit separately."
+    },
+    {
+      "name": "Exterior paint or spar varnish",
+      "url": "https://www.homedepot.com/p/BEHR-1-qt-Satin-Clear-Oil-Based-Interior-Exterior-Spar-Urethane-B720004/311624740",
+      "note": "Home Depot: BEHR 1 qt. Satin Clear Oil-Based Interior/Exterior Spar Urethane, $27.98, checked 2026-11-10. Optional"
+    },
+    {
+      "name": "Handsaw (fine-tooth panel saw)",
+      "url": "https://www.homedepot.com/p/Stanley-15-in-FATMAX-Hand-Saw-with-Wood-Handle-20-045/100033426",
+      "note": "Tool. Home Depot: Stanley 15 in. FATMAX Hand Saw with Wood Handle 20-045, $19.99, checked 2026-11-10."
+    },
+    {
+      "name": "Jab saw or coping saw",
+      "url": "https://www.homedepot.com/p/Milwaukee-Rasping-Jab-Saw-with-6-in-Drywall-Blade-48-22-0104/317478252",
+      "note": "Tool. Home Depot: Milwaukee Rasping Jab Saw with 6 in. Drywall Blade 48-22-0104, $9.97, checked 2026-11-10. A coping saw also works."
+    },
+    {
+      "name": "Drill or brace, with 1 in and 3/4 in bits, 1/8 in pilot bit and countersink",
+      "url": "https://www.homedepot.com/p/Milwaukee-Black-Oxide-Drill-Bit-Set-29-Piece-48-89-2802/100670146",
+      "note": "Tool. Home Depot: Milwaukee Thunderbolt Black Oxide Drill Bit Set (29-Piece) 48-89-2802, $74.97, checked 2026-11-10. Twist-bit set linked (covers 1/8 in pilots); 1 in spade/auger bit, 3/4 in bit, countersink and the drill itself not linked."
+    },
+    {
+      "name": "Screwdriver or driver bit for #8 screws",
+      "url": "https://www.homedepot.com/p/Milwaukee-27-In-1-Ratcheting-Multi-Bit-Screwdriver-48-22-2904/321180805",
+      "note": "Tool. Home Depot: Milwaukee 27-in-1 Ratcheting Multi-Bit Screwdriver 48-22-2904, $32.97, checked 2026-11-10."
+    },
+    {
+      "name": "Measuring tape, 4 ft straightedge, square, pencil",
+      "url": "https://www.homedepot.com/p/Empire-48-in-Aluminum-Straight-Edge-Ruler-4004/100118266",
+      "note": "Tool. Home Depot: Empire 48 in. Aluminum Straight Edge Ruler 4004, $15.97, checked 2026-11-10. Straightedge linked; tape, square and pencil not linked here."
+    },
+    {
+      "name": "2 clamps",
+      "url": "https://www.homedepot.com/p/WEN-12-in-x-2-5-in-Quick-Adjust-Steel-Bar-Clamps-with-Throat-and-Micro-Adjustment-Handle-2-Pack-10212F2/305967746",
+      "note": "Tool. Home Depot: WEN 12 in. x 2.5 in. Quick-Adjust Steel Bar Clamps (2-Pack) 10212F2, $21.99, checked 2026-11-10."
+    },
+    {
+      "name": "Sandpaper",
+      "url": "https://www.homedepot.com/p/3M-Pro-Grade-Precision-9-in-x-11-in-Medium-120-Grit-Sheet-Sandpaper-15-Sheets-Pack-27120PGP-15/313353719",
+      "note": "Tool. Home Depot: 3M Pro Grade Precision 9 in. x 11 in. Medium 120-Grit Sheet Sandpaper (15-Pack), $14.98, checked 2026-11-10."
+    },
+    {
+      "name": "Safety glasses",
+      "url": "https://www.homedepot.com/p/Milwaukee-Safety-Glasses-with-Clear-Fog-Free-Lenses-4-Pack-48-73-2012X4/333180086",
+      "note": "Tool. Home Depot: Milwaukee Safety Glasses with Clear Fog-Free Lenses (4-Pack) 48-73-2012X4, $59.94, checked 2026-11-10."
+    }
   ]
 }

@@ -3,11 +3,65 @@
   "section": "home-prep",
   "video": "",
   "parts": [
-    {"name": "2x6, 12 ft", "url": "", "note": "2, for the rails. The straightest, clearest boards you can find: no knots on the edges."},
-    {"name": "2x4, 10 ft", "url": "", "note": "2, for the nine cleats"},
-    {"name": "2x2, 8 ft", "url": "", "note": "2, for the filler blocks (1-1/2 x 1-1/2 in actual)"},
-    {"name": "12d common nails, 3-1/4 in", "url": "", "note": "2 lb; 94 used. Not double-head or box nails."},
-    {"name": "Sandpaper, 80 grit", "url": "", "note": "1 sheet"},
-    {"name": "Self-adhesive label", "url": "", "note": "1, for the ladder label on one rail"}
+    {
+      "name": "2x6, 12 ft",
+      "url": "https://www.homedepot.com/p/2-in-x-6-in-x-12-ft-S4S-Premium-Heat-Treated-Douglas-Fir-and-Larch-Dimensional-Lumber-20/322439999",
+      "note": "Home Depot: 2 in. x 6 in. x 12 ft. S4S Premium Heat-Treated Douglas Fir and Larch Dimensional Lumber, $10.33, checked 2026-11-10. 2, for the rails. The straightest, clearest boards you can find: no knots on the edges."
+    },
+    {
+      "name": "2x4, 10 ft",
+      "url": "https://www.homedepot.com/p/2-in-x-4-in-x-10-ft-Premium-SPF-Dimensional-Lumber-6091/314732316",
+      "note": "Home Depot: 2 in. x 4 in. x 10 ft. Premium SPF Dimensional Lumber, checked 2026-11-10. 2, for the nine cleats"
+    },
+    {
+      "name": "2x2, 8 ft",
+      "url": "https://www.homedepot.com/p/2-in-x-2-in-x-8-ft-Furring-Strip-Board-279214/206510709",
+      "note": "Home Depot: 2 in. x 2 in. x 8 ft. Furring Strip Board, $3.14, checked 2026-11-10. 2, for the filler blocks (1-1/2 x 1-1/2 in actual)"
+    },
+    {
+      "name": "12d common nails, 3-1/4 in",
+      "url": "https://www.homedepot.com/p/Everbilt-3-1-4-in-x-12D-Bright-Common-Nails-1-lb-59-Count-EB0053188/328605754",
+      "note": "Home Depot: Everbilt 3-1/4 in. x 12D Bright Common Nails, 1 lb (59 count), $6.58, checked 2026-11-10. 2 lb; 94 used. Not double-head or box nails."
+    },
+    {
+      "name": "Sandpaper, 80 grit",
+      "url": "",
+      "note": "1 sheet"
+    },
+    {
+      "name": "Self-adhesive label",
+      "url": "",
+      "note": "1, for the ladder label on one rail"
+    },
+    {
+      "name": "Handsaw (crosscut)",
+      "url": "https://www.homedepot.com/p/Stanley-15-in-FATMAX-Hand-Saw-with-Wood-Handle-20-045/100033426",
+      "note": "Tool. Home Depot: Stanley 15 in. FATMAX Hand Saw with Wood Handle 20-045, $19.99, checked 2026-11-10."
+    },
+    {
+      "name": "Hammer, 16 oz or heavier, and a nail set",
+      "url": "https://www.homedepot.com/p/Estwing-16-oz-Straight-Claw-Hammer-with-Shock-Reduction-Grip-E3-16S/100351734",
+      "note": "Tool. Home Depot: Estwing 16 oz. Straight Claw Hammer with Shock Reduction Grip E3-16S, $24.98, checked 2026-11-10. Nail set: Home Depot Dasco Pro Nail Setter Set (3-Piece)."
+    },
+    {
+      "name": "Speed square or combination square, measuring tape, pencil",
+      "url": "https://www.homedepot.com/p/Swanson-7-in-Speed-Square-Rafter-Carpenter-Square-Layout-Tool-with-Etched-Markings-and-Blue-Book-T0101/304159112",
+      "note": "Tool. Home Depot: Swanson 7 in. Speed Square T0101, $11.99, checked 2026-11-10."
+    },
+    {
+      "name": "Optional: hand drill with a 3/32 in bit",
+      "url": "https://www.homedepot.com/p/Milwaukee-Black-Oxide-Drill-Bit-Set-29-Piece-48-89-2802/100670146",
+      "note": "Tool. Home Depot: Milwaukee Thunderbolt Black Oxide Drill Bit Set (29-Piece) 48-89-2802, $74.97, checked 2026-11-10. Bit set includes 3/32 in."
+    },
+    {
+      "name": "Two sawhorses",
+      "url": "https://www.homedepot.com/p/Stanley-4-in-W-x-32-in-H-Plastic-Folding-Sawhorse-2-Pack-STST60952/203768844",
+      "note": "Tool. Home Depot: Stanley 32 in. H Plastic Folding Sawhorse (2-Pack) STST60952, $44.98, checked 2026-11-10. Or build the Sawhorse Pair."
+    },
+    {
+      "name": "Safety glasses",
+      "url": "https://www.homedepot.com/p/Milwaukee-Safety-Glasses-with-Clear-Fog-Free-Lenses-4-Pack-48-73-2012X4/333180086",
+      "note": "Tool. Home Depot: Milwaukee Safety Glasses with Clear Fog-Free Lenses (4-Pack) 48-73-2012X4, $59.94, checked 2026-11-10."
+    }
   ]
 }

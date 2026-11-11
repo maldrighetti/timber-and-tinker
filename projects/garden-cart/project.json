@@ -4,18 +4,18 @@
   "parts": [
     {
       "name": "1/2 in plywood, 2 × 2 ft project panel",
-      "url": "",
-      "note": "For the floor"
+      "url": "https://www.homedepot.com/p/ProWood-15-32-in-x-2-ft-x-2-ft-Sanded-Plywood-Project-Panel-109118/333868150",
+      "note": "Home Depot: ProWood 15/32 in. x 2 ft. x 2 ft. Sanded Plywood Project Panel, $16.93, checked 2026-11-10. For the floor"
     },
     {
       "name": "1x4 pine board, 8 ft",
-      "url": "",
-      "note": "6 ft is just enough at 69-1/2 in, but leaves nothing for squaring up a rough end"
+      "url": "https://www.homedepot.com/p/1-in-x-4-in-x-8-ft-Common-Board-914681/202535718",
+      "note": "Home Depot: 1 in. x 4 in. x 8 ft. Common Board, $4.98, checked 2026-11-10. 6 ft is just enough at 69-1/2 in, but leaves nothing for squaring up a rough end"
     },
     {
       "name": "2x4, 8 ft",
-      "url": "",
-      "note": "The parts use about 68 in, so a 6 ft board is too short"
+      "url": "https://www.homedepot.com/p/2-in-x-4-in-x-96-in-2-Premium-Grade-KD-HT-Stud-058449/312528776",
+      "note": "Home Depot: 2 in. x 4 in. x 96 in. #2 Premium Grade KD-HT Stud, $3.95, checked 2026-11-10. The parts use about 68 in, so a 6 ft board is too short"
     },
     {
       "name": "1x3 pine board, 6 ft",
@@ -23,7 +23,8 @@
     },
     {
       "name": "3/4 in hardwood dowel, 36 in",
-      "url": ""
+      "url": "https://www.homedepot.com/p/Waddell-Hardwood-Round-Dowel-36-in-x-0-75-in-Sanded-and-Ready-for-Finishing-Versatile-Wooden-Rod-for-DIY-Home-Projects-6312U/100548551",
+      "note": "Home Depot: Waddell Hardwood Round Dowel, 36 in. x 0.75 in., $2.25, checked 2026-11-10."
     },
     {
       "name": "Wheels, 6 in diameter, about 1-1/2 in wide, 1/2 in bore",
@@ -32,8 +33,8 @@
     },
     {
       "name": "1/2 in smooth steel rod, 36 in",
-      "url": "",
-      "note": "Not threaded rod, which chews up wheel bores"
+      "url": "https://www.homedepot.com/p/Everbilt-1-2-in-x-3-ft-Plain-Steel-Solid-Round-Rod-0011/332733625",
+      "note": "Home Depot: Everbilt 1/2 in. x 3 ft. Plain Steel Solid Round Rod, $10.67, checked 2026-11-10. Not threaded rod, which chews up wheel bores"
     },
     {
       "name": "Push-on axle caps for 1/2 in rod",
@@ -42,51 +43,53 @@
     },
     {
       "name": "1/2 in SAE flat washers",
-      "url": "",
-      "note": "12"
+      "url": "https://www.homedepot.com/p/Everbilt-1-2-in-Zinc-Flat-Washer-50-Pack-807240/204284540",
+      "note": "Home Depot: Everbilt 1/2 in. Zinc Flat Washer (50-Pack), $15.62, checked 2026-11-10. 12"
     },
     {
       "name": "3/8 × 4-1/2 in carriage bolt",
-      "url": "",
-      "note": "The pivot"
+      "url": "https://www.homedepot.com/p/Everbilt-3-8-in-16-x-4-1-2-in-Zinc-Plated-Carriage-Bolt-25-Pack-800290/204281319",
+      "note": "Home Depot: Everbilt 3/8 in.-16 x 4-1/2 in. Zinc Plated Carriage Bolt (25-Pack), $27.23, checked 2026-11-10. The pivot"
     },
     {
       "name": "3/8 × 6 in hex bolt",
-      "url": "",
-      "note": "The handle hinge"
+      "url": "https://www.homedepot.com/p/Everbilt-3-8-in-16-x-6-in-Zinc-Plated-Hex-Bolt-25-Pack-800910/204273569",
+      "note": "Home Depot: Everbilt 3/8 in.-16 x 6 in. Zinc Plated Hex Bolt (25-Pack), $32.18, checked 2026-11-10. The handle hinge"
     },
     {
       "name": "3/8 in flat washers",
-      "url": "",
-      "note": "3"
+      "url": "https://www.homedepot.com/p/Everbilt-3-8-in-Zinc-Flat-Washer-50-Pack-807712/204284533",
+      "note": "Home Depot: Everbilt 3/8 in. Zinc Flat Washer (50-Pack), $6.87, checked 2026-11-10. 3"
     },
     {
       "name": "3/8 in nylon-insert lock nuts",
-      "url": "",
-      "note": "2"
+      "url": "https://www.homedepot.com/p/Everbilt-3-8-in-16-Zinc-Plated-Nylon-Lock-Nut-10-Pack-802632/204281836",
+      "note": "Home Depot: Everbilt 3/8 in.-16 Zinc Plated Nylon Lock Nut (10-Pack), $4.57, checked 2026-11-10. 2"
     },
     {
       "name": "#8 × 1-1/2 in wood screws",
-      "url": "",
-      "note": "About 34 (29 used, plus spares)"
+      "url": "https://www.homedepot.com/p/Everbilt-8-x-1-1-2-in-Star-Drive-Flat-Head-Exterior-Wood-Screws-1-lb-Box-203-Piece-117334/316219934",
+      "note": "Home Depot: Everbilt #8 x 1-1/2 in. Star Drive Flat Head Exterior Wood Screws, 1 lb box, $13.98, checked 2026-11-10. About 34 (29 used, plus spares)"
     },
     {
       "name": "#8 × 2-1/2 in wood screws",
-      "url": "",
-      "note": "16"
+      "url": "https://www.homedepot.com/p/8-x-2-1-2-in-Zinc-Plated-Phillips-Flat-Head-Wood-Screw-4-Pack-827421/317479453",
+      "note": "Home Depot: Everbilt #8 x 2-1/2 in. Zinc Plated Phillips Flat Head Wood Screw (4-Pack), $1.57, checked 2026-11-10. 16"
     },
     {
       "name": "#8 × 1-1/4 in wood screws",
-      "url": "",
-      "note": "10 (9 used, plus a spare)"
+      "url": "https://www.homedepot.com/p/Everbilt-8-x-1-1-4-in-Star-Drive-Flat-Head-Interior-Wood-Screws-242-Pack-117325/316219935",
+      "note": "Home Depot: Everbilt #8 x 1-1/4 in. Star Drive Flat Head Interior Wood Screws (242-Pack), $11.98, checked 2026-11-10. 10 (9 used, plus a spare)"
     },
     {
       "name": "Exterior wood glue",
-      "url": ""
+      "url": "https://www.homedepot.com/p/Titebond-III-8-oz-Ultimate-Wood-Glue-1413/202960636",
+      "note": "Home Depot: Titebond III 8 oz. Ultimate Wood Glue 1413, $7.49, checked 2026-11-10."
     },
     {
       "name": "Sandpaper, 80 and 120 grit",
-      "url": ""
+      "url": "https://www.homedepot.com/p/3M-Pro-Grade-Precision-9-in-x-11-in-Medium-120-Grit-Sheet-Sandpaper-15-Sheets-Pack-27120PGP-15/313353719",
+      "note": "Home Depot: 3M Pro Grade Precision 9 in. x 11 in. Medium 120-Grit Sheet Sandpaper (15-Pack), $14.98, checked 2026-11-10. 120 grit linked; buy 80 grit separately."
     },
     {
       "name": "Candle stub or bar of soap",
@@ -95,8 +98,8 @@
     },
     {
       "name": "Exterior paint or sealer",
-      "url": "",
-      "note": "Optional"
+      "url": "https://www.homedepot.com/p/BEHR-PREMIUM-PLUS-1-qt-M430-1-Snowbound-Satin-Enamel-Exterior-Paint-Primer-905004/311046139",
+      "note": "Home Depot: BEHR PREMIUM PLUS 1 qt. Snowbound Satin Enamel Exterior Paint & Primer, $24.98, checked 2026-11-10. Any exterior paint colour. Optional"
     }
   ]
 }
