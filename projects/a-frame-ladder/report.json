@@ -1,0 +1,742 @@
+{
+ "images": {
+  "01-parts.png": {
+   "step": 1,
+   "desc": "All wood parts laid out.",
+   "parts": 24,
+   "wood": 24,
+   "hardware": 0,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "01-cut-lumber.png": {
+   "step": 1,
+   "desc": "Cut plan for all wood parts.",
+   "parts": 0,
+   "wood": 0,
+   "hardware": 0,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "02-mark-rails.png": {
+   "step": 2,
+   "desc": "Rail layout: level cuts, cleat lines and hole positions.",
+   "parts": 0,
+   "wood": 0,
+   "hardware": 0,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "03-cleats.png": {
+   "step": 3,
+   "desc": "2x2 cleats glued and screwed to the inside faces of the front rails, top edges on the level lines.",
+   "parts": 32,
+   "wood": 12,
+   "hardware": 20,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "04-front-section.png": {
+   "step": 4,
+   "desc": "Steps set on the cleats and screwed down; top block screwed between the rails; 1/4-20 rods under every step.",
+   "parts": 77,
+   "wood": 18,
+   "hardware": 59,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "05-rear-frame.png": {
+   "step": 5,
+   "desc": "Rear frame: two rear rails joined by two 1x4 braces and a diagonal on their back edges.",
+   "parts": 15,
+   "wood": 5,
+   "hardware": 10,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "06-pivot-cap.png": {
+   "step": 6,
+   "desc": "Rear frame bolted outside the front rails with 3/8 in bolts and a 1/2 in spacer; cap screwed to the top block.",
+   "parts": 99,
+   "wood": 24,
+   "hardware": 75,
+   "hidden_wood": [
+    "brace_0",
+    "cleat_1_L",
+    "cleat_1_R",
+    "cleat_2_L",
+    "cleat_2_R",
+    "cleat_3_L",
+    "cleat_3_R",
+    "tread_1",
+    "tread_2",
+    "tread_3"
+   ],
+   "label_issues": []
+  },
+  "07-spreaders.png": {
+   "step": 7,
+   "desc": "Flat steel spreader bars bolted to the front rails and pinned to the rear rails.",
+   "parts": 63,
+   "wood": 17,
+   "hardware": 46,
+   "hidden_wood": [
+    "cap",
+    "cleat_1_R",
+    "cleat_5_R",
+    "topblock",
+    "tread_1",
+    "tread_4",
+    "tread_5"
+   ],
+   "label_issues": []
+  },
+  "00-overview.png": {
+   "step": null,
+   "desc": "The finished stepladder, open.",
+   "parts": 109,
+   "wood": 24,
+   "hardware": 85,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "08-finished-3q.png": {
+   "step": 8,
+   "desc": "Finished ladder with the not-a-step and spreader notes.",
+   "parts": 109,
+   "wood": 24,
+   "hardware": 85,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "08-side.png": {
+   "step": 8,
+   "desc": "Side view: height, base depth and the uniform rise.",
+   "parts": 109,
+   "wood": 24,
+   "hardware": 85,
+   "hidden_wood": [
+    "cleat_1_L",
+    "cleat_2_L",
+    "cleat_3_L",
+    "cleat_4_L",
+    "cleat_5_L",
+    "frail_L",
+    "rrail_L"
+   ],
+   "label_issues": []
+  },
+  "08-front.png": {
+   "step": 8,
+   "desc": "Front view: inside widths and the spread at the feet.",
+   "parts": 109,
+   "wood": 24,
+   "hardware": 85,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "08-folded.png": {
+   "step": 8,
+   "desc": "Folded ladder, side view.",
+   "parts": 47,
+   "wood": 24,
+   "hardware": 23,
+   "hidden_wood": [
+    "cleat_1_L",
+    "cleat_2_L",
+    "cleat_2_R",
+    "cleat_3_L",
+    "cleat_3_R",
+    "cleat_4_L",
+    "cleat_4_R",
+    "cleat_5_L",
+    "cleat_5_R",
+    "frail_L",
+    "rrail_L",
+    "tread_2",
+    "tread_3"
+   ],
+   "label_issues": []
+  },
+  "08-labels.png": {
+   "step": 8,
+   "desc": "Where the two labels go and what they say.",
+   "parts": 109,
+   "wood": 24,
+   "hardware": 85,
+   "hidden_wood": [
+    "cleat_1_L",
+    "cleat_1_R",
+    "cleat_2_R",
+    "tread_1"
+   ],
+   "label_issues": []
+  }
+ },
+ "self_check": {
+  "interpenetration": {
+   "tol_in": 0.03,
+   "overlapping": [],
+   "ok": true
+  },
+  "contacts": {
+   "required": 33,
+   "missing": [],
+   "ok": true
+  },
+  "screws": {
+   "count": 58,
+   "by_length": {
+    "1.5": 10,
+    "2.5": 44,
+    "3.0": 4
+   },
+   "min_edge_dist_in": 0.361,
+   "into_target_in": [
+    [
+     1.5,
+     0.75
+    ],
+    [
+     2.5,
+     1.0
+    ],
+    [
+     3.0,
+     1.5
+    ]
+   ],
+   "bad": [],
+   "ok": true
+  },
+  "hardware": {
+   "hardware_vs_hardware": [],
+   "hardware_in_wood_unexpected": [],
+   "pivot_axes_in_line": true,
+   "gap_front_to_rear_rail_in": 0.5,
+   "nut_and_washer_in": 0.28,
+   "bar_in": 0.125,
+   "ok": true
+  },
+  "feet": {
+   "rails": [
+    {
+     "rail": "frail_L",
+     "min_z": 0.0,
+     "corners_on_floor": 4
+    },
+    {
+     "rail": "frail_R",
+     "min_z": -0.0,
+     "corners_on_floor": 4
+    },
+    {
+     "rail": "rrail_L",
+     "min_z": 0.0,
+     "corners_on_floor": 4
+    },
+    {
+     "rail": "rrail_R",
+     "min_z": -0.0,
+     "corners_on_floor": 4
+    }
+   ],
+   "ok": true
+  },
+  "fold": {
+   "fold_deg": 24.0,
+   "first_contact_deg": 25.0,
+   "folded_hits": [],
+   "folded_depth_in": 23.09,
+   "ok": true,
+   "note": "rigid rotation about the common pivot axis; the bars are swung up along the front rails"
+  },
+  "rules": {
+   "step_spacing_in": 11.5,
+   "spacing_uniform": true,
+   "in_10_to_14": true,
+   "old_1910_25_max_12": true,
+   "inside_width_top_in": 11.998,
+   "min_11_5": true,
+   "spread_total_in": 7.0,
+   "spread_needed_1in_per_ft": 5.92,
+   "spread_ok": true,
+   "step_depth_in": 5.5,
+   "highest_standing_step_in": 46.0,
+   "top_step_in": 57.5,
+   "cap_in": 69.0,
+   "locking_spreader": true,
+   "metal_spreader": true,
+   "ok": true
+  },
+  "dimensions": {
+   "height_in": 69.0,
+   "width_in": 26.007,
+   "depth_in": 35.824,
+   "weight_lb": 45.5,
+   "sizes": {
+    "front_rail": 70.986,
+    "rear_rail": 68.581,
+    "steps": [
+     17.805,
+     16.613,
+     15.42,
+     14.228,
+     13.035
+    ],
+    "top_block": 11.998,
+    "cap": 20.007,
+    "cleat": 4.046,
+    "brace_low": 24.732,
+    "brace_high": 21.829,
+    "diagonal": 34.196,
+    "rods": [
+     21.803,
+     20.61,
+     19.418,
+     18.225,
+     17.032
+    ],
+    "bar": 20.579
+   }
+  },
+  "engineering": {
+   "steps": {
+    "load_lb": 250.0,
+    "factor": 4.0,
+    "test_load_lb": 1000.0,
+    "section": "2x6 flat (5-1/2 x 1-1/2)",
+    "strength_basis": "2.1 x NDS reference Fb for No.2 SPF x size factor 1.3 x flat-use 1.15 (approx. short-term 5th-percentile strength)",
+    "rows": [
+     {
+      "step": 1,
+      "height_in": 11.5,
+      "span_in": 17.805,
+      "stress_psi_at_4x": 2158,
+      "strength_psi": 2747,
+      "margin": 1.27
+     },
+     {
+      "step": 2,
+      "height_in": 23.0,
+      "span_in": 16.613,
+      "stress_psi_at_4x": 2014,
+      "strength_psi": 2747,
+      "margin": 1.36
+     },
+     {
+      "step": 3,
+      "height_in": 34.5,
+      "span_in": 15.42,
+      "stress_psi_at_4x": 1869,
+      "strength_psi": 2747,
+      "margin": 1.47
+     },
+     {
+      "step": 4,
+      "height_in": 46.0,
+      "span_in": 14.228,
+      "stress_psi_at_4x": 1725,
+      "strength_psi": 2747,
+      "margin": 1.59
+     },
+     {
+      "step": 5,
+      "height_in": 57.5,
+      "span_in": 13.035,
+      "stress_psi_at_4x": 1580,
+      "strength_psi": 2747,
+      "margin": 1.74
+     }
+    ],
+    "ok": true
+   },
+   "cleat_screws": {
+    "per_end_load_lb": 500.0,
+    "screws_per_cleat": 2,
+    "design_value_each_lb": 100.0,
+    "approx_ultimate_each_lb": 450.0,
+    "margin": 1.8,
+    "ok": true,
+    "note": "ignores the help from the truss rod clamp and the screws into the step ends"
+   },
+   "spreaders": {
+    "test_load_lb": 1000.0,
+    "rear_feet_reaction_lb": 437.6,
+    "front_feet_reaction_lb": 607.4,
+    "total_tension_lb": 175.7,
+    "per_bar_lb": 87.9,
+    "bar": "1/8 x 1 in flat steel, A36",
+    "bar_yield_at_hole_lb": 3236,
+    "margin_bar": 36.8,
+    "pin_shear_capacity_lb": 1767,
+    "margin_pin": 20.1,
+    "wood_bearing_1_4_pin_lb": 1264,
+    "wood_bearing_basis": "dowel-bearing yield, Fe = 3370 psi (G = 0.42), 1/4 in pin, 1-1/2 in rail",
+    "ok": true,
+    "margin_wood_bearing": 14.4
+   },
+   "pivot_bolts": {
+    "force_total_lb": 457.6,
+    "per_bolt_lb": 228.8,
+    "bolt": "3/8 in grade 2",
+    "bolt_shear_capacity_lb": 3976,
+    "wood_bearing_capacity_lb": 1896,
+    "margin": 8.3,
+    "ok": true
+   },
+   "front_rails": {
+    "axial_per_rail_lb": 314.8,
+    "euler_weak_axis_full_length_lb": 2778,
+    "margin": 8.8,
+    "ok": true,
+    "stress_psi": 60
+   },
+   "stability": {
+    "person_lb": 250.0,
+    "ladder_lb": 45.0,
+    "person_y_in": -4.81,
+    "front_feet_y_in": -18.09,
+    "rear_feet_y_in": 14.11,
+    "margin_to_front_feet_in": 13.27,
+    "margin_to_rear_feet_in": 18.92,
+    "side_tip_force_at_cap_lb": 43.8,
+    "feet_half_width_in": 10.25,
+    "ok": true
+   }
+  },
+  "lumber": {
+   "boards": {
+    "2x4 \u00d7 8 ft #1 [0]": [
+     [
+      "Front rail",
+      70.986
+     ],
+     [
+      "Top block",
+      11.998
+     ]
+    ],
+    "2x4 \u00d7 8 ft #2 [1]": [
+     [
+      "Front rail",
+      70.986
+     ]
+    ],
+    "2x4 \u00d7 8 ft #3 [2]": [
+     [
+      "Rear rail",
+      68.581
+     ]
+    ],
+    "2x4 \u00d7 8 ft #4 [3]": [
+     [
+      "Rear rail",
+      68.581
+     ]
+    ],
+    "2x6 \u00d7 10 ft [4]": [
+     [
+      "Cap",
+      20.007
+     ],
+     [
+      "Step 1",
+      17.805
+     ],
+     [
+      "Step 2",
+      16.613
+     ],
+     [
+      "Step 3",
+      15.42
+     ],
+     [
+      "Step 4",
+      14.228
+     ],
+     [
+      "Step 5",
+      13.035
+     ]
+    ],
+    "2x2 \u00d7 8 ft [5]": [
+     [
+      "Cleat",
+      4.046
+     ],
+     [
+      "Cleat",
+      4.046
+     ],
+     [
+      "Cleat",
+      4.046
+     ],
+     [
+      "Cleat",
+      4.046
+     ],
+     [
+      "Cleat",
+      4.046
+     ],
+     [
+      "Cleat",
+      4.046
+     ],
+     [
+      "Cleat",
+      4.046
+     ],
+     [
+      "Cleat",
+      4.046
+     ],
+     [
+      "Cleat",
+      4.046
+     ],
+     [
+      "Cleat",
+      4.046
+     ]
+    ],
+    "1x4 \u00d7 8 ft [6]": [
+     [
+      "Diagonal",
+      34.196
+     ],
+     [
+      "Low brace",
+      24.732
+     ],
+     [
+      "High brace",
+      21.829
+     ]
+    ]
+   },
+   "leftovers": {
+    "2x4 \u00d7 8 ft #1 [0]": 12.766,
+    "2x4 \u00d7 8 ft #2 [1]": 24.889,
+    "2x4 \u00d7 8 ft #3 [2]": 27.294,
+    "2x4 \u00d7 8 ft #4 [3]": 27.294,
+    "2x6 \u00d7 10 ft [4]": 22.142,
+    "2x2 \u00d7 8 ft [5]": 54.291,
+    "1x4 \u00d7 8 ft [6]": 14.868
+   },
+   "ok": true
+  },
+  "text_vs_model": {
+   "missing_strings": [],
+   "referenced_not_found": [],
+   "found_not_referenced": [],
+   "ok": true
+  },
+  "all_labels_clean": true
+ },
+ "step_titles": {
+  "1": "Cut the parts",
+  "2": "Mark and drill the rails",
+  "3": "Cleats on the front rails",
+  "4": "Steps, top block and truss rods",
+  "5": "Rear frame",
+  "6": "Pivot bolts and top cap",
+  "7": "Spreaders",
+  "8": "Finish, labels and check"
+ },
+ "rail_marks": {
+  "front": {
+   "length_long_point": 70.905,
+   "foot_angle": 14.98078123202799,
+   "top_angle": 14.980781232027908,
+   "marks": [
+    [
+     "Cleat 1 top",
+     10.366
+    ],
+    [
+     "Cleat 2 top",
+     22.286
+    ],
+    [
+     "Cleat 3 top",
+     34.207
+    ],
+    [
+     "Cleat 4 top",
+     46.128
+    ],
+    [
+     "Cleat 5 top",
+     58.048
+    ],
+    [
+     "Spreader bolt",
+     29.258
+    ],
+    [
+     "Pivot",
+     67.327
+    ]
+   ]
+  },
+  "rear": {
+   "length_long_point": 68.541,
+   "foot_angle": 12.983150463549077,
+   "top_angle": 0.0,
+   "marks": [
+    [
+     "Spreader pin",
+     29.177
+    ],
+    [
+     "Pivot",
+     66.791
+    ]
+   ]
+  }
+ },
+ "lumber_plan": [
+  [
+   "2x4 \u00d7 8 ft #1",
+   96.0,
+   [
+    [
+     "Front rail",
+     70.98581434206297
+    ],
+    [
+     "Top block",
+     11.9979848926472
+    ]
+   ]
+  ],
+  [
+   "2x4 \u00d7 8 ft #2",
+   96.0,
+   [
+    [
+     "Front rail",
+     70.98581434206297
+    ]
+   ]
+  ],
+  [
+   "2x4 \u00d7 8 ft #3",
+   96.0,
+   [
+    [
+     "Rear rail",
+     68.58085734670166
+    ]
+   ]
+  ],
+  [
+   "2x4 \u00d7 8 ft #4",
+   96.0,
+   [
+    [
+     "Rear rail",
+     68.58085734670166
+    ]
+   ]
+  ],
+  [
+   "2x6 \u00d7 10 ft",
+   120.0,
+   [
+    [
+     "Cap",
+     20.007388726960276
+    ],
+    [
+     "Step 1",
+     17.805392300054606
+    ],
+    [
+     "Step 2",
+     16.612799707462013
+    ],
+    [
+     "Step 3",
+     15.420207114869422
+    ],
+    [
+     "Step 4",
+     14.227614522276829
+    ],
+    [
+     "Step 5",
+     13.035021929684236
+    ]
+   ]
+  ],
+  [
+   "2x2 \u00d7 8 ft",
+   96.0,
+   [
+    [
+     "Cleat",
+     4.045877514843761
+    ],
+    [
+     "Cleat",
+     4.045877514843761
+    ],
+    [
+     "Cleat",
+     4.045877514843761
+    ],
+    [
+     "Cleat",
+     4.045877514843761
+    ],
+    [
+     "Cleat",
+     4.045877514843761
+    ],
+    [
+     "Cleat",
+     4.045877514843761
+    ],
+    [
+     "Cleat",
+     4.045877514843761
+    ],
+    [
+     "Cleat",
+     4.045877514843761
+    ],
+    [
+     "Cleat",
+     4.045877514843761
+    ],
+    [
+     "Cleat",
+     4.045877514843761
+    ]
+   ]
+  ],
+  [
+   "1x4 \u00d7 8 ft",
+   96.0,
+   [
+    [
+     "Diagonal",
+     34.1959046693812
+    ],
+    [
+     "Low brace",
+     24.732366997976857
+    ],
+    [
+     "High brace",
+     21.82866329427315
+    ]
+   ]
+  ]
+ ]
+}

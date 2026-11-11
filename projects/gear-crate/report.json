@@ -1,0 +1,849 @@
+{
+ "images": {
+  "01-parts.png": {
+   "step": 1,
+   "desc": "One crate's parts: 5 plywood panels and 10 pieces of 1x2 and 2x2.",
+   "parts": 17,
+   "wood": 17,
+   "hardware": 0,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "01-cut-sheet.png": {
+   "step": 1,
+   "desc": "Plywood layout: 3 bottoms, 6 side walls, 6 end walls from one sheet.",
+   "parts": 0,
+   "wood": 0,
+   "hardware": 0,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "01-cut-lumber.png": {
+   "step": 1,
+   "desc": "Cut plan for three crates: 8 ft 1x2s and 2x2s (1/8 in kerf)",
+   "parts": 0,
+   "wood": 0,
+   "hardware": 0,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "02-holes.png": {
+   "step": 2,
+   "desc": "Drain holes and hand slot positions.",
+   "parts": 2,
+   "wood": 2,
+   "hardware": 0,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "03-bottom-rails.png": {
+   "step": 3,
+   "desc": "Four 1x2 bottom rails on edge, set 15/32 in in from the edges, screwed from underneath.",
+   "parts": 17,
+   "wood": 5,
+   "hardware": 12,
+   "hidden_wood": [],
+   "label_issues": []
+  },
+  "04-side-walls.png": {
+   "step": 4,
+   "desc": "Corner posts screwed to the side walls, then the side walls stood on the bottom and screwed to the rails.",
+   "parts": 37,
+   "wood": 11,
+   "hardware": 26,
+   "hidden_wood": [
+    "erail_+1"
+   ],
+   "label_issues": []
+  },
+  "05-end-walls.png": {
+   "step": 5,
+   "desc": "End walls fitted between the side walls, screwed to the posts and the end rails.",
+   "parts": 51,
+   "wood": 13,
+   "hardware": 38,
+   "hidden_wood": [
+    "erail_-1",
+    "srail_-1"
+   ],
+   "label_issues": []
+  },
+  "06-blocks.png": {
+   "step": 6,
+   "desc": "Crate upside down: four 1x2 locator blocks screwed to the bottom, 1/16 in inside the wall line.",
+   "parts": 63,
+   "wood": 17,
+   "hardware": 46,
+   "hidden_wood": [
+    "end_+1",
+    "erail_+1",
+    "erail_-1",
+    "post_+1+1",
+    "post_+1-1",
+    "post_-1+1",
+    "post_-1-1",
+    "srail_+1",
+    "srail_-1"
+   ],
+   "label_issues": []
+  },
+  "07-finished-3q.png": {
+   "step": 7,
+   "desc": "Finished crate with outside dimensions.",
+   "parts": 63,
+   "wood": 17,
+   "hardware": 46,
+   "hidden_wood": [
+    "eblk_+1",
+    "erail_+1",
+    "erail_-1",
+    "sblk_+1",
+    "srail_+1",
+    "srail_-1"
+   ],
+   "label_issues": []
+  },
+  "00-overview.png": {
+   "step": null,
+   "desc": "Three crates, two stacked.",
+   "parts": 51,
+   "wood": 51,
+   "hardware": 0,
+   "hidden_wood": [
+    "B_eblk_+1",
+    "B_end_+1",
+    "B_erail_+1",
+    "B_erail_-1",
+    "B_post_+1+1",
+    "B_post_+1-1",
+    "B_sblk_+1",
+    "B_sblk_-1",
+    "B_srail_+1",
+    "B_srail_-1",
+    "K0_eblk_+1",
+    "K0_end_+1",
+    "K0_erail_+1",
+    "K0_erail_-1",
+    "K0_post_+1+1",
+    "K0_post_+1-1",
+    "K0_post_-1+1",
+    "K0_post_-1-1",
+    "K0_sblk_+1",
+    "K0_srail_+1",
+    "K0_srail_-1",
+    "K1_eblk_+1",
+    "K1_eblk_-1",
+    "K1_erail_+1",
+    "K1_erail_-1",
+    "K1_sblk_+1",
+    "K1_sblk_-1",
+    "K1_srail_+1",
+    "K1_srail_-1"
+   ],
+   "label_issues": []
+  },
+  "07-stack.png": {
+   "step": 7,
+   "desc": "Two crates stacked, near wall of the lower one left out to show the locator blocks.",
+   "parts": 33,
+   "wood": 33,
+   "hardware": 0,
+   "hidden_wood": [
+    "K0_eblk_+1",
+    "K0_erail_-1",
+    "K0_post_-1+1",
+    "K0_sblk_+1",
+    "K1_eblk_+1",
+    "K1_eblk_-1",
+    "K1_erail_+1",
+    "K1_erail_-1",
+    "K1_sblk_+1",
+    "K1_srail_+1",
+    "K1_srail_-1"
+   ],
+   "label_issues": []
+  },
+  "08-bed-plan.png": {
+   "step": 8,
+   "desc": "Top view: three crates across between the wheel wells, two rows deep.",
+   "parts": 153,
+   "wood": 153,
+   "hardware": 0,
+   "hidden_wood": [
+    "C000_eblk_+1",
+    "C000_eblk_-1",
+    "C000_end_+1",
+    "C000_end_-1",
+    "C000_erail_+1",
+    "C000_erail_-1",
+    "C000_post_+1+1",
+    "C000_post_+1-1",
+    "C000_post_-1+1",
+    "C000_post_-1-1",
+    "C000_sblk_+1",
+    "C000_sblk_-1",
+    "C000_side_+1",
+    "C000_side_-1",
+    "C000_srail_+1",
+    "C000_srail_-1",
+    "C001_eblk_+1",
+    "C001_eblk_-1",
+    "C001_sblk_+1",
+    "C001_sblk_-1",
+    "C010_eblk_+1",
+    "C010_eblk_-1",
+    "C010_end_+1",
+    "C010_end_-1",
+    "C010_erail_+1",
+    "C010_erail_-1",
+    "C010_post_+1+1",
+    "C010_post_+1-1",
+    "C010_post_-1+1",
+    "C010_post_-1-1",
+    "C010_sblk_+1",
+    "C010_sblk_-1",
+    "C010_side_+1",
+    "C010_side_-1",
+    "C010_srail_+1",
+    "C010_srail_-1",
+    "C011_eblk_+1",
+    "C011_eblk_-1",
+    "C011_sblk_+1",
+    "C011_sblk_-1",
+    "C020_eblk_+1",
+    "C020_eblk_-1",
+    "C020_end_+1",
+    "C020_end_-1",
+    "C020_erail_+1",
+    "C020_erail_-1",
+    "C020_post_+1+1",
+    "C020_post_+1-1",
+    "C020_post_-1+1",
+    "C020_post_-1-1",
+    "C020_sblk_+1",
+    "C020_sblk_-1",
+    "C020_side_+1",
+    "C020_side_-1",
+    "C020_srail_+1",
+    "C020_srail_-1",
+    "C021_eblk_+1",
+    "C021_eblk_-1",
+    "C021_sblk_+1",
+    "C021_sblk_-1",
+    "C100_eblk_+1",
+    "C100_eblk_-1",
+    "C100_sblk_+1",
+    "C100_sblk_-1",
+    "C110_eblk_+1",
+    "C110_eblk_-1",
+    "C110_sblk_+1",
+    "C110_sblk_-1",
+    "C120_eblk_+1",
+    "C120_eblk_-1",
+    "C120_sblk_+1",
+    "C120_sblk_-1"
+   ],
+   "label_issues": []
+  },
+  "08-bed-side.png": {
+   "step": 8,
+   "desc": "Side view of the bed with the assumed tonneau line and the two-high front row.",
+   "parts": 153,
+   "wood": 153,
+   "hardware": 0,
+   "hidden_wood": [
+    "C000_end_+1",
+    "C000_end_-1",
+    "C000_erail_+1",
+    "C000_erail_-1",
+    "C000_post_+1+1",
+    "C000_post_+1-1",
+    "C000_post_-1+1",
+    "C000_post_-1-1",
+    "C000_sblk_+1",
+    "C000_side_+1",
+    "C000_srail_+1",
+    "C000_srail_-1",
+    "C001_eblk_+1",
+    "C001_eblk_-1",
+    "C001_end_+1",
+    "C001_end_-1",
+    "C001_erail_+1",
+    "C001_erail_-1",
+    "C001_post_+1+1",
+    "C001_post_+1-1",
+    "C001_post_-1+1",
+    "C001_post_-1-1",
+    "C001_sblk_+1",
+    "C001_sblk_-1",
+    "C001_side_+1",
+    "C001_srail_+1",
+    "C001_srail_-1",
+    "C010_eblk_+1",
+    "C010_eblk_-1",
+    "C010_end_+1",
+    "C010_end_-1",
+    "C010_erail_+1",
+    "C010_erail_-1",
+    "C010_panel",
+    "C010_post_+1+1",
+    "C010_post_+1-1",
+    "C010_post_-1+1",
+    "C010_post_-1-1",
+    "C010_sblk_+1",
+    "C010_sblk_-1",
+    "C010_side_+1",
+    "C010_side_-1",
+    "C010_srail_+1",
+    "C010_srail_-1",
+    "C011_eblk_+1",
+    "C011_eblk_-1",
+    "C011_end_+1",
+    "C011_end_-1",
+    "C011_erail_+1",
+    "C011_erail_-1",
+    "C011_panel",
+    "C011_post_+1+1",
+    "C011_post_+1-1",
+    "C011_post_-1+1",
+    "C011_post_-1-1",
+    "C011_sblk_+1",
+    "C011_sblk_-1",
+    "C011_side_+1",
+    "C011_side_-1",
+    "C011_srail_+1",
+    "C011_srail_-1",
+    "C020_eblk_+1",
+    "C020_eblk_-1",
+    "C020_end_+1",
+    "C020_end_-1",
+    "C020_erail_+1",
+    "C020_erail_-1",
+    "C020_panel",
+    "C020_post_+1+1",
+    "C020_post_+1-1",
+    "C020_post_-1+1",
+    "C020_post_-1-1",
+    "C020_sblk_+1",
+    "C020_sblk_-1",
+    "C020_side_+1",
+    "C020_side_-1",
+    "C020_srail_+1",
+    "C020_srail_-1",
+    "C021_eblk_+1",
+    "C021_eblk_-1",
+    "C021_end_+1",
+    "C021_end_-1",
+    "C021_erail_+1",
+    "C021_erail_-1",
+    "C021_panel",
+    "C021_post_+1+1",
+    "C021_post_+1-1",
+    "C021_post_-1+1",
+    "C021_post_-1-1",
+    "C021_sblk_+1",
+    "C021_sblk_-1",
+    "C021_side_+1",
+    "C021_side_-1",
+    "C021_srail_+1",
+    "C021_srail_-1",
+    "C100_end_+1",
+    "C100_end_-1",
+    "C100_erail_+1",
+    "C100_erail_-1",
+    "C100_post_+1+1",
+    "C100_post_+1-1",
+    "C100_post_-1+1",
+    "C100_post_-1-1",
+    "C100_sblk_+1",
+    "C100_side_+1",
+    "C100_srail_+1",
+    "C100_srail_-1",
+    "C110_eblk_+1",
+    "C110_eblk_-1",
+    "C110_end_+1",
+    "C110_end_-1",
+    "C110_erail_+1",
+    "C110_erail_-1",
+    "C110_panel",
+    "C110_post_+1+1",
+    "C110_post_+1-1",
+    "C110_post_-1+1",
+    "C110_post_-1-1",
+    "C110_sblk_+1",
+    "C110_sblk_-1",
+    "C110_side_+1",
+    "C110_side_-1",
+    "C110_srail_+1",
+    "C110_srail_-1",
+    "C120_eblk_+1",
+    "C120_eblk_-1",
+    "C120_end_+1",
+    "C120_end_-1",
+    "C120_erail_+1",
+    "C120_erail_-1",
+    "C120_panel",
+    "C120_post_+1+1",
+    "C120_post_+1-1",
+    "C120_post_-1+1",
+    "C120_post_-1-1",
+    "C120_sblk_+1",
+    "C120_sblk_-1",
+    "C120_side_+1",
+    "C120_side_-1",
+    "C120_srail_+1",
+    "C120_srail_-1"
+   ],
+   "label_issues": []
+  }
+ },
+ "self_check": {
+  "interpenetration": {
+   "tol_in": 0.03,
+   "overlapping": [],
+   "ok": true
+  },
+  "contacts": {
+   "required": 24,
+   "missing": [],
+   "ok": true
+  },
+  "screws": {
+   "per_crate": 46,
+   "by_length": {
+    "1.0": 18,
+    "1.25": 28
+   },
+   "min_edge_dist_in": 0.375,
+   "into_target_in": [
+    [
+     1.0,
+     0.53
+    ],
+    [
+     1.25,
+     0.79
+    ]
+   ],
+   "heads_buried_in_other_parts": [],
+   "bad": [],
+   "ok": true
+  },
+  "stacking": {
+   "pitch_in": 11.96875,
+   "upper_vs_lower_overlaps": [],
+   "rests_on_wall_tops": true,
+   "block_clearance": [
+    {
+     "name": "K1_sblk_-1",
+     "gap_to_wall_in": 0.0625,
+     "depth_into_crate_below_in": 0.75
+    },
+    {
+     "name": "K1_eblk_-1",
+     "gap_to_wall_in": 0.0625,
+     "depth_into_crate_below_in": 0.75
+    },
+    {
+     "name": "K1_sblk_+1",
+     "gap_to_wall_in": 0.0625,
+     "depth_into_crate_below_in": 0.75
+    },
+    {
+     "name": "K1_eblk_+1",
+     "gap_to_wall_in": 0.0625,
+     "depth_into_crate_below_in": 0.75
+    }
+   ],
+   "ok": true
+  },
+  "drain_holes": {
+   "count": 5,
+   "dia_in": 0.75,
+   "blocked_by": [],
+   "ok": true
+  },
+  "bed_fit": {
+   "source_dims": {
+    "floor_length": 72.92,
+    "tall_box_length": 66.0,
+    "between_wells": 51.0,
+    "front_height": 28.66,
+    "rear_height": 19.89
+   },
+   "crates": 9,
+   "across_in": 49.5,
+   "side_gaps_in": 0.375,
+   "rows_length_in": 47.5,
+   "max_x_in": 47.5,
+   "max_abs_y_in": 25.125,
+   "crate_vs_crate_overlaps": [],
+   "height_clearance": [
+    {
+     "crate": "C000_",
+     "top_in": 12.719,
+     "bed_height_at_rear_edge_in": 25.8,
+     "clearance_in": 13.08
+    },
+    {
+     "crate": "C001_",
+     "top_in": 24.688,
+     "bed_height_at_rear_edge_in": 25.8,
+     "clearance_in": 1.12
+    },
+    {
+     "crate": "C010_",
+     "top_in": 12.719,
+     "bed_height_at_rear_edge_in": 25.8,
+     "clearance_in": 13.08
+    },
+    {
+     "crate": "C011_",
+     "top_in": 24.688,
+     "bed_height_at_rear_edge_in": 25.8,
+     "clearance_in": 1.12
+    },
+    {
+     "crate": "C020_",
+     "top_in": 12.719,
+     "bed_height_at_rear_edge_in": 25.8,
+     "clearance_in": 13.08
+    },
+    {
+     "crate": "C021_",
+     "top_in": 24.688,
+     "bed_height_at_rear_edge_in": 25.8,
+     "clearance_in": 1.12
+    },
+    {
+     "crate": "C100_",
+     "top_in": 12.719,
+     "bed_height_at_rear_edge_in": 22.95,
+     "clearance_in": 10.23
+    },
+    {
+     "crate": "C110_",
+     "top_in": 12.719,
+     "bed_height_at_rear_edge_in": 22.95,
+     "clearance_in": 10.23
+    },
+    {
+     "crate": "C120_",
+     "top_in": 12.719,
+     "bed_height_at_rear_edge_in": 22.95,
+     "clearance_in": 10.23
+    }
+   ],
+   "ok": true,
+   "assumption": "top line of the bed walls taken as straight from 28.66 in (cab) to 19.89 in (tailgate)"
+  },
+  "dimensions": {
+   "outside_L": 23.75,
+   "outside_W": 16.5,
+   "height": 12.71875,
+   "height_frac": "12-3/4",
+   "stack_pitch": 11.96875,
+   "ply_actual": 0.46875,
+   "wall_h": 11.5
+  },
+  "engineering": {
+   "bottom_panel": {
+    "load_lb": 75.0,
+    "clear_span_in": 12.44,
+    "stress_psi": 134.1,
+    "allow_psi": 1500,
+    "deflection_in": 0.0077,
+    "ok": true
+   },
+   "hand_slot": {
+    "load_per_slot_lb": 45.8,
+    "strip_in": "1.5 x 0.469",
+    "stress_psi": 130.3,
+    "allow_psi": 1500,
+    "margin": 11.5,
+    "ok": true
+   },
+   "stack_bearing": {
+    "crates_above": 2,
+    "load_lb": 183.2,
+    "wall_edge_area_sq_in": 36.9,
+    "bearing_psi": 4.97,
+    "ok": true
+   },
+   "weight_empty_lb": 16.6,
+   "volume": {
+    "inside_in": [
+     22.81,
+     15.56,
+     11.5
+    ],
+    "gallons": 17.7
+   }
+  },
+  "sheet": {
+   "length_used_in": 91.375,
+   "leftover_strip_in": 4.625,
+   "widest_strip_use_in": 47.75,
+   "pieces": {
+    "Bottom": 3,
+    "Side wall": 6,
+    "End wall": 6
+   },
+   "ok": true
+  },
+  "lumber": {
+   "boards": {
+    "1x2 #1": [
+     22.812,
+     22.812,
+     22.812,
+     22.812
+    ],
+    "1x2 #2": [
+     22.812,
+     22.812,
+     14.062,
+     14.062,
+     14.062,
+     6.0
+    ],
+    "1x2 #3": [
+     14.062,
+     14.062,
+     14.062,
+     8.0,
+     8.0,
+     8.0,
+     8.0,
+     8.0,
+     8.0
+    ],
+    "1x2 #4": [
+     6.0,
+     6.0,
+     6.0,
+     6.0,
+     6.0
+    ],
+    "2x2 #1": [
+     10.0,
+     10.0,
+     10.0,
+     10.0,
+     10.0,
+     10.0,
+     10.0,
+     10.0,
+     10.0
+    ],
+    "2x2 #2": [
+     10.0,
+     10.0,
+     10.0
+    ]
+   },
+   "leftovers": {
+    "1x2 #1": 4.25,
+    "1x2 #2": 1.438,
+    "1x2 #3": 4.688,
+    "1x2 #4": 65.375,
+    "2x2 #1": 4.875,
+    "2x2 #2": 65.625
+   },
+   "ok": true
+  },
+  "text_vs_model": {
+   "missing_strings": [],
+   "referenced_not_found": [],
+   "found_not_referenced": [],
+   "ok": true
+  },
+  "all_labels_clean": true
+ },
+ "step_titles": {
+  "1": "Cut the parts",
+  "2": "Drill the drain holes and hand slots",
+  "3": "Screw the bottom rails to the bottom",
+  "4": "Add the corner posts and side walls",
+  "5": "Add the end walls",
+  "6": "Screw on the locator blocks",
+  "7": "Check the crate and the stack",
+  "8": "Load the bed"
+ },
+ "lumber_plan": [
+  [
+   "1x2 #1",
+   [
+    [
+     "Side rail",
+     22.8125
+    ],
+    [
+     "Side rail",
+     22.8125
+    ],
+    [
+     "Side rail",
+     22.8125
+    ],
+    [
+     "Side rail",
+     22.8125
+    ]
+   ]
+  ],
+  [
+   "1x2 #2",
+   [
+    [
+     "Side rail",
+     22.8125
+    ],
+    [
+     "Side rail",
+     22.8125
+    ],
+    [
+     "End rail",
+     14.0625
+    ],
+    [
+     "End rail",
+     14.0625
+    ],
+    [
+     "End rail",
+     14.0625
+    ],
+    [
+     "End block",
+     6.0
+    ]
+   ]
+  ],
+  [
+   "1x2 #3",
+   [
+    [
+     "End rail",
+     14.0625
+    ],
+    [
+     "End rail",
+     14.0625
+    ],
+    [
+     "End rail",
+     14.0625
+    ],
+    [
+     "Side block",
+     8.0
+    ],
+    [
+     "Side block",
+     8.0
+    ],
+    [
+     "Side block",
+     8.0
+    ],
+    [
+     "Side block",
+     8.0
+    ],
+    [
+     "Side block",
+     8.0
+    ],
+    [
+     "Side block",
+     8.0
+    ]
+   ]
+  ],
+  [
+   "1x2 #4",
+   [
+    [
+     "End block",
+     6.0
+    ],
+    [
+     "End block",
+     6.0
+    ],
+    [
+     "End block",
+     6.0
+    ],
+    [
+     "End block",
+     6.0
+    ],
+    [
+     "End block",
+     6.0
+    ]
+   ]
+  ],
+  [
+   "2x2 #1",
+   [
+    [
+     "Post",
+     10.0
+    ],
+    [
+     "Post",
+     10.0
+    ],
+    [
+     "Post",
+     10.0
+    ],
+    [
+     "Post",
+     10.0
+    ],
+    [
+     "Post",
+     10.0
+    ],
+    [
+     "Post",
+     10.0
+    ],
+    [
+     "Post",
+     10.0
+    ],
+    [
+     "Post",
+     10.0
+    ],
+    [
+     "Post",
+     10.0
+    ]
+   ]
+  ],
+  [
+   "2x2 #2",
+   [
+    [
+     "Post",
+     10.0
+    ],
+    [
+     "Post",
+     10.0
+    ],
+    [
+     "Post",
+     10.0
+    ]
+   ]
+  ]
+ ]
+}

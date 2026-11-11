@@ -1,0 +1,13 @@
+{
+  "order": 5,
+  "section": "home-prep",
+  "video": "",
+  "parts": [
+    {"name": "2x6, 12 ft", "url": "", "note": "2, for the rails. The straightest, clearest boards you can find: no knots on the edges."},
+    {"name": "2x4, 10 ft", "url": "", "note": "2, for the nine cleats"},
+    {"name": "2x2, 8 ft", "url": "", "note": "2, for the filler blocks (1-1/2 x 1-1/2 in actual)"},
+    {"name": "12d common nails, 3-1/4 in", "url": "", "note": "2 lb; 94 used. Not double-head or box nails."},
+    {"name": "Sandpaper, 80 grit", "url": "", "note": "1 sheet"},
+    {"name": "Self-adhesive label", "url": "", "note": "1, for the ladder label on one rail"}
+  ]
+}
