@@ -3,21 +3,120 @@
   "section": "home-prep",
   "video": "",
   "parts": [
-    {"name": "2x4, 8 ft", "url": "", "note": "4. The straightest, clearest boards you can find: no knots on the edges."},
-    {"name": "2x6, 10 ft", "url": "", "note": "1, for the steps and cap"},
-    {"name": "2x2, 8 ft", "url": "", "note": "1, for the ten cleats"},
-    {"name": "1x4, 8 ft", "url": "", "note": "1, for the rear braces"},
-    {"name": "Flat steel bar, 1/8 × 1 in, 48 in", "url": "", "note": "1, cut into two spreaders"},
-    {"name": "1/4-20 threaded rod, 24 in", "url": "", "note": "5"},
-    {"name": "1/4-20 nylon-insert lock nuts and 1/4 in washers", "url": "", "note": "12 nuts, 14 washers"},
-    {"name": "3/8 × 4-1/2 in hex bolts with lock nuts and washers", "url": "", "note": "2 bolts, 2 nuts, 4 washers, plus two 1/2 in spacers"},
-    {"name": "1/4-20 × 2-1/4 in hex bolts", "url": "", "note": "2"},
-    {"name": "1/4 × 2-1/2 in clevis pins with hitch-pin clips", "url": "", "note": "2, plus two 3/8 in long spacers and some cord"},
-    {"name": "#10 × 2-1/2 in wood screws", "url": "", "note": "50 (44 used)"},
-    {"name": "#10 × 3 in wood screws", "url": "", "note": "4"},
-    {"name": "#8 × 1-1/2 in wood screws", "url": "", "note": "10"},
-    {"name": "Wood glue", "url": ""},
-    {"name": "Boiled linseed oil or clear varnish", "url": "", "note": "Clear only: no paint on a wood ladder"},
-    {"name": "Self-adhesive vinyl labels", "url": "", "note": "2"}
+    {
+      "name": "2x4, 8 ft",
+      "url": "https://www.homedepot.com/p/2-in-x-4-in-x-96-in-2-Premium-Grade-KD-HT-Stud-058449/312528776",
+      "note": "Home Depot: 2 in. x 4 in. x 96 in. #2 Premium Grade KD-HT Stud, $3.95, checked 2026-11-10. 4. The straightest, clearest boards you can find: no knots on the edges."
+    },
+    {
+      "name": "2x6, 10 ft",
+      "url": "https://www.homedepot.com/p/2-in-x-6-in-x-10-ft-2-Premium-Grade-SPF-Dimensional-Lumber-058444/312528837",
+      "note": "Home Depot: 2 in. x 6 in. x 10 ft. #2 Premium Grade SPF Dimensional Lumber, $9.07, checked 2026-11-10. 1, for the steps and cap"
+    },
+    {
+      "name": "2x2, 8 ft",
+      "url": "https://www.homedepot.com/p/2-in-x-2-in-x-8-ft-Furring-Strip-Board-279214/206510709",
+      "note": "Home Depot: 2 in. x 2 in. x 8 ft. Furring Strip Board, $3.14, checked 2026-11-10. 1, for the ten cleats"
+    },
+    {
+      "name": "1x4, 8 ft",
+      "url": "https://www.homedepot.com/p/1-in-x-4-in-x-8-ft-Common-Board-914681/202535718",
+      "note": "Home Depot: 1 in. x 4 in. x 8 ft. Common Board, $4.98, checked 2026-11-10. 1, for the rear braces"
+    },
+    {
+      "name": "Flat steel bar, 1/8 × 1 in, 48 in",
+      "url": "https://www.homedepot.com/p/Everbilt-1-in-x-6-ft-1-8-in-Thick-Plain-Steel-Flat-Bar-0709/332733247",
+      "note": "Home Depot: Everbilt 1 in. x 6 ft. x 1/8 in. Thick Plain Steel Flat Bar, $31.80, checked 2026-11-10. Sold as a 6 ft bar; cut 48 in from it. 1, cut into two spreaders"
+    },
+    {
+      "name": "1/4-20 threaded rod, 24 in",
+      "url": "https://www.homedepot.com/p/Everbilt-1-4-in-x-2-ft-Zinc-Plated-Steel-Coarse-Threaded-Rod-23013/332733444",
+      "note": "Home Depot: Everbilt 1/4 in. x 2 ft. Zinc Plated Steel Coarse Threaded Rod, $2.20, checked 2026-11-10. 5"
+    },
+    {
+      "name": "1/4-20 nylon-insert lock nuts and 1/4 in washers",
+      "url": "https://www.homedepot.com/p/Everbilt-1-4-in-20-Zinc-Plated-Nylon-Lock-Nut-100-Pack-800312/204281854",
+      "note": "Home Depot: Everbilt 1/4 in.-20 Zinc Plated Nylon Lock Nut (100-Pack), $12.93, checked 2026-11-10. Lock nuts linked; 1/4 in washers: Home Depot Everbilt 1/4 in. Zinc Flat Washer (100-Pack). 12 nuts, 14 washers"
+    },
+    {
+      "name": "3/8 × 4-1/2 in hex bolts with lock nuts and washers",
+      "url": "",
+      "note": "2 bolts, 2 nuts, 4 washers, plus two 1/2 in spacers"
+    },
+    {
+      "name": "1/4-20 × 2-1/4 in hex bolts",
+      "url": "",
+      "note": "2"
+    },
+    {
+      "name": "1/4 × 2-1/2 in clevis pins with hitch-pin clips",
+      "url": "",
+      "note": "2, plus two 3/8 in long spacers and some cord"
+    },
+    {
+      "name": "#10 × 2-1/2 in wood screws",
+      "url": "https://www.homedepot.com/p/Everbilt-10-x-2-1-2-in-Phillips-Flat-Head-Zinc-Plated-Wood-Screw-50-Pack-801932/204275511",
+      "note": "Home Depot: Everbilt #10 x 2-1/2 in. Phillips Flat Head Zinc Plated Wood Screw (50-Pack), $14.92, checked 2026-11-10. 50 (44 used)"
+    },
+    {
+      "name": "#10 × 3 in wood screws",
+      "url": "https://www.homedepot.com/p/Everbilt-10-x-3-in-Phillips-Flat-Head-Zinc-Plated-Wood-Screw-50-Pack-801942/204275481",
+      "note": "Home Depot: Everbilt #10 x 3 in. Phillips Flat Head Zinc Plated Wood Screw (50-Pack), $14.92, checked 2026-11-10. 4"
+    },
+    {
+      "name": "#8 × 1-1/2 in wood screws",
+      "url": "https://www.homedepot.com/p/Everbilt-8-x-1-1-2-in-Star-Drive-Flat-Head-Exterior-Wood-Screws-1-lb-Box-203-Piece-117334/316219934",
+      "note": "Home Depot: Everbilt #8 x 1-1/2 in. Star Drive Flat Head Exterior Wood Screws, 1 lb box, $13.98, checked 2026-11-10. 10"
+    },
+    {
+      "name": "Wood glue",
+      "url": "https://www.homedepot.com/p/Titebond-III-8-oz-Ultimate-Wood-Glue-1413/202960636",
+      "note": "Home Depot: Titebond III 8 oz. Ultimate Wood Glue 1413, $7.49, checked 2026-11-10."
+    },
+    {
+      "name": "Boiled linseed oil or clear varnish",
+      "url": "https://www.homedepot.com/p/Klean-Strip-1-qt-Boiled-Linseed-Oil-QKLO146/315435742",
+      "note": "Home Depot: Klean Strip 1 qt. Boiled Linseed Oil, $15.48, checked 2026-11-10. Clear only: no paint on a wood ladder"
+    },
+    {
+      "name": "Self-adhesive vinyl labels",
+      "url": "",
+      "note": "2"
+    },
+    {
+      "name": "Handsaw (crosscut) and hacksaw with a fine blade",
+      "url": "https://www.homedepot.com/p/Stanley-12-in-Hack-Saw-with-Aluminum-Handle-20-001K/100160936",
+      "note": "Tool. Home Depot: Stanley 12 in. Hack Saw with Aluminum Handle 20-001K, $22.97, checked 2026-11-10. Hacksaw linked; handsaw: Stanley 15 in. FATMAX Hand Saw."
+    },
+    {
+      "name": "Bevel gauge or speed square",
+      "url": "https://www.homedepot.com/p/General-Tools-8-in-Sliding-Digital-T-Bevel-828/203219291",
+      "note": "Tool. Home Depot: General Tools 8 in. Sliding Digital T-Bevel 828, $23.40, checked 2026-11-10."
+    },
+    {
+      "name": "Hand drill or brace with 13/32, 5/16, 9/32 in and pilot bits; center punch",
+      "url": "https://www.homedepot.com/p/Milwaukee-Black-Oxide-Drill-Bit-Set-29-Piece-48-89-2802/100670146",
+      "note": "Tool. Home Depot: Milwaukee Thunderbolt Black Oxide Drill Bit Set (29-Piece) 48-89-2802, $74.97, checked 2026-11-10. Bit set linked (1/16-1/2 in by 64ths covers 13/32, 5/16 and 9/32 in); drill and center punch not linked here."
+    },
+    {
+      "name": "Two 7/16 in and two 9/16 in wrenches (or adjustables)",
+      "url": "https://www.homedepot.com/p/Channellock-8-in-Adjustable-Wrench-8WCB/202247296",
+      "note": "Tool. Home Depot: Channellock 8 in. Adjustable Wrench 8WCB, $29.95, checked 2026-11-10. One adjustable wrench linked; you need two."
+    },
+    {
+      "name": "Screwdriver, measuring tape, square, pencil",
+      "url": "https://www.homedepot.com/p/Milwaukee-27-In-1-Ratcheting-Multi-Bit-Screwdriver-48-22-2904/321180805",
+      "note": "Tool. Home Depot: Milwaukee 27-in-1 Ratcheting Multi-Bit Screwdriver 48-22-2904, $32.97, checked 2026-11-10."
+    },
+    {
+      "name": "Metal file and sandpaper (80 and 120 grit)",
+      "url": "",
+      "note": "Tool."
+    },
+    {
+      "name": "2 clamps, safety glasses",
+      "url": "https://www.homedepot.com/p/WEN-12-in-x-2-5-in-Quick-Adjust-Steel-Bar-Clamps-with-Throat-and-Micro-Adjustment-Handle-2-Pack-10212F2/305967746",
+      "note": "Tool. Home Depot: WEN 12 in. x 2.5 in. Quick-Adjust Steel Bar Clamps (2-Pack) 10212F2, $21.99, checked 2026-11-10."
+    }
   ]
 }

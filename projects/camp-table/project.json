@@ -3,17 +3,105 @@
   "section": "home-prep",
   "video": "",
   "parts": [
-    {"name": "Plywood project panel, 15/32 in (\"1/2 in\"), 2 x 4 ft", "url": "", "note": "1, sanded on at least one face; exterior glue if you can get it. Used whole for the top."},
-    {"name": "1x4, 8 ft", "url": "", "note": "2, for the long aprons, end aprons and two frame rails. The straightest boards you can find."},
-    {"name": "1x4, 6 ft", "url": "", "note": "1, for the last two frame rails"},
-    {"name": "2x2, 8 ft", "url": "", "note": "2, for the four legs (1-1/2 x 1-1/2 in actual)"},
-    {"name": "Carriage bolt, 1/4-20 x 3 in", "url": "", "note": "8"},
-    {"name": "Flat washer, 1/4 in", "url": "", "note": "8"},
-    {"name": "Wing nut, 1/4-20", "url": "", "note": "8"},
-    {"name": "Wood screw, #8 x 2 in, flat head", "url": "", "note": "24"},
-    {"name": "Wood screw, #8 x 1-1/4 in, flat head", "url": "", "note": "20"},
-    {"name": "Exterior wood glue", "url": "", "note": "1 small bottle"},
-    {"name": "Exterior finish (spar varnish, exterior polyurethane or paint)", "url": "", "note": "About 1 pint"},
-    {"name": "Cam straps", "url": "", "note": "2, for packing"}
+    {
+      "name": "Plywood project panel, 15/32 in (\"1/2 in\"), 2 x 4 ft",
+      "url": "https://www.homedepot.com/p/1-2-in-x-2-ft-x-4-ft-Sanded-Plywood-Project-Panel-00087/205748517",
+      "note": "Home Depot: 1/2 in. x 2 ft. x 4 ft. Sanded Plywood Project Panel, $45.28, checked 2026-11-10. 1, sanded on at least one face; exterior glue if you can get it. Used whole for the top."
+    },
+    {
+      "name": "1x4, 8 ft",
+      "url": "https://www.homedepot.com/p/1-in-x-4-in-x-8-ft-Common-Board-914681/202535718",
+      "note": "Home Depot: 1 in. x 4 in. x 8 ft. Common Board, $4.98, checked 2026-11-10. 2, for the long aprons, end aprons and two frame rails. The straightest boards you can find."
+    },
+    {
+      "name": "1x4, 6 ft",
+      "url": "https://www.homedepot.com/p/1-in-x-4-in-x-6-ft-Common-Board-914673/202535717",
+      "note": "Home Depot: 1 in. x 4 in. x 6 ft. Common Board, $3.84, checked 2026-11-10. 1, for the last two frame rails"
+    },
+    {
+      "name": "2x2, 8 ft",
+      "url": "https://www.homedepot.com/p/2-in-x-2-in-x-8-ft-Furring-Strip-Board-279214/206510709",
+      "note": "Home Depot: 2 in. x 2 in. x 8 ft. Furring Strip Board, $3.14, checked 2026-11-10. 2, for the four legs (1-1/2 x 1-1/2 in actual)"
+    },
+    {
+      "name": "Carriage bolt, 1/4-20 x 3 in",
+      "url": "",
+      "note": "8"
+    },
+    {
+      "name": "Flat washer, 1/4 in",
+      "url": "https://www.homedepot.com/p/Everbilt-1-4-in-Zinc-Flat-Washer-100-Pack-807210/204284538",
+      "note": "Home Depot: Everbilt 1/4 in. Zinc Flat Washer (100-Pack), $11.70, checked 2026-11-10. 8"
+    },
+    {
+      "name": "Wing nut, 1/4-20",
+      "url": "https://www.homedepot.com/p/Everbilt-1-4-in-20-Stainless-Steel-Wing-Nut-15-Pack-807522/204281875",
+      "note": "Home Depot: Everbilt 1/4 in.-20 Stainless Steel Wing Nut (15-Pack), $4.97, checked 2026-11-10. 8"
+    },
+    {
+      "name": "Wood screw, #8 x 2 in, flat head",
+      "url": "https://www.homedepot.com/p/Everbilt-8-x-2-in-Star-Drive-Flat-Head-Exterior-Wood-Screws-153-Pack-117336/316219955",
+      "note": "Home Depot: Everbilt #8 x 2 in. Star Drive Flat Head Exterior Wood Screws (153-Pack), $13.98, checked 2026-11-10. 24"
+    },
+    {
+      "name": "Wood screw, #8 x 1-1/4 in, flat head",
+      "url": "https://www.homedepot.com/p/Everbilt-8-x-1-1-4-in-Star-Drive-Flat-Head-Interior-Wood-Screws-242-Pack-117325/316219935",
+      "note": "Home Depot: Everbilt #8 x 1-1/4 in. Star Drive Flat Head Interior Wood Screws (242-Pack), $11.98, checked 2026-11-10. 20"
+    },
+    {
+      "name": "Exterior wood glue",
+      "url": "https://www.homedepot.com/p/Titebond-III-8-oz-Ultimate-Wood-Glue-1413/202960636",
+      "note": "Home Depot: Titebond III 8 oz. Ultimate Wood Glue 1413, $7.49, checked 2026-11-10. 1 small bottle"
+    },
+    {
+      "name": "Exterior finish (spar varnish, exterior polyurethane or paint)",
+      "url": "https://www.homedepot.com/p/BEHR-1-qt-Satin-Clear-Oil-Based-Interior-Exterior-Spar-Urethane-B720004/311624740",
+      "note": "Home Depot: BEHR 1 qt. Satin Clear Oil-Based Interior/Exterior Spar Urethane, $27.98, checked 2026-11-10. About 1 pint"
+    },
+    {
+      "name": "Cam straps",
+      "url": "https://www.homedepot.com/p/Keeper-1-in-x-6-ft-x-400-lbs-Motorcycle-Cam-Buckle-Tie-Down-2-Pack-05715/204752873",
+      "note": "Home Depot: Keeper 1 in. x 6 ft. Cam Buckle Tie-Down (2-Pack), $19.27, checked 2026-11-10. 2, for packing"
+    },
+    {
+      "name": "Handsaw (crosscut) and speed square",
+      "url": "https://www.homedepot.com/p/Stanley-15-in-FATMAX-Hand-Saw-with-Wood-Handle-20-045/100033426",
+      "note": "Tool. Home Depot: Stanley 15 in. FATMAX Hand Saw with Wood Handle 20-045, $19.99, checked 2026-11-10. Speed square: Home Depot Swanson 7 in. Speed Square T0101."
+    },
+    {
+      "name": "Measuring tape and pencil",
+      "url": "https://www.homedepot.com/p/Milwaukee-25-ft-Compact-Tape-Measure-with-Fractional-Scale-48-22-1725/330541116",
+      "note": "Tool. Home Depot: Milwaukee 25 ft. Compact Tape Measure 48-22-1725, $18.97, checked 2026-11-10."
+    },
+    {
+      "name": "Hand drill or brace, with 1/8 in and 9/32 in bits and a countersink",
+      "url": "https://www.homedepot.com/p/Milwaukee-Black-Oxide-Drill-Bit-Set-29-Piece-48-89-2802/100670146",
+      "note": "Tool. Home Depot: Milwaukee Thunderbolt Black Oxide Drill Bit Set (29-Piece) 48-89-2802, $74.97, checked 2026-11-10. Bit set linked; countersink: Home Depot Milwaukee #6/#8/#10 Wood Countersink Set."
+    },
+    {
+      "name": "Screwdriver",
+      "url": "https://www.homedepot.com/p/Milwaukee-27-In-1-Ratcheting-Multi-Bit-Screwdriver-48-22-2904/321180805",
+      "note": "Tool. Home Depot: Milwaukee 27-in-1 Ratcheting Multi-Bit Screwdriver 48-22-2904, $32.97, checked 2026-11-10."
+    },
+    {
+      "name": "Two clamps",
+      "url": "https://www.homedepot.com/p/WEN-12-in-x-2-5-in-Quick-Adjust-Steel-Bar-Clamps-with-Throat-and-Micro-Adjustment-Handle-2-Pack-10212F2/305967746",
+      "note": "Tool. Home Depot: WEN 12 in. x 2.5 in. Quick-Adjust Steel Bar Clamps (2-Pack) 10212F2, $21.99, checked 2026-11-10."
+    },
+    {
+      "name": "Hammer, to seat the carriage bolts",
+      "url": "https://www.homedepot.com/p/Estwing-16-oz-Straight-Claw-Hammer-with-Shock-Reduction-Grip-E3-16S/100351734",
+      "note": "Tool. Home Depot: Estwing 16 oz. Straight Claw Hammer with Shock Reduction Grip E3-16S, $24.98, checked 2026-11-10."
+    },
+    {
+      "name": "Sandpaper, 120 grit",
+      "url": "https://www.homedepot.com/p/3M-Pro-Grade-Precision-9-in-x-11-in-Medium-120-Grit-Sheet-Sandpaper-15-Sheets-Pack-27120PGP-15/313353719",
+      "note": "Tool. Home Depot: 3M Pro Grade Precision 9 in. x 11 in. Medium 120-Grit Sheet Sandpaper (15-Pack), $14.98, checked 2026-11-10."
+    },
+    {
+      "name": "Safety glasses",
+      "url": "https://www.homedepot.com/p/Milwaukee-Safety-Glasses-with-Clear-Fog-Free-Lenses-4-Pack-48-73-2012X4/333180086",
+      "note": "Tool. Home Depot: Milwaukee Safety Glasses with Clear Fog-Free Lenses (4-Pack) 48-73-2012X4, $59.94, checked 2026-11-10."
+    }
   ]
 }

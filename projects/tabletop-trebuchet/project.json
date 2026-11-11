@@ -4,33 +4,33 @@
   "parts": [
     {
       "name": "1x2 pine (actual 3/4 × 1-1/2 in)",
-      "url": "",
-      "note": "2 boards, 8 ft (one is mostly spare)"
+      "url": "https://www.homedepot.com/p/1-in-x-2-in-x-8-ft-SSE-KD-Furring-Strip-Board-234230/314224173",
+      "note": "Home Depot: 1 in. x 2 in. x 8 ft. SSE KD Furring Strip Board, $1.27, checked 2026-11-10. 2 boards, 8 ft (one is mostly spare)"
     },
     {
       "name": "3/8 in hardwood dowel",
-      "url": "",
-      "note": "1, 36 in (you use 10 in: the axle and the trigger pin)"
+      "url": "https://www.homedepot.com/p/Waddell-Hardwood-Round-Dowel-36-in-x-0-375-in-Sanded-and-Ready-for-Finishing-Versatile-Wooden-Rod-for-DIY-Home-Projects-6306U/100533552",
+      "note": "Home Depot: Waddell Hardwood Round Dowel, 36 in. x 0.375 in., $4.88, checked 2026-11-10. 1, 36 in (you use 10 in: the axle and the trigger pin)"
     },
     {
       "name": "#8 × 2-1/2 in wood screws",
-      "url": "",
-      "note": "4: uprights to rails (2), feet to trough floor (2)"
+      "url": "https://www.homedepot.com/p/8-x-2-1-2-in-Zinc-Plated-Phillips-Flat-Head-Wood-Screw-4-Pack-827421/317479453",
+      "note": "Home Depot: Everbilt #8 x 2-1/2 in. Zinc Plated Phillips Flat Head Wood Screw (4-Pack), $1.57, checked 2026-11-10. 4: uprights to rails (2), feet to trough floor (2)"
     },
     {
       "name": "#8 × 2 in wood screws",
-      "url": "",
-      "note": "4, rails to feet"
+      "url": "https://www.homedepot.com/p/Everbilt-8-x-2-in-Star-Drive-Flat-Head-Exterior-Wood-Screws-153-Pack-117336/316219955",
+      "note": "Home Depot: Everbilt #8 x 2 in. Star Drive Flat Head Exterior Wood Screws (153-Pack), $13.98, checked 2026-11-10. 4, rails to feet"
     },
     {
       "name": "#8 × 1-1/4 in wood screws",
-      "url": "",
-      "note": "8, braces"
+      "url": "https://www.homedepot.com/p/Everbilt-8-x-1-1-4-in-Star-Drive-Flat-Head-Interior-Wood-Screws-242-Pack-117325/316219935",
+      "note": "Home Depot: Everbilt #8 x 1-1/4 in. Star Drive Flat Head Interior Wood Screws (242-Pack), $11.98, checked 2026-11-10. 8, braces"
     },
     {
       "name": "Small screw eyes with at least a 3/8 in opening",
-      "url": "",
-      "note": "2, for the counterweight and sling"
+      "url": "https://www.homedepot.com/p/Everbilt-Assorted-Size-Zinc-Plated-Screw-Eye-8-Pack-42674/205883008",
+      "note": "Home Depot: Everbilt Assorted Size Zinc-Plated Screw Eye (8-Pack), $6.58, checked 2026-11-10. Assorted pack; check for a 3/8 in opening. 2, for the counterweight and sling"
     },
     {
       "name": "Larger screw eye, about 1/2 in inside opening (often sold as #208)",
@@ -39,8 +39,8 @@
     },
     {
       "name": "Flat washers for a 3/8 in bolt",
-      "url": "",
-      "note": "2, axle stack"
+      "url": "https://www.homedepot.com/p/Everbilt-3-8-in-Zinc-Flat-Washer-50-Pack-807712/204284533",
+      "note": "Home Depot: Everbilt 3/8 in. Zinc Flat Washer (50-Pack), $6.87, checked 2026-11-10. 2, axle stack"
     },
     {
       "name": "1-1/2 in S-hook",
@@ -69,13 +69,13 @@
     },
     {
       "name": "Strong string (mason line or kite string)",
-      "url": "",
-      "note": "About 6 ft"
+      "url": "https://www.homedepot.com/p/Everbilt-250-ft-White-Nylon-Mason-Line-Refill-814120/315846133",
+      "note": "Home Depot: Everbilt 250 ft. White Nylon Mason Line Refill, $6.57, checked 2026-11-10. About 6 ft"
     },
     {
       "name": "Wood glue",
-      "url": "",
-      "note": "Optional, for stiffer joints"
+      "url": "https://www.homedepot.com/p/Titebond-III-8-oz-Ultimate-Wood-Glue-1413/202960636",
+      "note": "Home Depot: Titebond III 8 oz. Ultimate Wood Glue 1413, $7.49, checked 2026-11-10. Optional, for stiffer joints"
     }
   ]
 }
